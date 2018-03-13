@@ -34,8 +34,8 @@ KyrieOrgano = {
 		gis e gis e a e h' e, h' e, c' e,
 		h' gis e gis a4 d, e e,
 		a r r a'8. h16 c8 d c h
-		a4 r8 c h a g4-! g-! g-!
-		g-! g,-! g-! g r8 c f4 %25
+		a4 r8 c h a g4 g-! g-!
+		g-! g,-! g-! g-! r8 c f4 %25
 		d8 e16 f g4 e8 f16 g a8 f g4 g,
 		c r r c r r
 		r8 c g2 c2.\fermata \bar "||" %28 finis
@@ -65,7 +65,7 @@ KyrieBassFigures = \figuremode {
 	r2 <6>8 <6\\> r4. <6>8 <6\\>4 %20
 	<6>2. <6\\>2 <6>4
 	<6\\>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff r4 <6 5> <4> <_+>
-	r2. r4 <6>8 r q <6\\>
+	r2. r4 <6>8 r q <6\\ 5>
 	r2 <6>8 <6\\> r2.
 	r1. %25
 	r2. r8 <6 5> <4>4 <3>

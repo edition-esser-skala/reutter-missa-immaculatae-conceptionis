@@ -25,7 +25,7 @@ KyrieTenoreNotes = {
 		d1
 		dis2 r4 dis %5
 		d2 c4 r
-		r e f2^\critnote
+		r e f4. f8
 		e4 d d( e
 		d2) e4 c
 		c2 c4 r %10
@@ -60,7 +60,7 @@ KyrieTenoreLyrics = \lyricmode {
 	lei --
 	son, e -- %5
 	lei -- son,
-	e -- lei --
+	e -- le -- i --
 	son e -- lei --
 	son, e --
 	lei -- son. %10
