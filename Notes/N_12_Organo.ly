@@ -20,7 +20,7 @@ KyrieOrgano = {
 		c2 c4 r %10
 		r2 r8 c g4
 		c r r2\fermata \bar "||"
-		\time 6/4 \tempoKyrieB
+		\time 6/4 \newSpacingSection \tempoKyrieB
 			\set Staff.timeSignatureFraction = 3/4
 			\override Staff.TimeSignature.style = #'single-digit
 		\mvTr c4\fE-\tuttiE r8 e f d c4 r8 c' h a
