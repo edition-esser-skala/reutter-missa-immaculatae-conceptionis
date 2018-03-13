@@ -160,6 +160,7 @@ tempoMarkup =
 %
 
 tempoKyrie = \tempoMarkup "Adagio"
+	tempoKyrieB = \tempoMarkup "Allegro"
 
 
 
