@@ -89,12 +89,55 @@ ChristeSopranoNotes = {
 		\key a \minor \time 4/4 \autoBeamOff \tempoChriste
 			\set Staff.timeSignatureFraction = 2/4
 			\set Score.currentBarNumber = #29
-		
+		R1*5 %33
+		r2 \mvTr e'4\pE^\soloE a,8 f'
+		e4 a,8 h16([ c)] d8([ h] c4) %35
+		h r r2
+		R1*2
+		e4 a,8 f' e4 a,8 h16([ c)]
+		d8([ h] c4) h r8 e %40
+		dis([ fis)] h, d cis([ e)] a, c
+		h([ d)] g, b a([ c)] f, a
+		gis([ a16 h] e,8[ gis)] a4 r
+		R1*3 %46
+		g4 c8 d h4 c
+		R1*3 %50
+		r2 g4 c8 d
+		h4 c r8 c e f16([ e)]
+		d4 e8 e a,4.( h16[ c]
+		d4) d8 d g,4.( a16[ h]
+		c4) c8 e d c h([ a)] %55
+		gis4 r8 e' dis([ fis)] h, d
+		cis([ e)] a, c h([ d)] g, b
+		a([ c)] f, a gis([ a16 h] e,8[ gis])
+		a4 r r2
+		R1*4 %63
+		R1\fermataMarkup \markKyrie \bar "||" %64 finis
 	}
 }
 
 ChristeSopranoLyrics = \lyricmode {
+	Chri -- ste e -- %34
+	lei -- son, e -- lei -- %35
+	son.
 	
+	Chri -- ste e -- lei -- son, e -- %39
+	lei -- son, e -- %40
+	lei -- son, e -- lei -- son, e --
+	lei -- son, e -- lei -- son, e --
+	lei -- son.
+	
+	Chri -- ste e -- lei -- son. %47
+	
+	Chri -- ste e -- %51
+	lei -- son. Chri -- ste e --
+	lei -- son, e -- lei --
+	son, e -- lei --
+	son. Chri -- ste e -- lei -- %55
+	son, e -- lei -- son, e --
+	lei -- son, e -- lei -- son, e --
+	lei -- son, e -- lei --
+	son. %59 finis
 }
 
 % SopranoNotes = {

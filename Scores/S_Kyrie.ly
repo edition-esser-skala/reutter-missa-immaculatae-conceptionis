@@ -93,6 +93,7 @@
 		\header {
 			movement = "1.2 CHRISTE"
 		}
+		\paper { systems-per-page = #2 }
 		\score {
 			<<
 				\new StaffGroup <<
