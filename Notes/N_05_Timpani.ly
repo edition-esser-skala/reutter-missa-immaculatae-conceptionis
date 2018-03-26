@@ -39,7 +39,29 @@ GloriaTimpani = {
 		\key c \major \time 6/4 \tempoGloria
 			\set Staff.timeSignatureFraction = 3/4
 			\override Staff.TimeSignature.style = #'single-digit
-		
+		R1.
+		r1*3/4 c4\fE r g
+		c c8 c g g c4 r r
+		r r8 g g g c4 r r %4
+		R1.*7 %11
+		r1*3/4 r4 r g8 g
+		c4 g8 g g g c4 r r
+		r1*3/4 r4 r g
+		c8 c g g16 g g8 g c2 r4 %15
+		R1.
+		r1*3/4 r4 r c
+		g g8 g c c g4 g8 g c c
+		g4 g r r1*3/4
+		R1. %20
+		r4 r c c g8 g g g
+		c2. r1*3/4
+		r4 r c c g8 g g g
+		\time 3/4 c2.\fermata \bar "||"
+		\time 4/4 \tempoGratias
+			\unset Staff.timeSignatureFraction
+			\revert Staff.TimeSignature.style
+		R1*3 %27
+		R1\fermataMarkup \bar "||" %28 finis
 	}
 }
 
