@@ -89,7 +89,7 @@ GloriaTenoreNotes = {
 		\key c \major \time 6/4 \autoBeamOff \tempoGloria
 			\set Staff.timeSignatureFraction = 3/4
 			\override Staff.TimeSignature.style = #'single-digit
-		\mvTr g4\fE^\tuttiE h8 h h h c4 h g8 h
+		\mvDll g4\fE^\tuttiE h8 h h h c4 h g8 h
 		e d d2 e4 r r
 		R1.*2
 		r1*3/4 h4 d8 d d d %5
@@ -115,7 +115,7 @@ GloriaTenoreNotes = {
 		\time 4/4
 			\unset Staff.timeSignatureFraction
 			\revert Staff.TimeSignature.style
-		\mvTr a,8\fE^\tuttiE a16 g a8 d16 d d4 cis %25
+		\mvTr a,8\pE^\soloE a16 g a8 d16 d d4 cis %25
 		r2 a8 d, d' c
 		b?8. b16 b4 b a8 a^\critnote
 		g2 a\fermata \bar "||"

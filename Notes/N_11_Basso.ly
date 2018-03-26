@@ -78,12 +78,66 @@ GloriaBassoNotes = {
 		\key c \major \time 6/4 \autoBeamOff \tempoGloria
 			\set Staff.timeSignatureFraction = 3/4
 			\override Staff.TimeSignature.style = #'single-digit
-		
+		\mvDll c'4\fE^\tuttiE h8 a h g c4 g c8 h
+		a f g4( g,) c r r
+		R1.*2
+		r1*3/4 g'4 fis8 e fis d %5
+		g,4 d' g8 fis e c d2
+		g,4 r r r1*3/4
+		R1.
+		g'4 fis8 e fis d g4 d g8 fis
+		e c d2 g,4 r r %10
+		R1.
+		r1*3/4 g'8 a h([ a)] h([ g)]
+		c([ f,] g4 g,) c r r
+		r8 a' a g f e d e f g4 f8
+		e c g'2 c, r4 %15
+		R1.
+		r1*3/4 r4 r c'
+		g8([ a)] h4 c8 c g a h4 c8 c
+		g4 g4^\critnote r r1*3/4
+		r r4 f d %20
+		g g8 f e4 f g g,
+		c2. r1*3/4
+		R1.
+		\time 3/4 R2.\fermataMarkup \bar "||"
+		\time 4/4
+			\unset Staff.timeSignatureFraction
+			\revert Staff.TimeSignature.style
+		\mvTr d8\pE^\soloE d16 e f8 g16 g a4 a, %25
+		R1
+		d8 g, g' f e4 f8 b,?
+		c2 f,\fermata \bar "||" %28 finis
 	}
 }
 
 GloriaBassoLyrics = \lyricmode {
+	Glo -- ri -- a in ex -- cel -- sis, in ex --
+	cel -- sis De -- o.
 	
+	Glo -- ri -- a in ex -- %5
+	cel -- sis, in ex -- cel -- sis De --
+	o.
+	
+	Glo -- ri -- a in ex -- cel -- sis, in ex -- %9
+	cel -- sis De -- o, %10
+	
+	in ex -- cel -- sis
+	De -- o.
+	In ter -- ra pax ho -- mi -- ni -- bus bo -- nae
+	vo -- lun -- ta -- tis. %15
+	
+	Lau --
+	da -- mus, be -- ne -- di -- ci -- mus, ad -- o --
+	ra -- mus,
+	ad -- o --
+	ra -- mus, glo -- ri -- fi -- ca -- mus
+	te. %22 finis
+	
+	Gra -- ti -- as a -- gi -- mus ti -- bi %25
+	
+	pro -- pter ma -- gnam glo -- ri -- am
+	tu -- am. %28 finis
 }
 
 % BassoNotes = {

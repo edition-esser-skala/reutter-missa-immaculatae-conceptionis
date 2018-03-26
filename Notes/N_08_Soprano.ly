@@ -146,7 +146,7 @@ GloriaSopranoNotes = {
 		\key c \major \time 6/4 \autoBeamOff \tempoGloria
 			\set Staff.timeSignatureFraction = 3/4
 			\override Staff.TimeSignature.style = #'single-digit
-		\mvTr c'4(\fE^\tuttiE d8) d16 d d8 d e4 d e8 d
+		\mvDll c'4(\fE^\tuttiE d8) d16 d d8 d e4 d e8 d
 		c c c4( h) c r r
 		R1.*2
 		r1*3/4 g4 a8 a a a %5

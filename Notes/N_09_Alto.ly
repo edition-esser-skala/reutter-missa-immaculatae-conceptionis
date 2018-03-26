@@ -89,7 +89,7 @@ GloriaAltoNotes = {
 		\key c \major \time 6/4 \autoBeamOff \tempoGloria
 			\set Staff.timeSignatureFraction = 3/4
 			\override Staff.TimeSignature.style = #'single-digit
-		\mvTr e4\fE^\tuttiE g8 g g g g4 g c,8 g'
+		\mvDll e4\fE^\tuttiE g8 g g g g4 g c,8 g'
 		a a g2 g4 r r
 		R1.*2
 		r1*3/4 d4 fis8 g a fis %5
@@ -115,7 +115,7 @@ GloriaAltoNotes = {
 		\time 4/4
 			\unset Staff.timeSignatureFraction
 			\revert Staff.TimeSignature.style
-		\mvTr f8\fE^\tuttiE f16 f d8 e16 e e4 e %25
+		\mvTr f8\pE^\soloE f16 f d8 e16 e e4 e %25
 		e8 a, a' g f8. f16 f4
 		f4. f8 g4 f8 f
 		f4( e) f2\fermata \bar "||" %28 finis

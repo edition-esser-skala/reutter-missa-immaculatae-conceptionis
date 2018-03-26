@@ -163,7 +163,7 @@ GloriaOrgano = {
 		\key c \major \time 6/4 \tempoGloria
 			\set Staff.timeSignatureFraction = 3/4
 			\override Staff.TimeSignature.style = #'single-digit
-		\mvTr c8\fE-\tuttiE c' h a h g c c, g' a16 h c8 h
+		\mvDll c8\fE-\tuttiE c' h a h g c c, g' a16 h c8 h
 		a f g f g g, c4 r g-\solo
 		c r g c r c
 		d4. r8 r g, c2 h4
@@ -190,7 +190,7 @@ GloriaOrgano = {
 		\time 4/4
 			\unset Staff.timeSignatureFraction
 			\revert Staff.TimeSignature.style
-			\mvTr d8\fE-\tuttiE d16 e f8 g a4 a, %25
+			\mvTr d8\pE-\soloE d16 e f8 g a4 a, %25
 		cis2 d~
 		d8 g, g' f e4 f8 b,?
 		c2 f,\fermata \bar "||" %28 finis
