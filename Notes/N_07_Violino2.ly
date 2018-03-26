@@ -79,6 +79,16 @@ ChristeViolinoII = {
 	}
 }
 
+GloriaViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 6/4 \tempoGloria
+			\set Staff.timeSignatureFraction = 3/4
+			\override Staff.TimeSignature.style = #'single-digit
+		
+	}
+}
+
 % ViolinoII = {
 % 	\relative c' {
 % 		\clef treble

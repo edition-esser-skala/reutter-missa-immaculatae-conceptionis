@@ -157,17 +157,20 @@ ChristeBassFigures = \figuremode {
 	<_+> <6> <4> <_+> r2 %64 finis
 }
 
-% Organo = {
-% 	\relative c {
-% 		\clef bass
-% 		\key c \major \time 4/4 \tempo
-% 		
-% 	}
-% }
-% 
-% BassFigures = \figuremode {
-% 	
-% }
+GloriaOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 6/4 \tempoGloria
+			\set Staff.timeSignatureFraction = 3/4
+			\override Staff.TimeSignature.style = #'single-digit
+		\mvTr c8\fE-\tuttiE c' h a h g c c, g' a16 h c8 h
+		
+	}
+}
+
+GloriaBassFigures = \figuremode {
+	
+}
 
 % Organo = {
 % 	\relative c {

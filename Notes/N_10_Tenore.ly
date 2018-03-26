@@ -83,6 +83,56 @@ KyrieTenoreLyrics = \lyricmode {
 	e -- lei -- son. %28 finis
 }
 
+GloriaTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 6/4 \autoBeamOff \tempoGloria
+			\set Staff.timeSignatureFraction = 3/4
+			\override Staff.TimeSignature.style = #'single-digit
+		
+	}
+}
+
+GloriaTenoreLyrics = \lyricmode {
+	
+}
+
+% TenoreNotes = {
+% 	\relative c' {
+% 		\clef "treble_8"
+% 		\key c \major \time 4/4 \autoBeamOff \tempo
+% 		
+% 	}
+% }
+% 
+% TenoreLyrics = \lyricmode {
+% 	
+% }
+
+% TenoreNotes = {
+% 	\relative c' {
+% 		\clef "treble_8"
+% 		\key c \major \time 4/4 \autoBeamOff \tempo
+% 		
+% 	}
+% }
+% 
+% TenoreLyrics = \lyricmode {
+% 	
+% }
+
+% TenoreNotes = {
+% 	\relative c' {
+% 		\clef "treble_8"
+% 		\key c \major \time 4/4 \autoBeamOff \tempo
+% 		
+% 	}
+% }
+% 
+% TenoreLyrics = \lyricmode {
+% 	
+% }
+% 
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

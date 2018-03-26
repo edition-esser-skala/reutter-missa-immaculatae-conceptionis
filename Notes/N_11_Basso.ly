@@ -72,6 +72,56 @@ KyrieBassoLyrics = \lyricmode {
 	e -- lei -- son. %28 finis
 }
 
+GloriaBassoNotes = {
+	\relative c {
+		\clef bass
+		\key c \major \time 6/4 \autoBeamOff \tempoGloria
+			\set Staff.timeSignatureFraction = 3/4
+			\override Staff.TimeSignature.style = #'single-digit
+		
+	}
+}
+
+GloriaBassoLyrics = \lyricmode {
+	
+}
+
+% BassoNotes = {
+% 	\relative c {
+% 		\clef bass
+% 		\key c \major \time 4/4 \autoBeamOff \tempo
+% 		
+% 	}
+% }
+% 
+% BassoLyrics = \lyricmode {
+% 	
+% }
+
+% BassoNotes = {
+% 	\relative c {
+% 		\clef bass
+% 		\key c \major \time 4/4 \autoBeamOff \tempo
+% 		
+% 	}
+% }
+% 
+% BassoLyrics = \lyricmode {
+% 	
+% }
+
+% BassoNotes = {
+% 	\relative c {
+% 		\clef bass
+% 		\key c \major \time 4/4 \autoBeamOff \tempo
+% 		
+% 	}
+% }
+% 
+% BassoLyrics = \lyricmode {
+% 	
+% }
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

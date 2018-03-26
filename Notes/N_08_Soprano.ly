@@ -140,17 +140,19 @@ ChristeSopranoLyrics = \lyricmode {
 	son. %59 finis
 }
 
-% SopranoNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key c \major \time 4/4 \autoBeamOff \tempo
-% 		
-% 	}
-% }
-% 
-% SopranoLyrics = \lyricmode {
-% 	
-% }
+GloriaSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 6/4 \autoBeamOff \tempoGloria
+			\set Staff.timeSignatureFraction = 3/4
+			\override Staff.TimeSignature.style = #'single-digit
+		
+	}
+}
+
+GloriaSopranoLyrics = \lyricmode {
+	
+}
 
 % SopranoNotes = {
 % 	\relative c' {

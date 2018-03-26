@@ -33,6 +33,40 @@ KyrieTimpani = {
 	}
 }
 
+GloriaTimpani = {
+	\relative c {
+		\clef bass
+		\key c \major \time 6/4 \tempoGloria
+			\set Staff.timeSignatureFraction = 3/4
+			\override Staff.TimeSignature.style = #'single-digit
+		
+	}
+}
+
+% Timpani = {
+% 	\relative c {
+% 		\clef bass
+% 		\key c \major \time 4/4 \tempo
+% 		
+% 	}
+% }
+
+% Timpani = {
+% 	\relative c {
+% 		\clef bass
+% 		\key c \major \time 4/4 \tempo
+% 		
+% 	}
+% }
+
+% Timpani = {
+% 	\relative c {
+% 		\clef bass
+% 		\key c \major \time 4/4 \tempo
+% 		
+% 	}
+% }
+
 % Timpani = {
 % 	\relative c {
 % 		\clef bass

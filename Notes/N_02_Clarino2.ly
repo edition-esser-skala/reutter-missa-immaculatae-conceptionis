@@ -38,6 +38,16 @@ KyrieClarinoII = {
 	}
 }
 
+GloriaClarinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 6/4 \tempoGloria
+			\set Staff.timeSignatureFraction = 3/4
+			\override Staff.TimeSignature.style = #'single-digit
+		
+	}
+}
+
 % ClarinoII = {
 % 	\relative c' {
 % 		\clef treble
