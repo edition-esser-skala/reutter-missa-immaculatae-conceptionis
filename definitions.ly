@@ -288,8 +288,8 @@ tempoKyrie = \tempoMarkup "Adagio"
 	\context {
 		\GrandStaff
 		\override StaffGrouper.staffgroup-staff-spacing =
-		  #'((basic-distance . 12)
-         (minimum-distance . 12)
+		  #'((basic-distance . 15)
+         (minimum-distance . 15)
          (padding . -100)
          (stretchability . 0))
 		\override StaffGrouper.staff-staff-spacing =
