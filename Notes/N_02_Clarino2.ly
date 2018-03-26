@@ -44,7 +44,30 @@ GloriaClarinoII = {
 		\key c \major \time 6/4 \tempoGloria
 			\set Staff.timeSignatureFraction = 3/4
 			\override Staff.TimeSignature.style = #'single-digit
-		
+		R1.
+		R
+		r8 c'\fE d d d c16 d e8 c16 d e8 d e c
+		d4 d8 c d g, c2 d4
+		e d4. d8 d4 r r %5
+		R1.*6 %11
+		r1*3/4 d2.~
+		d8-\critnote c g[ g g g] e4 r r
+		r1*3/4 r4 r g
+		c8 e d2 c2. %15
+		R1.
+		r1*3/4 r4 r c
+		d r e d d e8 e
+		d4 d r r r c
+		c2 r4 r1*3/4 %20
+		r4 r8 d e4 d d4. d8
+		e4 r e d r d
+		c r c d g,8 g g g
+		\time 3/4 e2.\fermata \bar "||"
+		\time 4/4 \tempoGratias
+			\unset Staff.timeSignatureFraction
+			\revert Staff.TimeSignature.style
+		R1*3 %27
+		R1\fermataMarkup \bar "||" %28 finis
 	}
 }
 
