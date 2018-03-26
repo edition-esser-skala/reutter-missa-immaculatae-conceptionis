@@ -187,7 +187,7 @@ GloriaOrgano = {
 		c \noBeam \clef "treble_8" c' c e a, h16 c d8 d d f h, c16 d
 		e8 e e g \clef bass c,, d16 e f8 a g f g g,
 		\time 3/4 c2.\fermata \bar "||"
-		\time 4/4
+		\time 4/4 \tempoGratias
 			\unset Staff.timeSignatureFraction
 			\revert Staff.TimeSignature.style
 			\mvTr d8\pE-\soloE d16 e f8 g a4 a, %25
@@ -198,7 +198,34 @@ GloriaOrgano = {
 }
 
 GloriaBassFigures = \figuremode {
-	
+	r4 <6>2 r r8 <6>
+	r <6 5> <4>4 <3> r2.
+	r1.
+	r
+	r2. r4 <6>4. <_+>8 %5
+	r4 <_+>4. <6>8 r <6 5> <4>4 <_+>
+	r1.
+	r
+	r4 <6>4. <_+>8 r4 <_+>4. <6>8
+	r <6 5> <4>4 <_+> r <6> r %10
+	r <7> <5> <7> q <5>
+	<7> q <5> <7> <6 5> r
+	<9>8 <7> <4>4 <3> r2.
+	r8 <_+> r4 <6>8 <6\\> r4 <6>4. <\t>8
+	<6>4 <4> <3> r2. %15
+	r1.
+	r
+	r4 <6> r r <6> r
+	r2. r4 <6> <5->
+	r2 <4!>8 <6> r4 <6> <7> %20
+	r2 <6>4 <6 5> <4> <3>
+	r1.
+	r
+	r2.
+	r4 <6>8 <6 _-> <4>4 <_+> %25
+	<6>4. <5>8 <8>4. <7>8
+	<6- 4 3>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff <6 5->4. <7>8
+	<4>4 <3> r2 %28 finis
 }
 
 % Organo = {

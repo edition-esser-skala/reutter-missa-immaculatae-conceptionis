@@ -171,6 +171,7 @@ tempoKyrie = \tempoMarkup "Adagio"
 tempoChriste = \tempoMarkup "[Tempo deest]"
 
 tempoGloria = \tempoMarkup "[Tempo deest]"
+	tempoGratias = \tempoMarkup "[Tempo deest]"
 
 
 

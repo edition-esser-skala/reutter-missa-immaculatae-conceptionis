@@ -101,7 +101,7 @@ GloriaBassoNotes = {
 		c2. r1*3/4
 		R1.
 		\time 3/4 R2.\fermataMarkup \bar "||"
-		\time 4/4
+		\time 4/4 \tempoGratias
 			\unset Staff.timeSignatureFraction
 			\revert Staff.TimeSignature.style
 		\mvTr d8\pE^\soloE d16 e f8 g16 g a4 a, %25

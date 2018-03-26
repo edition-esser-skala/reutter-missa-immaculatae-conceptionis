@@ -102,7 +102,7 @@ GloriaTenoreNotes = {
 		a[ c d c h a] g4 g f'8 f
 		e e d2 e4 r r
 		r8 a, a a d cis d4 a8 a d d
-		e c d4( h) c2 r4 %15
+		e c c4(^\critnote h) c2 r4 %15
 		R1.
 		r1*3/4 r4 r c
 		h d c8^\critnote c h4 d8 d c c
@@ -112,7 +112,7 @@ GloriaTenoreNotes = {
 		e2.^\critnote r1*3/4
 		R1.
 		\time 3/4 R2.\fermataMarkup \bar "||"
-		\time 4/4
+		\time 4/4 \tempoGratias
 			\unset Staff.timeSignatureFraction
 			\revert Staff.TimeSignature.style
 		\mvTr a,8\pE^\soloE a16 g a8 d16 d d4 cis %25

@@ -169,7 +169,7 @@ GloriaSopranoNotes = {
 		c2. r1*3/4
 		R1.
 		\time 3/4 R2.\fermataMarkup \bar "||"
-		\time 4/4
+		\time 4/4 \tempoGratias
 			\unset Staff.timeSignatureFraction
 			\revert Staff.TimeSignature.style
 		R1*3 %27

@@ -112,7 +112,7 @@ GloriaAltoNotes = {
 		g2. r1*3/4
 		R1.
 		\time 3/4 R2.\fermataMarkup \bar "||"
-		\time 4/4
+		\time 4/4 \tempoGratias
 			\unset Staff.timeSignatureFraction
 			\revert Staff.TimeSignature.style
 		\mvTr f8\pE^\soloE f16 f d8 e16 e e4 e %25
