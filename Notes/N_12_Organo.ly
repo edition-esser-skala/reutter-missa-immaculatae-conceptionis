@@ -184,8 +184,8 @@ GloriaOrgano = {
 		g' a g f e d c d e d e c
 		f g a g f e d e f e f d %20
 		g a g f e c f d g f g g,
-		c \noBeam \clef "treble_8" c' c e a, h16 c d8 d d f h, c16 d
-		e8 e e g \clef bass c,, d16 e f8 a g f g g,
+		c \noBeam \clef "treble_8" c' c e a, h16 c d8 d d f g,-\critnote a16 h
+		c8 c c e \clef bass c, d16 e f8 a g f g g,
 		\time 3/4 c2.\fermata \bar "||"
 		\time 4/4 \tempoGratias
 			\unset Staff.timeSignatureFraction
@@ -212,8 +212,8 @@ GloriaBassFigures = \figuremode {
 	<7> q <5> <7> <6 5> r
 	<9>8 <7> <4>4 <3> r2.
 	r8 <_+> r4 <6>8 <6\\> r4 <6>4. <\t>8
-	<6>4 <4> <3> r2. %15
-	r1.
+	<6>4 <4> <3> r2 <7>4 %15
+	r2 <7>4 r2.
 	r4 <4> <3> r <6> r
 	r <6> r r <6> r
 	r2. r4 <6> <5->

@@ -103,8 +103,8 @@ GloriaViolinoII = {
 		d4 g,8 g a h c2 b4
 		a4. a8 h c d2 c4 %20
 		h4. h8 c4 c c h
-		c8 g e g c, d16 e f8 f f a d,-\critnote e16 f
-		g8 g g g e f16 g a8 c c4 h
+		c8 g e g c, d16 e f8 f f a h, c16 d
+		e8 e e g e f16 g a8 c c4 h
 		\time 3/4 c2.\fermata \bar "||"
 		\time 4/4 \tempoGratias
 			\unset Staff.timeSignatureFraction
