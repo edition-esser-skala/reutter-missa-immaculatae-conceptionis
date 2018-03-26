@@ -192,7 +192,7 @@ GloriaOrgano = {
 			\revert Staff.TimeSignature.style
 			\mvTr d8\fE-\tuttiE d16 e f8 g a4 a, %25
 		cis2 d~
-		d8 g, g' f e4 f8 h,
+		d8 g, g' f e4 f8 b,?
 		c2 f,\fermata \bar "||" %28 finis
 	}
 }

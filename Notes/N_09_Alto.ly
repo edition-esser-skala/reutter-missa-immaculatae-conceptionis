@@ -140,7 +140,7 @@ GloriaAltoLyrics = \lyricmode {
 	
 	[Lau --
 	da -- mus, be -- ne -- di -- ci -- mus, ad -- o --
-	ra -- mus], glo -- ri -- fi --
+	ra -- mus,] glo -- ri -- fi --
 	ca -- mus te, glo -- ri -- fi -- %20
 	ca -- mus, glo -- ri -- fi -- ca -- mus
 	te. %22 finis

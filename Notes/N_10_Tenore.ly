@@ -89,12 +89,66 @@ GloriaTenoreNotes = {
 		\key c \major \time 6/4 \autoBeamOff \tempoGloria
 			\set Staff.timeSignatureFraction = 3/4
 			\override Staff.TimeSignature.style = #'single-digit
-		
+		\mvTr g4\fE^\tuttiE h8 h h h c4 h g8 h
+		e d d2 e4 r r
+		R1.*2
+		r1*3/4 h4 d8 d d d %5
+		h4 d g,8 g h a a2
+		h4 r r r1*3/4
+		R1.
+		h4 d8 d d d h4 d g,8 a
+		h a a2 h4 h g %10
+		c8[ e f e d c] h[ d e d c h]
+		a[ c d c h a] g4 g f'8 f
+		e e d2 e4 r r
+		r8 a, a a d cis d4 a8 a d d
+		e c d4( h) c2 r4 %15
+		R1.
+		r1*3/4 r4 r c
+		h d c8^\critnote c h4 d8 d c c
+		h4 d r r1*3/4
+		r4 r8 c d e a,2 a4 %20
+		g4. d'8 e4 d d4.\trill d8
+		e2.^\critnote r1*3/4
+		R1.
+		\time 3/4 R2.\fermataMarkup \bar "||"
+		\time 4/4
+			\unset Staff.timeSignatureFraction
+			\revert Staff.TimeSignature.style
+		\mvTr a,8\fE^\tuttiE a16 g a8 d16 d d4 cis %25
+		r2 a8 d, d' c
+		b?8. b16 b4 b a8 a^\critnote
+		g2 a\fermata \bar "||"
 	}
 }
 
 GloriaTenoreLyrics = \lyricmode {
+	[Glo -- ri -- a in ex -- cel -- sis, in ex --
+	cel -- sis De -- o.]
 	
+	[Glo -- ri -- a in ex -- %5
+	cel -- sis, in ex -- cel -- sis De --
+	o.]
+	
+	[Glo -- ri -- a in ex -- cel -- sis, in ex -- %9
+	cel -- sis De -- o, in ex -- %10
+	cel] -- _
+	_ _ sis, in ex --
+	cel -- sis De -- o.
+	In ter -- ra pax ho -- mi -- ni -- bus bo -- nae
+	vo -- lun -- ta -- tis. %15
+	
+	[Lau --
+	da -- mus, be -- ne -- di -- ci -- mus, ad -- o --
+	ra -- mus,]
+	glo -- ri -- fi -- ca -- mus %20
+	te, glo -- ri -- fi -- ca -- mus
+	te. %22 finis
+	
+	[Gra -- ti -- as a -- gi -- mus ti -- bi] %25
+	pro -- pter ma -- gnam
+	glo -- ri -- am, glo -- ri -- am
+	tu -- am. %28 finis
 }
 
 % TenoreNotes = {
