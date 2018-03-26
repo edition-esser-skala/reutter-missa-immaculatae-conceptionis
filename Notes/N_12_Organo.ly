@@ -79,7 +79,42 @@ ChristeOrgano = {
 		\key a \minor \time 4/4 \tempoChriste
 			\set Staff.timeSignatureFraction = 2/4
 			\set Score.currentBarNumber = #29
-		\mvTr a8\pE-\solo h c d~ d c16 h c8 a
+		\mvTr a'8\pE-\solo h c d~ d c16 h c8 a
+		r h16 a gis8 a e fis gis e %30
+		h' a gis e a g fis d
+		g f e c f e d h
+		e d cis a d4 r8 d
+		e c16 d e8 e, a a'16 h c8 d~
+		d c16 h c8 a h gis a4 %35
+		e8 fis gis e h' a gis e
+		a g fis? d g f e c
+		f e d h e c16 d e8 e,
+		a h c d~ d c16 h c8 a
+		r gis' a4 e8 fis gis e %40
+		h' a gis e a g fis d
+		g f e c f e d h
+		e c16 d e8 e, a h c a'
+		h a gis e a g fis d
+		g f e c f e d h %45
+		e c16 d e8 e, a a' g16 f e d
+		c4 e8 f g f e d
+		c4 r8 f g f e c
+		a' g f e d4. e16 f
+		g8 f e d c4 r8 e %50
+		a f g g, c4 r8 f
+		g f e d c4 r8 f
+		g f e c a' g f e
+		d4 r8 f g f e d
+		c4 r8 c f4 d %55
+		e8 fis gis e h' a gis e
+		a g fis? d g f? e c
+		f e d h e c16 d e8 e,
+		a a'16 h c8 d~ d c16 h c8 a
+		r h16 a gis8 a e fis gis e %60
+		h' a gis e a g fis d
+		g f e c f e d h
+		e d cis a d4 r8 d
+		e c16 d e8 e, a2\fermata \markKyrie \bar "||" %64 finis
 	}
 }
 

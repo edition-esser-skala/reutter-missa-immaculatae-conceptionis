@@ -152,6 +152,10 @@ mvDll = \once \override DynamicText.X-offset = #-3
 pao = \partcombineApartOnce
 pa = \partcombineApart
 pd = \partcombineAutomatic
+markKyrie = {
+	\once \override Score.RehearsalMark.self-alignment-X = #RIGHT
+	\mark \markup { \remark "Kyrie ut supra Kyrie adagio" }
+}
 
 tempoMarkup =
 	#(define-music-function
