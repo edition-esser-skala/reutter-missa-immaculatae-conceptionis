@@ -42,6 +42,16 @@ KyrieViolinoII = {
 	}
 }
 
+ChristeViolinoII = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 4/4 \tempoChriste
+			\set Staff.timeSignatureFraction = 2/4
+			\set Score.currentBarNumber = #29
+		
+	}
+}
+
 % ViolinoII = {
 % 	\relative c' {
 % 		\clef treble

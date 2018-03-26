@@ -73,6 +73,56 @@ KyrieBassFigures = \figuremode {
 	r4 <4> <3> r2. %28 finis
 }
 
+ChristeOrgano = {
+	\relative c {
+		\clef bass
+		\key a \minor \time 4/4 \tempoChriste
+			\set Staff.timeSignatureFraction = 2/4
+			\set Score.currentBarNumber = #29
+		\mvTr a8\pE-\solo h c d~ d c16 h c8 a
+	}
+}
+
+ChristeBassFigures = \figuremode {
+	
+}
+
+% Organo = {
+% 	\relative c {
+% 		\clef bass
+% 		\key c \major \time 4/4 \tempo
+% 		
+% 	}
+% }
+% 
+% BassFigures = \figuremode {
+% 	
+% }
+
+% Organo = {
+% 	\relative c {
+% 		\clef bass
+% 		\key c \major \time 4/4 \tempo
+% 		
+% 	}
+% }
+% 
+% BassFigures = \figuremode {
+% 	
+% }
+
+% Organo = {
+% 	\relative c {
+% 		\clef bass
+% 		\key c \major \time 4/4 \tempo
+% 		
+% 	}
+% }
+% 
+% BassFigures = \figuremode {
+% 	
+% }
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

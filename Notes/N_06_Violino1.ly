@@ -42,6 +42,40 @@ KyrieViolinoI = {
 	}
 }
 
+ChristeViolinoI = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 4/4 \tempoChriste
+			\set Staff.timeSignatureFraction = 2/4
+			\set Score.currentBarNumber = #29
+		
+	}
+}
+
+% ViolinoI = {
+% 	\relative c' {
+% 		\clef treble
+% 		\key c \major \time 4/4 \tempo
+% 		
+% 	}
+% }
+
+% ViolinoI = {
+% 	\relative c' {
+% 		\clef treble
+% 		\key c \major \time 4/4 \tempo
+% 		
+% 	}
+% }
+
+% ViolinoI = {
+% 	\relative c' {
+% 		\clef treble
+% 		\key c \major \time 4/4 \tempo
+% 		
+% 	}
+% }
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

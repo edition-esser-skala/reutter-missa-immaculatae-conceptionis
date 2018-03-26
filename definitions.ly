@@ -164,6 +164,7 @@ tempoMarkup =
 
 tempoKyrie = \tempoMarkup "Adagio"
 	tempoKyrieB = \tempoMarkup "Allegro"
+tempoChriste = \tempoMarkup "[Tempo deest]"
 
 
 

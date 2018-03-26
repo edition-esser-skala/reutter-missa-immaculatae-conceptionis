@@ -83,6 +83,56 @@ KyrieSopranoLyrics = \lyricmode {
 	son, e -- lei -- son. %28 finis
 }
 
+ChristeSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 4/4 \autoBeamOff \tempoChriste
+			\set Staff.timeSignatureFraction = 2/4
+			\set Score.currentBarNumber = #29
+		
+	}
+}
+
+ChristeSopranoLyrics = \lyricmode {
+	
+}
+
+% SopranoNotes = {
+% 	\relative c' {
+% 		\clef treble
+% 		\key c \major \time 4/4 \autoBeamOff \tempo
+% 		
+% 	}
+% }
+% 
+% SopranoLyrics = \lyricmode {
+% 	
+% }
+
+% SopranoNotes = {
+% 	\relative c' {
+% 		\clef treble
+% 		\key c \major \time 4/4 \autoBeamOff \tempo
+% 		
+% 	}
+% }
+% 
+% SopranoLyrics = \lyricmode {
+% 	
+% }
+
+% SopranoNotes = {
+% 	\relative c' {
+% 		\clef treble
+% 		\key c \major \time 4/4 \autoBeamOff \tempo
+% 		
+% 	}
+% }
+% 
+% SopranoLyrics = \lyricmode {
+% 	
+% }
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble
