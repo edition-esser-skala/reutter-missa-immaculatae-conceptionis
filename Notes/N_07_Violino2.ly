@@ -48,7 +48,34 @@ ChristeViolinoII = {
 		\key a \minor \time 4/4 \tempoChriste
 			\set Staff.timeSignatureFraction = 2/4
 			\set Score.currentBarNumber = #29
-		
+		e'4\pE a,8 f' e4 a,
+		r8 d4 c8 h4 r8 e %30
+		dis fis h, d cis e a, c
+		h d g, b a c f, a
+		gis4 g8 f16 e f8 f'16 e d c h a
+		gis8 a h, gis' a4 r
+		R1 %35
+		r4 r8 e' dis fis h, d
+		cis e a, c h d g, b
+		a c f, a gis a16 h h,8 gis'
+		a4 r r2
+		R1*3 %42
+		r2 r4 r8 e'
+		dis4 e,16 gis h d cis4 d,16 fis? a c
+		h4 c,16 e g b a4 h,16 d f a %45
+		gis8 a h, gis' a4 r
+		R1
+		r8 g, c e h4 c8 e
+		a,4. h16 c d4 d8 d
+		g,4. a16 h c4 c8 e %50
+		a, h c h-\critnote c4 r
+		R1*7 %58
+		r8 e' a,8 f' e4 a,
+		r8 d4 c8 h4 r8 e %60
+		dis fis h, d cis e a, c
+		h d g, b a c f, a
+		gis4 g8 f16 e f8 f'16 e d c h a
+		gis8 a h, gis' a4 r\fermata \markKyrie \bar "||" %64 finis
 	}
 }
 

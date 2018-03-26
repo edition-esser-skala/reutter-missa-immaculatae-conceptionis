@@ -72,14 +72,14 @@ ChristeViolinoI = {
 		r2 r8 g h d
 		h4 c8 g' c,4. d16 e
 		f4 f8 f h,4. c16 d
-		e4. r8 r2
+		e4. r8 r2 %55
 		R1*3
 		r8 e a,8 f' e4 a,
-		r8 d4 c8 h4 r8 e %30
+		r8 d4 c8 h4 r8 e %60
 		dis fis h, d cis e a, c
 		h d g, b a c f, a
 		gis4 g8 f16 e f8 f'16 e d c h a
-		gis8 a h, gis' a,4 r\fermata \markKyrie \bar "||" %34 finis
+		gis8 a h, gis' a,4 r\fermata \markKyrie \bar "||" %64 finis
 	}
 }
 
