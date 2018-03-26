@@ -89,7 +89,32 @@ GloriaViolinoI = {
 		\key c \major \time 6/4 \tempoGloria
 			\set Staff.timeSignatureFraction = 3/4
 			\override Staff.TimeSignature.style = #'single-digit
-		
+		\mvDll c'8\fE e16 f g8 g g16 a g f e8 c' d, g c, e
+		a, a' g c d, h' c,4 r r
+		R1.*4 %6
+		r16 d e fis g8 h, a fis' g,16 h c d e8 g, fis d'
+		e,16 g a h c8 e, d h' c g' h,, g' a, fis'
+		g h16 c d8 d d16 e d c h8 g' fis a, g a'
+		h g a,^\critnote g' a, fis' g,4 d' g, %10
+		e'4. c8 d e d4. h8 c d
+		c4. a8 h c h c d2~
+		d8 c d,-\critnote c' d, h' c4 e e
+		cis?8 e cis'?4. g8 f g a f d e16 f
+		g8 e d,-\critnote c' d, h' c2 r4 %15
+		R1.
+		r1*3/4 r4 r e
+		d16 g g g h, g' g g g, g' g g d g g g h, g' g g g, g' g g
+		d g g g g,8 g a h c4. e8 f g
+		f4. a,8 h! c d4. f8 g a %20
+		d,4. g8 e4 c' c^\critnote h
+		c g4. f16 e f4 f,8 f'4 e16 d
+		e8 h c4. g8 a c d4. d8
+		\time 3/4 e2.\fermata \bar "||"
+		\time 4/4 \tempoGratias
+			\unset Staff.timeSignatureFraction
+			\revert Staff.TimeSignature.style
+		R1*3 %27
+		R1\fermataMarkup \bar "||" %28 finis<
 	}
 }
 
