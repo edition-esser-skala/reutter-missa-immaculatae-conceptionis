@@ -146,12 +146,59 @@ GloriaSopranoNotes = {
 		\key c \major \time 6/4 \autoBeamOff \tempoGloria
 			\set Staff.timeSignatureFraction = 3/4
 			\override Staff.TimeSignature.style = #'single-digit
-		
+		\mvTr c'4(\fE^\tuttiE d8) d16 d d8 d e4 d e8 d
+		c c c4( h) c r r
+		R1.*2
+		r1*3/4 g4 a8 a a a %5
+		h4 a h8 a g g g4( fis)
+		g r r r1*3/4
+		R1.
+		g4 a8 a a a h4 a h8 a
+		g g g4( fis) g d' g, %10
+		e'4. c8[ d e] d4. h8[ c d]
+		c4. a8[ h c] h[ c] d2~
+		d8 c c4( h) c e e
+		cis4. cis8 d e f4 f8 f h, h
+		c e d2 c r4 %15
+		R1.
+		r1*3/4 r4 r e
+		d g, e'8 e d4 g,8 g e' e
+		d4 g,8 g a h c2 b4
+		a4. a8 h c d2 c4 %20
+		h4. h8 c4 c c h
+		c2. r1*3/4
+		R1.
+		\time 3/4 R2.\fermataMarkup \bar "||"
+		\time 4/4
+			\unset Staff.timeSignatureFraction
+			\revert Staff.TimeSignature.style
+		R1*3 %27
+		R1\fermataMarkup \bar "||" %28 finis
 	}
 }
 
 GloriaSopranoLyrics = \lyricmode {
+	Glo -- ri -- a in ex -- cel -- sis, in ex --
+	cel -- sis De -- o.
 	
+	Glo -- ri -- a in ex -- %5
+	cel -- sis, in ex -- cel -- sis De --
+	o.
+	
+	Glo -- ri -- a in ex -- cel -- sis, in ex -- %9
+	cel -- sis De -- o, in ex -- %10
+	cel -- _ _ _
+	_ _ _ _
+	sis De -- o. Et in
+	ter -- ra pax ho -- mi -- ni -- bus bo -- nae
+	vo -- lun -- ta -- tis. %15
+	
+	Lau --
+	da -- mus, be -- ne -- di -- ci -- mus, ad -- o --
+	ra -- mus, glo -- ri -- fi -- ca -- mus
+	te, glo -- ri -- fi -- ca -- mus %20
+	te, glo -- ri -- fi -- ca -- mus
+	te. %22 finis
 }
 
 % SopranoNotes = {
