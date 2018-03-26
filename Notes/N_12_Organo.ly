@@ -164,7 +164,36 @@ GloriaOrgano = {
 			\set Staff.timeSignatureFraction = 3/4
 			\override Staff.TimeSignature.style = #'single-digit
 		\mvTr c8\fE-\tuttiE c' h a h g c c, g' a16 h c8 h
-		
+		a f g f g g, c4 r g-\solo
+		c r g c r c
+		d4. r8 r g, c2 h4
+		c d d, g8-\tutti g' fis e fis d %5
+		g g, d' e16 fis g8 fis e c d c d d,
+		g'-\solo a h g fis d e d c e d h
+		c h a c h g a c d c d d,
+		g-\tutti g' fis e fis d g g, d' e16 fis g8 fis
+		e c d c d d, g' a h a h g %10
+		\clef "treble_8" c e f e d c h d e d c h
+		a c d c h a \clef bass g a h a h g
+		c f, g f g g, c4 r r
+		r8 a' a g f e d e f d g f
+		e c g' f g g, c \noBeam \clef "treble_8" c' c e a, h16 c %15
+		d8 d d f h, c16 d e8 e e g \clef bass c,, d16 e
+		f8 a g f g g, c d e d c c'
+		g a h g c c, g' a h g c c,
+		g' a g f e d c d e d e c
+		f g a g f e d e f e f d %20
+		g a g f e c f d g f g g,
+		c \noBeam \clef "treble_8" c' c e a, h16 c d8 d d f h, c16 d
+		e8 e e g \clef bass c,, d16 e f8 a g f g g,
+		\time 3/4 c2.\fermata \bar "||"
+		\time 4/4
+			\unset Staff.timeSignatureFraction
+			\revert Staff.TimeSignature.style
+			\mvTr d8\fE-\tuttiE d16 e f8 g a4 a, %25
+		cis2 d~
+		d8 g, g' f e4 f8 h,
+		c2 f,\fermata \bar "||" %28 finis
 	}
 }
 

@@ -89,12 +89,66 @@ GloriaAltoNotes = {
 		\key c \major \time 6/4 \autoBeamOff \tempoGloria
 			\set Staff.timeSignatureFraction = 3/4
 			\override Staff.TimeSignature.style = #'single-digit
-		
+		\mvTr e4\fE^\tuttiE g8 g g g g4 g c,8 g'
+		a a g2 g4 r r
+		R1.*2
+		r1*3/4 d4 fis8 g a fis %5
+		d4 fis d8 d e e d2
+		d4 r r r1*3/4
+		R1.
+		d4 fis8 g a fis d4 fis d8 d
+		e e d2 d4 g g %10
+		g a2~ a4 g2~
+		g4 f2~ f g4~
+		g8 a^\critnote g2 g4 r r
+		r e8 e a g a4 d,8 d g g
+		g g g2 g r4 %15
+		R1.
+		r1*3/4 r4 r g
+		g g g8 g g4 g8 g g g
+		g4 g r r r8 c, d e
+		f2 g4 f4. f8 e e %20
+		d4 g8 g g4 a g4. g8
+		g2. r1*3/4
+		R1.
+		\time 3/4 R2.\fermataMarkup \bar "||"
+		\time 4/4
+			\unset Staff.timeSignatureFraction
+			\revert Staff.TimeSignature.style
+		\mvTr f8\fE^\tuttiE f16 f d8 e16 e e4 e %25
+		e8 a, a' g f8. f16 f4
+		f4. f8 g4 f8 f
+		f4( e) f2\fermata \bar "||" %28 finis
 	}
 }
 
 GloriaAltoLyrics = \lyricmode {
+	[Glo -- ri -- a in ex -- cel -- sis, in ex --
+	cel -- sis De -- o.]
 	
+	[Glo -- ri -- a in ex -- %5
+	cel -- sis, in ex -- cel -- sis De --
+	o.]
+	
+	[Glo -- ri -- a in ex -- cel -- sis, in ex -- %9
+	cel -- sis De -- o, in ex -- %10
+	cel -- _ _
+	_ _
+	sis De -- o.]
+	Pax ho -- mi -- ni -- bus bo -- nae, bo -- nae
+	vo -- lun -- ta -- tis. %15
+	
+	[Lau --
+	da -- mus, be -- ne -- di -- ci -- mus, ad -- o --
+	ra -- mus], glo -- ri -- fi --
+	ca -- mus te, glo -- ri -- fi -- %20
+	ca -- mus, glo -- ri -- fi -- ca -- mus
+	te. %22 finis
+	
+	Gra -- ti -- as a -- gi -- mus ti -- bi %25
+	pro -- pter ma -- gnam glo -- ri -- am,
+	ma -- gnam glo -- ri -- am
+	tu -- am. %28 finis
 }
 
 % AltoNotes = {
