@@ -100,21 +100,21 @@ GloriaViolinoI = {
 		c4. a8 h c h c d2~
 		d8 c d,-\critnote c' d, h' c4 e e
 		cis?8 e cis'?4. g8 f g a f d e16 f
-		g8 e d,-\critnote c' d, h' c2 r4 %15
+		g8 e d,^\critnote c' d, h' c2 r4 %15
 		R1.
 		r1*3/4 r4 r e
 		d16 g g g h, g' g g g, g' g g d g g g h, g' g g g, g' g g
 		d g g g g,8 g a h c4. e8 f g
 		f4. a,8 h! c d4. f8 g a %20
-		d,4. g8 e4 c' c^\critnote h
-		c g4. f16 e f4 f,8 f'4 e16 d
+		d,4. g8 e4 d^\critnote d2
+		c4 g'4. f16 e f4 f,8 f'4 e16 d
 		e8 h c4. g8 a c d4. d8
 		\time 3/4 e2.\fermata \bar "||"
 		\time 4/4 \tempoGratias
 			\unset Staff.timeSignatureFraction
 			\revert Staff.TimeSignature.style
 		R1*3 %27
-		R1\fermataMarkup \bar "||" %28 finis<
+		R1\fermataMarkup \bar "||" %28 finis
 	}
 }
 

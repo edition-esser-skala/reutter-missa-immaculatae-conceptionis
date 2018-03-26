@@ -85,7 +85,32 @@ GloriaViolinoII = {
 		\key c \major \time 6/4 \tempoGloria
 			\set Staff.timeSignatureFraction = 3/4
 			\override Staff.TimeSignature.style = #'single-digit
-		
+		\mvDll c'4\fE d8 d d d e4 d e8 d
+		c c c4 h c^\critnote r r
+		R1.*4 %6
+		r4 r8 d, d d h4 r8 h h h-\critnote
+		g4 r8 g' g g g4 g d
+		d a'8-\critnote a a a h4 a h8 a
+		g8 g g4 fis g d8 c d h %10
+		e g a g f e  d f g f e d
+		c e f e d c d4 d'2~
+		d8 c d, c' d, h' c4 e e
+		cis4. cis8 d e f4 f8 f h, h
+		c e d2 c r4 %15
+		R1.
+		r1*3/4 r4 r e
+		d g, e'8 e d4 g,8 g e' e
+		d4 g,8 g a h c2 b4
+		a4. a8 h c d2 c4 %20
+		h4. h8 c4 c c h
+		c8 g e g c, d16 e f8 f f a d,-\critnote e16 f
+		g8 g g g e f16 g a8 c c4 h
+		\time 3/4 c2.\fermata \bar "||"
+		\time 4/4 \tempoGratias
+			\unset Staff.timeSignatureFraction
+			\revert Staff.TimeSignature.style
+		R1*3 %27
+		R1\fermataMarkup \bar "||" %28 finis
 	}
 }
 
