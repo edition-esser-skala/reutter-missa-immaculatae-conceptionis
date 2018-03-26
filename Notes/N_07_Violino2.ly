@@ -68,7 +68,7 @@ ChristeViolinoII = {
 		r8 g, c e h4 c8 e
 		a,4. h16 c d4 d8 d
 		g,4. a16 h c4 c8 e %50
-		a, h c h-\critnote c4 r
+		a,-\critnote a c h c4 r
 		R1*7 %58
 		r8 e' a,8 f' e4 a,
 		r8 d4 c8 h4 r8 e %60
