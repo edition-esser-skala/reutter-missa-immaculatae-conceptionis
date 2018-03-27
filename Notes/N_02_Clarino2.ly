@@ -73,6 +73,9 @@ GratiasClarinoII = {
 			\set Score.currentBarNumber = #25
 		R1*3 %27
 		R1\fermataMarkup \bar "||"
+		\key f \major \tempoGratias
+			R1*54
+		R1\fermataMarkup \bar "||" %83 finis
 	}
 }
 

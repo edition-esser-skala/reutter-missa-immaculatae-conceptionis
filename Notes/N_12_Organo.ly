@@ -224,10 +224,10 @@ GratiasOrgano = {
 			\set Score.currentBarNumber = #25
 		\mvTr d8\pE-\soloE d16 e f8 g a4 a, %25
 		cis2 d~
-		d8 g, g' f e4 f8 b,?
+		d8 g, g' f e4 f8 b,? \noBreak
 		c2 f,\fermata \bar "||"
 		\key f \major \tempoGratias
-			\mvTr f'8\pE-\solo a r c a f r c'
+			\mvTr f'8\pE-\solo a r c a f r c' \noBreak
 		a f b a g f e d %30
 		c4 r8 e f g a f
 		b a b r a g a r
