@@ -117,6 +117,50 @@ GratiasViolinoII = {
 		R1*3 %27
 		R1\fermataMarkup \bar "||"
 		\key f \major \tempoGratias
+			a'4\pE c8 g a4 c8 g
+		a4 d8 c b2~ %30
+		b8 g'16 f e d c b a4 r8 c
+		d16( e) f8~ f16 d b d c( e) f8~ f16 c a c
+		b( e) f8~ f16 b, g b a( e') f8~ f16 a, f a
+		g8 c b c16 b a8 a b c
+		f, d'16 c b a g f e4 g8 d %35
+		e4 g8 d e r c e
+		g2~ g8 f e8. f16
+		f4 r r2
+		r r8 g c b16 c
+		a8 a b c f, d'16 c b a g f %40
+		e8 f g-\critnote e' a,4 r
+		R1*4 %45
+		r2 e4 g8 d
+		e4 g8 d e g' a g
+		f2~ f8 g16 a  g f e d
+		e h c d d,8 h' c,4 r
+		R1*4 %53
+		r2 r8 h'16 c d8 g,
+		e'16( fis) g8~ g16 e c e d( fis) g8~ g16 d h? d %55
+		c( fis) g8~ g16 c, a c \once \slurDashed h( fis') g8~ g16 h, g h
+		a8 d c d16 c h8 h c d
+		g, f'!16 e d c h a g8-\critnote r g h
+		d2~ d8 c c h
+		c4 r r2 %60
+		r2 r8 g f16 c' d e
+		f8 f, d16 d' e f g8 g, e16 e' f g
+		a,8 d g,,16 d' e f e4 r
+		R1*4 %67
+		h'4 d8 a h4 d8 a
+		h4 r r8 c b c16 b
+		a8 b16 a g f e d c4 r %70
+		R1*3
+		a'4 c8 g a4 c8 g
+		a4 d8 c b2~ %75
+		b8 g'16 f e d c b a4 r8 c
+		d16( e) f8~ f16 d b d c( e) f8~ f16 c a c
+		\once \slurDashed b( e) f8~ f16 b, g b \once \slurDashed a( e') f8~ f16 c a c
+		g8 c b c16 b a8 a b c
+		f, d'16 c b a g f e4 g8 d %80
+		e4 g8 d e r c e
+		g2~ g8 f f e
+		f4 r r2\fermata \bar "||" %83 finis
 	}
 }
 

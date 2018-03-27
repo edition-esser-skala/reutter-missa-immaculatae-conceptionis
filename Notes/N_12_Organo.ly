@@ -233,7 +233,7 @@ GratiasOrgano = {
 		b a b r a g a r
 		g f g r f e f d
 		c c d e f f g a
-		b4 r8 b, c f r g %35
+		b4 r8 b, c e^\critnote r g %35
 		e c r g' e4 r
 		r8 b'16 a g f e d c8 f c' c,
 		f a r c a f16 g a8 f

@@ -141,7 +141,7 @@ GratiasViolinoI = {
 		d c d, h' c4 e16 d c h
 		c4 e16 d c h? c8 g' a g
 		f2~ f8 g16 a  g f e d
-		e h c e, d8 h' c,4 r
+		e h c f,-\critnote d8 h' c,4 r
 		r g'16 c e g a,-\critnote d f a f8. e16 %50
 		d8 d, g,4 r2
 		R1
