@@ -149,6 +149,15 @@ GratiasTenoreNotes = {
 		b?8. b16 b4 b a8 a^\critnote
 		g2 a\fermata \bar "||"
 		\key f \major \tempoGratias
+			R1*20 %48
+		r2 \mvTr c4\pE^\soloE e16([ d)] c([ h?)]
+		c4 g a8 h?16([ c)] d8 c %50
+		h?8. c16 d4 e16[ d e8]~ e16[ f c e]
+		d[ c d8]~ d16[ e h? d] c[ h? c8]~ c16[ d a c]
+		h?8 c d e d( c4 h?16[ a]
+		h?8) g g([ fis)] g4 r
+		R1*28 %82
+		R1\fermataMarkup \bar "||" %83 finis
 	}
 }
 
@@ -157,6 +166,13 @@ GratiasTenoreLyrics = \lyricmode {
 	pro -- pter ma -- gnam
 	glo -- ri -- am, glo -- ri -- am
 	tu -- am.
+	
+	Do -- mi -- ne __ %49
+	Fi -- li, Fi -- li __ u -- ni -- %50
+	ge -- ni -- te Je --
+	_ _
+	_ su, Je -- su, Je --
+	su Chri -- ste. %54 finis
 }
 
 % TenoreNotes = {

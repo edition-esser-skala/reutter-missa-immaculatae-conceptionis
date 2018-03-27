@@ -138,6 +138,24 @@ GratiasBassoNotes = {
 		d8 g, g' f e4 f8 b,?
 		c2 f,\fermata \bar "||"
 		\key f \major \tempoGratias
+			R1*31 %59
+		r2 r16 \mvTr g'([\pE^\soloE a h] c[ e, f g] %60
+		a[ d, e f] g8) g, c4 r
+		R1
+		r2 r4 c8 e16 f
+		g8 g, h' g c16[ g g e] e[ c c c']
+		h[ g g d] d[ h? h h'] a[ e e c] e[ a, a a'] %65
+		g8 a h g16 g c[ e, fis g] a[ h c a]
+		fis8[ d g c,] d[ c] d4
+		g, r r2
+		R1
+		r2 r4 c'8 b!16 c %70
+		a8 f a8. a16 b8 b, r4
+		r f'8 a16 a d[ d, e f] g[ a b g]
+		e[ c d e] f[ g a f] b[ c d b] c8[ c,]
+		f4 r r2
+		R1*8 %82
+		R1\fermataMarkup \bar "||" %83 finis
 	}
 }
 
@@ -146,6 +164,22 @@ GratiasBassoLyrics = \lyricmode {
 	
 	pro -- pter ma -- gnam glo -- ri -- am
 	tu -- am.
+	
+	Do -- %60
+	mi -- ne,
+	
+	Do -- mi -- ne
+	De -- us, A -- gnus De -- _
+	_ _ _ _ %65
+	_ i, Fi -- li -- us Pa -- _
+	_ _ _
+	tris.
+	
+	Do -- mi -- ne %70
+	De -- us, A -- gnus De -- i,
+	Fi -- li -- us Pa -- _
+	_ _ _ _
+	tris.
 }
 
 % BassoNotes = {
