@@ -62,22 +62,19 @@ GloriaClarinoI = {
 		r4 r8 g g4 a g4. g8
 		g4 r g f r f
 		e r e \pa d d4. d8 \pd
-		\time 3/4 c2.\fermata \bar "||"
-		\time 4/4 \tempoGratias
-			\unset Staff.timeSignatureFraction
-			\revert Staff.TimeSignature.style
-		R1*3 %27
-		R1\fermataMarkup \bar "||" %28 finis
+		\time 3/4 c2.\fermata \bar "||" %24 finis
 	}
 }
 
-% ClarinoI = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key c \major \time 4/4 \tempo
-% 		
-% 	}
-% }
+GratiasClarinoI = {
+	\relative c' {
+		\clef treble
+		\key d \dorian \time 4/4 \tempoGratias
+			\set Score.currentBarNumber = #25
+		R1*3 %27
+		R1\fermataMarkup \bar "||"
+	}
+}
 
 % ClarinoI = {
 % 	\relative c' {

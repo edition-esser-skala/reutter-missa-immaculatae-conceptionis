@@ -109,22 +109,19 @@ GloriaViolinoI = {
 		d,4. g8 e4 d^\critnote d2
 		c4 g'4. f16 e f4 f,8 f'4 e16 d
 		e8 h c4. g8 a c d4. d8
-		\time 3/4 e2.\fermata \bar "||"
-		\time 4/4 \tempoGratias
-			\unset Staff.timeSignatureFraction
-			\revert Staff.TimeSignature.style
+		\time 3/4 e2.\fermata \bar "||" %24 finis
+	}
+}
+
+GratiasViolinoI = {
+	\relative c' {
+		\clef treble
+		\key d \dorian \time 4/4 \tempoGratias
+			\set Score.currentBarNumber = #25
 		R1*3 %27
 		R1\fermataMarkup \bar "||" %28 finis
 	}
 }
-
-% ViolinoI = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key c \major \time 4/4 \tempo
-% 		
-% 	}
-% }
 
 % ViolinoI = {
 % 	\relative c' {

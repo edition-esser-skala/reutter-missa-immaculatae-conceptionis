@@ -62,12 +62,17 @@ GloriaClarinoII = {
 		r4 r8 d e4 d d4. d8
 		e4 r e d r d
 		c r c d g,8 g g g
-		\time 3/4 e2.\fermata \bar "||"
-		\time 4/4 \tempoGratias
-			\unset Staff.timeSignatureFraction
-			\revert Staff.TimeSignature.style
+		\time 3/4 e2.\fermata \bar "||" %24 finis
+	}
+}
+
+GratiasClarinoII = {
+	\relative c' {
+		\clef treble
+		\key d \dorian \time 4/4 \tempoGratias
+			\set Score.currentBarNumber = #25
 		R1*3 %27
-		R1\fermataMarkup \bar "||" %28 finis
+		R1\fermataMarkup \bar "||"
 	}
 }
 

@@ -168,12 +168,7 @@ GloriaSopranoNotes = {
 		h4. h8 c4 c c h
 		c2. r1*3/4
 		R1.
-		\time 3/4 R2.\fermataMarkup \bar "||"
-		\time 4/4 \tempoGratias
-			\unset Staff.timeSignatureFraction
-			\revert Staff.TimeSignature.style
-		R1*3 %27
-		R1\fermataMarkup \bar "||" %28 finis
+		\time 3/4 R2.\fermataMarkup \bar "||" %24 finis
 	}
 }
 
@@ -201,17 +196,19 @@ GloriaSopranoLyrics = \lyricmode {
 	te. %22 finis
 }
 
-% SopranoNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key c \major \time 4/4 \autoBeamOff \tempo
-% 		
-% 	}
-% }
-% 
-% SopranoLyrics = \lyricmode {
-% 	
-% }
+GratiasSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key d \dorian \time 4/4 \autoBeamOff \tempoGratias
+			\set Score.currentBarNumber = #25
+		R1*3 %27
+		R1\fermataMarkup \bar "||"
+	}
+}
+
+GratiasSopranoLyrics = \lyricmode {
+	
+}
 
 % SopranoNotes = {
 % 	\relative c' {

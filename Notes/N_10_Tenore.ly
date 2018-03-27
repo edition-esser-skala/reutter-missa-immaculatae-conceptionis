@@ -111,14 +111,7 @@ GloriaTenoreNotes = {
 		g4. d'8 e4 d d4.\trill d8
 		e2.^\critnote r1*3/4
 		R1.
-		\time 3/4 R2.\fermataMarkup \bar "||"
-		\time 4/4 \tempoGratias
-			\unset Staff.timeSignatureFraction
-			\revert Staff.TimeSignature.style
-		\mvTr a,8\pE^\soloE a16 g a8 d16 d d4 cis %25
-		r2 a8 d, d' c
-		b?8. b16 b4 b a8 a^\critnote
-		g2 a\fermata \bar "||"
+		\time 3/4 R2.\fermataMarkup \bar "||" %24 finis
 	}
 }
 
@@ -144,24 +137,26 @@ GloriaTenoreLyrics = \lyricmode {
 	glo -- ri -- fi -- ca -- mus %20
 	te, glo -- ri -- fi -- ca -- mus
 	te. %22 finis
-	
+}
+
+GratiasTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key d \dorian \time 4/4 \autoBeamOff \tempoGratias
+			\set Score.currentBarNumber = #25
+		\mvTr a8\pE^\soloE a16 g a8 d16 d d4 cis %25
+		r2 a8 d, d' c
+		b?8. b16 b4 b a8 a^\critnote
+		g2 a\fermata \bar "||"
+	}
+}
+
+GratiasTenoreLyrics = \lyricmode {
 	[Gra -- ti -- as a -- gi -- mus ti -- bi] %25
 	pro -- pter ma -- gnam
 	glo -- ri -- am, glo -- ri -- am
-	tu -- am. %28 finis
+	tu -- am.
 }
-
-% TenoreNotes = {
-% 	\relative c' {
-% 		\clef "treble_8"
-% 		\key c \major \time 4/4 \autoBeamOff \tempo
-% 		
-% 	}
-% }
-% 
-% TenoreLyrics = \lyricmode {
-% 	
-% }
 
 % TenoreNotes = {
 % 	\relative c' {

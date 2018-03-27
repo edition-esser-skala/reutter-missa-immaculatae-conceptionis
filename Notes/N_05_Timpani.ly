@@ -56,22 +56,19 @@ GloriaTimpani = {
 		r4 r c c g8 g g g
 		c2. r1*3/4
 		r4 r c c g8 g g g
-		\time 3/4 c2.\fermata \bar "||"
-		\time 4/4 \tempoGratias
-			\unset Staff.timeSignatureFraction
-			\revert Staff.TimeSignature.style
-		R1*3 %27
-		R1\fermataMarkup \bar "||" %28 finis
+		\time 3/4 c2.\fermata \bar "||" %24 finis
 	}
 }
 
-% Timpani = {
-% 	\relative c {
-% 		\clef bass
-% 		\key c \major \time 4/4 \tempo
-% 		
-% 	}
-% }
+GratiasTimpani = {
+	\relative c {
+		\clef bass
+		\key d \dorian \time 4/4 \tempoGratias
+			\set Score.currentBarNumber = #25
+		R1*3 %27
+		R1\fermataMarkup \bar "||"
+	}
+}
 
 % Timpani = {
 % 	\relative c {

@@ -105,10 +105,15 @@ GloriaViolinoII = {
 		h4. h8 c4 c c h
 		c8 g e g c, d16 e f8 f f a h, c16 d
 		e8 e e g e f16 g a8 c c4 h
-		\time 3/4 c2.\fermata \bar "||"
-		\time 4/4 \tempoGratias
-			\unset Staff.timeSignatureFraction
-			\revert Staff.TimeSignature.style
+		\time 3/4 c2.\fermata \bar "||" %24 finis
+	}
+}
+
+GratiasViolinoII = {
+	\relative c' {
+		\clef treble
+		\key d \dorian \time 4/4 \tempoGratias
+			\set Score.currentBarNumber = #25
 		R1*3 %27
 		R1\fermataMarkup \bar "||" %28 finis
 	}

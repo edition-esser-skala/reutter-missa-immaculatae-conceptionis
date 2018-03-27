@@ -186,14 +186,7 @@ GloriaOrgano = {
 		g a g f e c f d g f g g,
 		c \noBeam \clef "treble_8" c' c e a, h16 c d8 d d f g,-\critnote a16 h
 		c8 c c e \clef bass c, d16 e f8 a g f g g,
-		\time 3/4 c2.\fermata \bar "||"
-		\time 4/4 \tempoGratias
-			\unset Staff.timeSignatureFraction
-			\revert Staff.TimeSignature.style
-			\mvTr d8\pE-\soloE d16 e f8 g a4 a, %25
-		cis2 d~
-		d8 g, g' f e4 f8 b,?
-		c2 f,\fermata \bar "||" %28 finis
+		\time 3/4 c2.\fermata \bar "||" %24 finis
 	}
 }
 
@@ -221,24 +214,27 @@ GloriaBassFigures = \figuremode {
 	r2 <6>4 <6 5> <4> <3>
 	r2 <7>4 r2 <7>4
 	r2. r8 <6> <4>4 <3>
-	r2.
+	r2. %24 finis
+}
+
+GratiasOrgano = {
+	\relative c {
+		\clef bass
+		\key d \dorian \time 4/4 \tempoGratias
+			\set Score.currentBarNumber = #25
+		\mvTr d8\pE-\soloE d16 e f8 g a4 a, %25
+		cis2 d~
+		d8 g, g' f e4 f8 b,?
+		c2 f,\fermata \bar "||"
+	}
+}
+
+GratiasBassFigures = \figuremode {
 	r4 <6>8 <6 _-> <4>4 <_+> %25
 	<6>4. <5>8 <8>4. <7>8
 	<6- 4 3>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff <6 5->4. <7>8
-	<4>4 <3> r2 %28 finis
+	<4>4 <3> r2
 }
-
-% Organo = {
-% 	\relative c {
-% 		\clef bass
-% 		\key c \major \time 4/4 \tempo
-% 		
-% 	}
-% }
-% 
-% BassFigures = \figuremode {
-% 	
-% }
 
 % Organo = {
 % 	\relative c {

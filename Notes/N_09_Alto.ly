@@ -111,14 +111,7 @@ GloriaAltoNotes = {
 		d4 g8 g g4 a g4. g8
 		g2. r1*3/4
 		R1.
-		\time 3/4 R2.\fermataMarkup \bar "||"
-		\time 4/4 \tempoGratias
-			\unset Staff.timeSignatureFraction
-			\revert Staff.TimeSignature.style
-		\mvTr f8\pE^\soloE f16 f d8 e16 e e4 e %25
-		e8 a, a' g f8. f16 f4
-		f4. f8 g4 f8 f
-		f4( e) f2\fermata \bar "||" %28 finis
+		\time 3/4 R2.\fermataMarkup \bar "||" %24 finis
 	}
 }
 
@@ -144,24 +137,26 @@ GloriaAltoLyrics = \lyricmode {
 	ca -- mus te, glo -- ri -- fi -- %20
 	ca -- mus, glo -- ri -- fi -- ca -- mus
 	te. %22 finis
-	
+}
+
+GratiasAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key d \dorian \time 4/4 \autoBeamOff \tempoGratias
+			\set Score.currentBarNumber = #25
+			\mvTr f8\pE^\soloE f16 f d8 e16 e e4 e %25
+		e8 a, a' g f8. f16 f4
+		f4. f8 g4 f8 f
+		f4( e) f2\fermata \bar "||"
+	}
+}
+
+GratiasAltoLyrics = \lyricmode {
 	Gra -- ti -- as a -- gi -- mus ti -- bi %25
 	pro -- pter ma -- gnam glo -- ri -- am,
 	ma -- gnam glo -- ri -- am
-	tu -- am. %28 finis
+	tu -- am.
 }
-
-% AltoNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key c \major \time 4/4 \autoBeamOff \tempo
-% 		
-% 	}
-% }
-% 
-% AltoLyrics = \lyricmode {
-% 	
-% }
 
 % AltoNotes = {
 % 	\relative c' {

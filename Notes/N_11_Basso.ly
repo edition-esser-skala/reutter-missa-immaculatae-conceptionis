@@ -100,14 +100,7 @@ GloriaBassoNotes = {
 		g g8 f e4 f g g,
 		c2. r1*3/4
 		R1.
-		\time 3/4 R2.\fermataMarkup \bar "||"
-		\time 4/4 \tempoGratias
-			\unset Staff.timeSignatureFraction
-			\revert Staff.TimeSignature.style
-		\mvTr d8\pE^\soloE d16 e f8 g16 g a4 a, %25
-		R1
-		d8 g, g' f e4 f8 b,?
-		c2 f,\fermata \bar "||" %28 finis
+		\time 3/4 R2.\fermataMarkup \bar "||" %24 finis
 	}
 }
 
@@ -133,24 +126,26 @@ GloriaBassoLyrics = \lyricmode {
 	ad -- o --
 	ra -- mus, glo -- ri -- fi -- ca -- mus
 	te. %22 finis
-	
+}
+
+GratiasBassoNotes = {
+	\relative c {
+		\clef bass
+		\key d \dorian \time 4/4 \autoBeamOff \tempoGratias
+			\set Score.currentBarNumber = #25
+		\mvTr d8\pE^\soloE d16 e f8 g16 g a4 a, %25
+		R1
+		d8 g, g' f e4 f8 b,?
+		c2 f,\fermata \bar "||" %28 finis
+	}
+}
+
+GratiasBassoLyrics = \lyricmode {
 	Gra -- ti -- as a -- gi -- mus ti -- bi %25
 	
 	pro -- pter ma -- gnam glo -- ri -- am
-	tu -- am. %28 finis
+	tu -- am.
 }
-
-% BassoNotes = {
-% 	\relative c {
-% 		\clef bass
-% 		\key c \major \time 4/4 \autoBeamOff \tempo
-% 		
-% 	}
-% }
-% 
-% BassoLyrics = \lyricmode {
-% 	
-% }
 
 % BassoNotes = {
 % 	\relative c {
