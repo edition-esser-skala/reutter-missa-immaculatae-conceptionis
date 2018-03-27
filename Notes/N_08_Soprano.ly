@@ -233,10 +233,10 @@ GratiasSopranoLyrics = \lyricmode {
 	li -- us Pa --
 	tris.
 	
-	Do -- mi -- ne De -- us, A -- gnus
+	Do -- mi -- ne De -- us, A -- gnus %71
 	De -- i, Fi -- li -- us, Fi -- li -- us
 	Pa --
-	tris.
+	tris. %74 finis
 }
 
 % SopranoNotes = {

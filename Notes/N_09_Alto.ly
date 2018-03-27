@@ -149,6 +149,18 @@ GratiasAltoNotes = {
 		f4. f8 g4 f8 f
 		f4( e) f2\fermata \bar "||"
 		\key f \major \tempoGratias
+			R1*9 %37
+		\mvTr f4\pE^\soloE a16([ g)] f([ e)] f4 c
+		d16([ f g a] b8) g16([ f)] e8([ f)] g4
+		R1 %40
+		r2 f4 a16([ g)] f([ e)]
+		f4 c d16([ f g a] b8) g16([ f)]
+		e8([ f)] g4 a4. b16[ a]
+		g[( f g8]~ g16[ g a g] f[ e f8]~ f16[ f g f]
+		e8) f g a g( f4\trill e16[ d] %45
+		e8) f16 e d8. c16 c4 r
+		R1*36 %82
+		R1\fermataMarkup \bar "||" %83 finis
 	}
 }
 
@@ -157,6 +169,15 @@ GratiasAltoLyrics = \lyricmode {
 	pro -- pter ma -- gnam glo -- ri -- am,
 	ma -- gnam glo -- ri -- am
 	tu -- am.
+	
+	Do -- mi -- ne De -- us, %38
+	Rex __ coe -- les -- tis,
+	Do -- mi -- ne %40
+	De -- us, Rex __ coe --
+	les -- tis, De -- us
+	Pa --
+	ter, De -- us Pa --
+	ter o -- mni -- po -- tens. %45 finis
 }
 
 % AltoNotes = {
