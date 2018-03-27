@@ -204,11 +204,39 @@ GratiasSopranoNotes = {
 		R1*3 %27
 		R1\fermataMarkup \bar "||"
 		\key f \major \tempoGratias
+			R1*31 %59
+		\mvTr c'4\pE^\soloE e16([ d)] c([ h?)] c4 g %60
+		R1*2
+		r2 g8 a16 h? c8 c16 c
+		c8 h? d d e4. f16[ e]
+		d4. e16[ d] c4. d16[ c] %65
+		h?8 g d' d16 d d8[( e16 d] c4~)
+		c h?8 a h?4( a)
+		g r r2
+		R1*2 %70
+		r4 f'8 es16 f d8 b! g' f
+		e c c c16 c c8. b16 b4
+		b( a g2)
+		f4 r r2
+		R1*8 %82
+		R1\fermataMarkup \bar "||" %83 finis
 	}
 }
 
 GratiasSopranoLyrics = \lyricmode {
+	Do -- mi -- ne __ De -- us, %60
 	
+	Do -- mi -- ne, Do -- mi -- ne %63
+	De -- us, A -- gnus De -- _
+	_ _ _ _ %65
+	_ i, Fi -- li -- us, Fi --
+	li -- us Pa --
+	tris.
+	
+	Do -- mi -- ne De -- us, A -- gnus
+	De -- i, Fi -- li -- us, Fi -- li -- us
+	Pa --
+	tris.
 }
 
 % SopranoNotes = {
