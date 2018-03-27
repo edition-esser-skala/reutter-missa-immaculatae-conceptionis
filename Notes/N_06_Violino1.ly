@@ -121,6 +121,60 @@ GratiasViolinoI = {
 		R1*3 %27
 		R1\fermataMarkup \bar "||"
 		\key f \major \tempoGratias
+			f'4\pE a16 g f16. e32 f4 a16 g f16. e32
+		f8^\critnote c d c b2~ %30
+		b8 g'16 f e d c b a4 r8 c
+		d16( e) f8~ f16 d b d c( e) f8~ f16 c a c
+		b( e) f8~ f16 b, g b a( e') f8~ f16 a, f a
+		g8-\critnote r r4 r8 f' es f16 es
+		d8 b'16 a g f e d c4 e16 d c h %35
+		c4 e16 d c h c8 c, e g
+		b2~ b16 c a b g8. f16
+		f4 r r2
+		r r8 g c b16 c
+		a8 f' es f16 es d8 b'16 a g f e d %40
+		c b a8 g e' a,4 r
+		R1
+		r2 r8 f'4 g16 f
+		e8 g, c, e' e4( d)
+		c8 g c,4 r r8 d' %45
+		d c d, h' c4 e16 d c h
+		c4 e16 d c h? c8 g' a g
+		f2~ f8 g16 a  g f e d
+		e h c e, d8 h' c,4 r
+		r g'16 c e g a,-\critnote d f a f8. e16 %50
+		d8 d, g,4 r2
+		R1
+		r2 r4 r8 a''
+		a16 d, g8 a, fis' r h,16 c d8 g,
+		e'16( fis) g8~ g16 e c e d( fis) g8~ g16 d h? d %55
+		c( fis) g8~ g16 e c e^\critnote h?( fis') g8~ g16 d h? d
+		a8 r r4 r8 g' f g16 f
+		e8 a16 g f! e d c h8 g h d
+		f2~ f16 g e f d8. c16
+		c4 r r2 %60
+		r4 r16g' f g e c h c a8 a
+		d16 f g a h,8 d, c16 g' a h c8 e,
+		f16 f' g a d,,8 h'? c,4 r
+		R1*2 %65
+		r4 g'8 h e,4 e'8 a
+		a,4 h8 g' g, d' d, fis'
+		g4 h?16 a g fis g4 h?16 a g fis
+		g8 g f g16 f e8 e f g
+		c, d16 c b! a g f e8 c r4 %70
+		r2 r4 b'8 a16 b
+		g4 r r2
+		R1
+		f'4 a16 g f16. e32 f4 a16 g f16. e32
+		f8 c d c b2~ %75
+		b8 g'16 f e d c b a8 f r c'
+		d16( e) f8~ f16 d b d c( e) f8~ f16 c a c
+		\once \slurDashed b( e) f8~ f16 b, g b \once \slurDashed a( e') f8~ f16 a, f a
+		g8 r r4 r8 f' es f16 es
+		d8 b'16 a g f e d c4 e16 d c h %80
+		c4 e16 d c h c8 c, e g
+		b2~ b16 c a b g8. f16
+		f4 r r2\fermata \bar "||" %83 finis
 	}
 }
 

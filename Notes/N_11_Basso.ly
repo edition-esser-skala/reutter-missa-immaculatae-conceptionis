@@ -179,7 +179,7 @@ GratiasBassoLyrics = \lyricmode {
 	De -- us, A -- gnus De -- i,
 	Fi -- li -- us Pa -- _
 	_ _ _ _
-	tris.
+	tris. %74 finis
 }
 
 % BassoNotes = {
