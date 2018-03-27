@@ -203,6 +203,7 @@ GratiasSopranoNotes = {
 			\set Score.currentBarNumber = #25
 		R1*3 %27
 		R1\fermataMarkup \bar "||"
+		\key f \major \tempoGratias
 	}
 }
 

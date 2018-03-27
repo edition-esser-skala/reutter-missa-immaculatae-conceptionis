@@ -148,6 +148,7 @@ GratiasAltoNotes = {
 		e8 a, a' g f8. f16 f4
 		f4. f8 g4 f8 f
 		f4( e) f2\fermata \bar "||"
+		\key f \major \tempoGratias
 	}
 }
 

@@ -119,7 +119,8 @@ GratiasViolinoI = {
 		\key d \dorian \time 4/4 \tempoGratias
 			\set Score.currentBarNumber = #25
 		R1*3 %27
-		R1\fermataMarkup \bar "||" %28 finis
+		R1\fermataMarkup \bar "||"
+		\key f \major \tempoGratias
 	}
 }
 

@@ -148,6 +148,7 @@ GratiasTenoreNotes = {
 		r2 a8 d, d' c
 		b?8. b16 b4 b a8 a^\critnote
 		g2 a\fermata \bar "||"
+		\key f \major \tempoGratias
 	}
 }
 

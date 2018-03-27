@@ -226,6 +226,62 @@ GratiasOrgano = {
 		cis2 d~
 		d8 g, g' f e4 f8 b,?
 		c2 f,\fermata \bar "||"
+		\key f \major \tempoGratias
+			\mvTr f'8\pE-\solo a r c a f r c'
+		a f b a g f e d %30
+		c4 r8 e f g a f
+		b a b r a g a r
+		g f g r f e f d
+		c c d e f f g a
+		b4 r8 b, c f r g %35
+		e c r g' f4 r
+		r8 b16 a g f e d c8 f c' c,
+		f a r c a f16 g a8 f
+		b, a g b c d e c
+		f f, g a b4 b' %40
+		c8 f, c c f a r c,
+		a f16 g a8 f b a g b
+		c d e c f e d b
+		c d e c d c h g
+		c d e f e16 c d c-\critnote h4 %45
+		c8 f g g, c e r g
+		e c r g' e c f e
+		d c h a g4 r8 h
+		c f g g, c e r g
+		e c16 d e8 c f e d e16 f %50
+		g8 a h g c h c r
+		h? a h? r a g fis d
+		g a h c h16 g a g fis8 d
+		g e d d, g a h4
+		c8 h c a h a h g %55
+		a g a d g fis g e
+		d d e fis g4 a8 h?
+		c4 r8 f, g4 r
+		r8 f16 e d c h a g8 c g' g,
+		c e r g e c16 d e4 %60
+		f8 a g g, c e f e
+		d  r g f e r c r
+		d f g g, c4 e8 c
+		g' g, h' g c c, r c'
+		h4 r8 h a4 r8 a %65
+		g4 h8 g c4 r8 c,
+		d fis g c, d c d d,
+		g' h r d h g r d'
+		h? g a h? c c, d e
+		f4 r8 b,! c d e4 %70
+		f r8 a b4 r8 b,
+		c e f a b4 r8 b,
+		c4 f8 a b g c c,
+		f a r c a f r c'
+		a f b a g f e d %75
+		c4 r8 e f g a f
+		b a b r a g a r
+		g f g r f e f d
+		c c d e f f g a
+		b4 r8 b, c e r g %80
+		e c r g' e4 r
+		r8 b'16 a g f e d c8 f c' c,
+		f4 r r2\fermata \bar "||" %83 finis
 	}
 }
 

@@ -136,7 +136,8 @@ GratiasBassoNotes = {
 		\mvTr d8\pE^\soloE d16 e f8 g16 g a4 a, %25
 		R1
 		d8 g, g' f e4 f8 b,?
-		c2 f,\fermata \bar "||" %28 finis
+		c2 f,\fermata \bar "||"
+		\key f \major \tempoGratias
 	}
 }
 
