@@ -148,7 +148,7 @@ GratiasViolinoI = {
 		r2 r4 r8 a''
 		a16 d, g8 a, fis' r h,16 c d8 g,
 		e'16( fis) g8~ g16 e c e d( fis) g8~ g16 d h? d %55
-		c( fis) g8~ g16 e c e^\critnote h?( fis') g8~ g16 d h? d
+		c( fis) g8~ g16 c,^\critnote a c h?( fis') g8~ g16 h,^\critnote g h
 		a8 r r4 r8 g' f g16 f
 		e8 a16 g f! e d c h8 g h d
 		f2~ f16 g e f d8. c16

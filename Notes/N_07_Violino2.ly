@@ -155,7 +155,7 @@ GratiasViolinoII = {
 		a4 d8 c b2~ %75
 		b8 g'16 f e d c b a4 r8 c
 		d16( e) f8~ f16 d b d c( e) f8~ f16 c a c
-		\once \slurDashed b( e) f8~ f16 b, g b \once \slurDashed a( e') f8~ f16 c a c
+		\once \slurDashed b( e) f8~ f16 b, g b \once \slurDashed a( e') f8~ f16 a,^\critnote f a
 		g8 c b c16 b a8 a b c
 		f, d'16 c b a g f e4 g8 d %80
 		e4 g8 d e r c e
