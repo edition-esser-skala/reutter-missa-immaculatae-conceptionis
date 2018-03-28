@@ -185,7 +185,7 @@ QuiTollisViolinoI = {
 			\override Staff.TimeSignature.style = #'single-digit
 			\set Score.currentBarNumber = #84
 		R\breve
-		r1 g' %85
+		r1 g'\fE %85
 		a g2 c
 		c b1 a2
 		f4 g a h c b? a2
