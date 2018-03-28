@@ -239,17 +239,19 @@ GratiasSopranoLyrics = \lyricmode {
 	tris. %74 finis
 }
 
-% SopranoNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key c \major \time 4/4 \autoBeamOff \tempo
-% 		
-% 	}
-% }
-% 
-% SopranoLyrics = \lyricmode {
-% 	
-% }
+QuiTollisSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 2/1 \autoBeamOff \tempoQuiTollis
+			\override Staff.TimeSignature.style = #'single-digit
+			\set Score.currentBarNumber = #84
+		
+	}
+}
+
+QuiTollisSopranoLyrics = \lyricmode {
+	
+}
 
 % SopranoNotes = {
 % 	\relative c' {

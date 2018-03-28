@@ -175,17 +175,19 @@ GratiasTenoreLyrics = \lyricmode {
 	su Chri -- ste. %54 finis
 }
 
-% TenoreNotes = {
-% 	\relative c' {
-% 		\clef "treble_8"
-% 		\key c \major \time 4/4 \autoBeamOff \tempo
-% 		
-% 	}
-% }
-% 
-% TenoreLyrics = \lyricmode {
-% 	
-% }
+QuiTollisTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 2/1 \autoBeamOff \tempoQuiTollis
+			\override Staff.TimeSignature.style = #'single-digit
+			\set Score.currentBarNumber = #84
+		
+	}
+}
+
+QuiTollisTenoreLyrics = \lyricmode {
+	
+}
 
 % TenoreNotes = {
 % 	\relative c' {

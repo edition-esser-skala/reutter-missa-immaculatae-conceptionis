@@ -182,17 +182,19 @@ GratiasBassoLyrics = \lyricmode {
 	tris. %74 finis
 }
 
-% BassoNotes = {
-% 	\relative c {
-% 		\clef bass
-% 		\key c \major \time 4/4 \autoBeamOff \tempo
-% 		
-% 	}
-% }
-% 
-% BassoLyrics = \lyricmode {
-% 	
-% }
+QuiTollisBassoNotes = {
+	\relative c {
+		\clef bass
+		\key c \major \time 2/1 \autoBeamOff \tempoQuiTollis
+			\override Staff.TimeSignature.style = #'single-digit
+			\set Score.currentBarNumber = #84
+		
+	}
+}
+
+QuiTollisBassoLyrics = \lyricmode {
+	
+}
 
 % BassoNotes = {
 % 	\relative c {

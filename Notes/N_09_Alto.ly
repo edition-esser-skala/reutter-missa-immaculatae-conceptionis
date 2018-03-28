@@ -180,17 +180,19 @@ GratiasAltoLyrics = \lyricmode {
 	ter o -- mni -- po -- tens. %45 finis
 }
 
-% AltoNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key c \major \time 4/4 \autoBeamOff \tempo
-% 		
-% 	}
-% }
-% 
-% AltoLyrics = \lyricmode {
-% 	
-% }
+QuiTollisAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 2/1 \autoBeamOff \tempoQuiTollis
+			\override Staff.TimeSignature.style = #'single-digit
+			\set Score.currentBarNumber = #84
+		
+	}
+}
+
+QuiTollisAltoLyrics = \lyricmode {
+	
+}
 
 % AltoNotes = {
 % 	\relative c' {

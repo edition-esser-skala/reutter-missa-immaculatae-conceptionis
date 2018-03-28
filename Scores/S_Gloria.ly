@@ -81,71 +81,138 @@
 % 			\midi { \tempo 4 = 110 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = "2.2 GRATIAS"
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new Staff <<
+% 						\set Staff.instrumentName = "Clarino I, II"
+% 						\partcombine \GratiasClarinoI \GratiasClarinoII
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Timpani"
+% 						\GratiasTimpani
+% 					}
+% 				>>
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\GratiasViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\GratiasViolinoII
+% 						}
+% 					>>
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Soprano"
+% 						\new Voice = "Soprano" { \dynamicUp \GratiasSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \GratiasSopranoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \GratiasAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \GratiasAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \GratiasTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \GratiasTenoreLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basso"
+% 						\new Voice = "Basso" { \dynamicUp \GratiasBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \GratiasBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\GratiasOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\GratiasBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 100 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = "2.2 GRATIAS"
+			movement = "2.3 QUI TOLLIS"
 		}
 		\score {
 			<<
 				\new StaffGroup <<
 					\new Staff <<
 						\set Staff.instrumentName = "Clarino I, II"
-						\partcombine \GratiasClarinoI \GratiasClarinoII
+						\partcombine \QuiTollisClarinoI \QuiTollisClarinoII
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "Timpani"
-						\GratiasTimpani
+						\QuiTollisTimpani
 					}
 				>>
 				\new StaffGroup <<
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\GratiasViolinoI
+							\QuiTollisViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\GratiasViolinoII
+							\QuiTollisViolinoII
 						}
 					>>
 				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
-						\new Voice = "Soprano" { \dynamicUp \GratiasSopranoNotes }
+						\new Voice = "Soprano" { \dynamicUp \QuiTollisSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \GratiasSopranoLyrics
+					\new Lyrics \lyricsto Soprano \QuiTollisSopranoLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \GratiasAltoNotes }
+						\new Voice = "Alto" { \dynamicUp \QuiTollisAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \GratiasAltoLyrics
+					\new Lyrics \lyricsto Alto \QuiTollisAltoLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \GratiasTenoreNotes }
+						\new Voice = "Tenore" { \dynamicUp \QuiTollisTenoreNotes }
 					}
-					\new Lyrics \lyricsto Tenore \GratiasTenoreLyrics
+					\new Lyrics \lyricsto Tenore \QuiTollisTenoreLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Basso"
-						\new Voice = "Basso" { \dynamicUp \GratiasBassoNotes }
+						\new Voice = "Basso" { \dynamicUp \QuiTollisBassoNotes }
 					}
-					\new Lyrics \lyricsto Basso \GratiasBassoLyrics
+					\new Lyrics \lyricsto Basso \QuiTollisBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\GratiasOrgano
+						\QuiTollisOrgano
 					}
 				>>
 				\new FiguredBass {
-					\GratiasBassFigures
+					\QuiTollisBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 100 }
+			\midi { \tempo 4 = 110 }
 		}
 	}
 }

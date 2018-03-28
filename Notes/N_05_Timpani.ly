@@ -73,13 +73,15 @@ GratiasTimpani = {
 	}
 }
 
-% Timpani = {
-% 	\relative c {
-% 		\clef bass
-% 		\key c \major \time 4/4 \tempo
-% 		
-% 	}
-% }
+QuiTollisTimpani = {
+	\relative c {
+		\clef bass
+		\key c \major \time 2/1 \tempoQuiTollis
+			\override Staff.TimeSignature.style = #'single-digit
+			\set Score.currentBarNumber = #84
+		
+	}
+}
 
 % Timpani = {
 % 	\relative c {

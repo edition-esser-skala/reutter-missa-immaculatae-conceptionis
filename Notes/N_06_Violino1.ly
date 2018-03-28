@@ -178,13 +178,15 @@ GratiasViolinoI = {
 	}
 }
 
-% ViolinoI = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key c \major \time 4/4 \tempo
-% 		
-% 	}
-% }
+QuiTollisViolinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 2/1 \tempoQuiTollis
+			\override Staff.TimeSignature.style = #'single-digit
+			\set Score.currentBarNumber = #84
+		
+	}
+}
 
 % ViolinoI = {
 % 	\relative c' {

@@ -164,6 +164,16 @@ GratiasViolinoII = {
 	}
 }
 
+QuiTollisViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 2/1 \tempoQuiTollis
+			\override Staff.TimeSignature.style = #'single-digit
+			\set Score.currentBarNumber = #84
+		
+	}
+}
+
 % ViolinoII = {
 % 	\relative c' {
 % 		\clef treble
