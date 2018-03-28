@@ -262,8 +262,8 @@ QuiTollisTenoreLyrics = \lyricmode {
 	re -- re no -- bis,
 	mi -- se -- re -- re no --
 	bis, mi -- se --
-	re -- re no --
-	bis.
+	re -- re no -- %135
+	bis. %136 finis
 }
 
 % TenoreNotes = {
