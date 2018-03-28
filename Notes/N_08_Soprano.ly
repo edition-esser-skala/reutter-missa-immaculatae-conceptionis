@@ -249,8 +249,8 @@ QuiTollisSopranoNotes = {
 		r1 \mvTr g'\fE^\tuttiE %85
 		a g2 c
 		c( b1) a2
-		f4( g a h c h a2)
-		h a4( g) f( g a h
+		f4( g a h c b? a2)
+		h? a4( g) f( g a h
 		c h a g) a2 h %90
 		a r r1
 		r c
@@ -266,7 +266,7 @@ QuiTollisSopranoNotes = {
 		c d) b1 %110
 		d es2 d4 c
 		d2 b a1
-		g r4 d' e! f
+		g r4 d' e! f!
 		cis a d1 c2~
 		c b a d %115
 		b c a( b

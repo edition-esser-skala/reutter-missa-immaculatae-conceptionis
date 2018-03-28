@@ -186,12 +186,94 @@ QuiTollisAltoNotes = {
 		\key c \major \time 2/1 \autoBeamOff \tempoQuiTollis
 			\override Staff.TimeSignature.style = #'single-digit
 			\set Score.currentBarNumber = #84
-		
+		\mvTr c1\fE^\tuttiE d
+		c2 f f e4( d) %85
+		c2( f1 e2
+		d1) e2 f^\critnote
+		a g4( f) e2( f)
+		d c d( f)
+		g e d1 %90
+		e2 f g( f4 e
+		f2) e4( d) e2( f)
+		f e4( d) e2 d4( c)
+		g'1 f2 g
+		e a g1( %95
+		f) g2 r
+		R\breve*7 %103
+		r2 r4 g~ g fis8([ e)] f2(
+		e2. a4 d,2) g %105
+		c,( f d1)
+		c2 f~ f4 e8([ d)] es2
+		f d( e) f
+		g g fis( g
+		a1) d, %110
+		R\breve*2
+		g1 b2 a4 g
+		a2 f! e1
+		fis2 g g( fis %115
+		g) a fis( g~
+		g fis) d1
+		R\breve
+		r1 r2 f(
+		e2.) e4 f2 c!4 c %120
+		f2 f d g
+		f1 e2 r
+		R\breve*5 %127
+		r1 r4 c e( f)
+		g d g( f) e2 r
+		r1 g %130
+		a g2 f
+		f4 f e2 g h,
+		c2. d4 e f g2
+		g2. g4 g2 g
+		g\breve %135
+		g\fermata \bar "||" %136 finis
 	}
 }
 
 QuiTollisAltoLyrics = \lyricmode {
+	Qui tol -- %84
+	lis pec -- ca -- ta __ %85
+	mun --
+	di, pec --
+	ca -- ta, __ pec --
+	ca -- ta, pec --
+	ca -- ta mun -- %90
+	di, pec -- ca --
+	ta __ mun --
+	di, pec -- ca -- ta __
+	mun -- di, pec --
+	ca -- ta mun -- %95
+	di:
 	
+	Mi -- se -- re -- %104
+	re %105
+	no --
+	bis, mi -- se -- re --
+	re, mi -- se --
+	re -- re no --
+	bis. %110
+	
+	Qui tol -- lis pec -- %113
+	ca -- ta mun --
+	di, pec -- ca -- %115
+	ta mun --
+	di:
+	
+	Sus --
+	ci -- pe [de -- pre -- %120
+	ca -- ti -- o -- nem
+	no -- stram.]
+	
+	Mi -- se -- %128
+	re -- re no -- bis.
+	Qui %130
+	se -- des ad
+	dex -- te -- ram Pa -- _
+	_ _ _ _ tris:
+	Mi -- se -- re -- re
+	no -- %135
+	bis. %136 finis
 }
 
 % AltoNotes = {

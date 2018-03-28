@@ -395,7 +395,7 @@ QuiTollisOrgano = {
 		\clef treble d''1-! es2-! d4-! c-!
 		d2-! b-! a1-!
 		<< {
-			g1 r4 d' e! f
+			g1 r4 d' e! f!
 			cis a d1 c2~
 			c b
 		} \\ {
@@ -405,7 +405,7 @@ QuiTollisOrgano = {
 		} >> \clef "treble_8" d1 %115
 		es2 d4 c d2 b
 		a1 \clef bass g
-		<< { r4 d' e! f cis a } \\ { b2 a4 g a2 f } >>
+		<< { r4 d' e! f! cis a } \\ { b2 a4 g a2 f! } >>
 		e1 d2 d~
 		d cis d e4 e %120
 		f2 f1 e2
@@ -425,7 +425,7 @@ QuiTollisOrgano = {
 			d1 c
 		} >>
 		g c2 a
-		h c f, \clef "treble_8" h' %130
+		h c g-\critnote \clef "treble_8" h' %130
 		a d4 c h g \clef bass h,2
 		h c g1~-\tasto
 		g\breve~
