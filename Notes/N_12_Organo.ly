@@ -353,7 +353,85 @@ QuiTollisOrgano = {
 		\key c \major \time 2/1 \tempoQuiTollis
 			\override Staff.TimeSignature.style = #'single-digit
 			\set Score.currentBarNumber = #84
-		\mvTr c'1\fE-\tuttiE d
+		\mvTr c'1-!\fE-\tuttiE d-!
+		<< {
+			r1 g %85
+			a g2 c
+			c b
+		} \\ {
+			c,2 f f e4 d %85
+			c2 f1 e2
+			d1
+		} >> \clef bass c,1
+		d c2 f~
+		f e d1
+		e1 fis2 g~ %90
+		g f e a
+		d,1 \clef "treble_8"b'2 a
+		b1~ b2 a
+		h c d \clef bass g,~
+		g f1 e2 %95
+		d1 c
+		g c2 a
+		g1 f4 g a h
+		c \clef "treble_8" c' e f g d g2
+		c, d h c %100
+		f,1 g
+		\clef bass g,\breve~-\markup { \remark "Pedale" }
+		g~
+		g2 \clef treble << {
+			r4 g''~ g fis8 e f2
+			e2. a4 d,2 g %105
+			c, f
+		} \\ {
+			g,2 a2. h4
+			d cis8 h\once \tieDashed c2~ c \once \tieDashed b~ %105
+			b a
+		} >> \clef "treble_8" g4 f8 e d4 e
+		f g a h \clef bass c,1
+		d c2 f~
+		f es d g~
+		g fis g1 %110
+		\clef treble d''1-! es2-! d4-! c-!
+		d2-! b-! a1-!
+		<< {
+			g1 r4 d' e f
+			cis a d1 c2~
+			c b
+		} \\ {
+			g1 b2 a4 g
+			a2 f e1
+			fis2 g
+		} >> \clef "treble_8" d1 %115
+		es2 d4 c d2 b
+		a1 \clef bass g
+		<< { r4 d' e f cis a } \\ { b2 a4 g a2 f } >>
+		e1 d2 d~
+		d cis d e4 e %120
+		f2 f1 e2
+		d1 c-!
+		d-! c2-! f-!
+		<< {
+			g1 a
+			g2 c1 h2 %125
+			c2. d8 c h2. c8 h
+			a1 h2 c~
+			c h s1
+		} \\ {
+			f2 e4 d c2 \once \tieDashed f~
+			f e d1 %125
+			e2 fis g4 d g2~
+			g \once \tieDashed f~ f e
+			d1 c
+		} >>
+		g c2 a
+		h c f, \clef "treble_8" h' %130
+		a d4 c h g \clef bass h,2
+		h c g1~-\tasto
+		g\breve~
+		g~
+		g %135
+		c\fermata \bar "||" %136 finis
 	}
 }
 
