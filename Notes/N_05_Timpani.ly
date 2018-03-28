@@ -79,7 +79,21 @@ QuiTollisTimpani = {
 		\key c \major \time 2/1 \tempoQuiTollis
 			\override Staff.TimeSignature.style = #'single-digit
 			\set Score.currentBarNumber = #84
-		
+		R\breve*12 %95
+		r1 c\fE
+		g c2 r
+		R\breve*4 %101
+		r1 r2 r4 g
+		g g8 g g[ g g g] g4 g8 g g4 g
+		g2 r r1
+		R\breve*23 %127
+		r1 c
+		g c2 r
+		R\breve*3 %132
+		r1 r2 g
+		g4 g8 g g4 g g g8 g g[ g g g]
+		g4 g8 g g[ g g g] g4 g8 g g[ g g g] %135
+		c\breve\fermata \bar "||" %136 finis
 	}
 }
 
