@@ -245,12 +245,91 @@ QuiTollisSopranoNotes = {
 		\key c \major \time 2/1 \autoBeamOff \tempoQuiTollis
 			\override Staff.TimeSignature.style = #'single-digit
 			\set Score.currentBarNumber = #84
-		
+		R\breve
+		r1 \mvTr g'\fE^\tuttiE %85
+		a g2 c
+		c( b1) a2
+		f4( g a h c h a2)
+		h a4( g) f( g a h
+		c h a g) a2 h %90
+		a r r1
+		r c
+		d c2 f
+		f e d4( c b2)
+		cis d h c %95
+		c( h) c r
+		R\breve*9 %105
+		r1 b2 f4( g)
+		a1 g2 r4 c~
+		c h!8([ a)] b1 a2
+		h( c1 b2
+		c d) b1 %110
+		d es2 d4 c
+		d2 b a1
+		g r4 d' e! f
+		cis a d1 c2~
+		c b a d %115
+		b c a( b
+		c1) b
+		r r2 a(
+		g2.) g4 f2 r
+		r1 r2 g4 g %120
+		a2 a h! c
+		c( h!) c r
+		R\breve*5 %127
+		r1 c
+		c2( h) c c
+		d c h d( %130
+		c1) d2 c4 h
+		d d e2 d r
+		r1 r2 g,(
+		a2.) h4 c g c c
+		h2 c c4( h8[ a] h2) %135
+		c\breve\fermata \bar "||" %136 finis
 	}
 }
 
 QuiTollisSopranoLyrics = \lyricmode {
+	Qui %85
+	tol -- lis pec --
+	ca -- ta
+	mun --
+	di, pec -- ca --
+	ta mun -- %90
+	di,
+	qui
+	tol -- lis pec --
+	ca -- ta mun --
+	di, pec -- ca -- ta %95
+	[mun -- di:]
 	
+	Mi -- se -- %106
+	re -- re, mi --
+	se -- re -- re
+	no --
+	bis. %110
+	Qui tol -- lis pec --
+	ca -- ta mun --
+	di, pec -- ca -- ta
+	mun -- _ _ _
+	_ di, pec -- %115
+	ca -- ta mun --
+	di:
+	Sus --
+	ci -- pe
+	de -- pre -- %120
+	ca -- ti -- o -- nem
+	no -- stram.
+	
+	Qui %128
+	se -- des ad
+	dex -- te -- ram Pa -- %130
+	tris: Mi -- se --
+	re -- re no -- bis,
+	mi --
+	se -- re -- re, mi -- se --
+	re -- re no -- %135
+	bis. %136 finis
 }
 
 % SopranoNotes = {
