@@ -85,7 +85,26 @@ QuiTollisClarinoII = {
 		\key c \major \time 2/1 \tempoQuiTollis
 			\override Staff.TimeSignature.style = #'single-digit
 			\set Score.currentBarNumber = #84
-		
+		R\breve*12 %95
+		r1 e\fE
+		g e2 c'
+		d g, c f
+		f e e d
+		R\breve %100
+		d2. c4 g2 r
+		r1 r2 e'~
+		e4 c d2~ d4 g, c2
+		g r r1
+		R\breve*23 %127
+		r1 e
+		g e2 c'
+		d c g d' %130
+		c1 d2 c
+		d c g r
+		r e'~ e4 d8 c d2
+		d c g c
+		d\breve %135
+		e\fermata \bar "||" %136 finis
 	}
 }
 
