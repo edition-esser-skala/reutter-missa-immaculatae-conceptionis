@@ -181,12 +181,89 @@ QuiTollisTenoreNotes = {
 		\key c \major \time 2/1 \autoBeamOff \tempoQuiTollis
 			\override Staff.TimeSignature.style = #'single-digit
 			\set Score.currentBarNumber = #84
-		
+		R\breve*5 %88
+		\mvTr g1\fE^\tuttiE a
+		g2 c c h %90
+		cis( \once \tieDashed d~ d cis)
+		d4 a b1 a2
+		\once \tieDashed b1~ b2( a)
+		h c d1
+		a d2( e %95
+		f1) e2 r
+		R\breve*7 %103
+		r2 g,( a2.) d4
+		d( cis8[ h] \once \tieDashed c2~ c b~) %105
+		b a g4 f8([ e)] d4 e
+		f g a h c2 g
+		f1 g2 d'~
+		d g, a d^\critnote
+		c( b4 a) g1 %110
+		R\breve*4
+		r1 d' %115
+		es2 d4 c d2 b
+		a1 g
+		r4 d'( e! f!) cis( a) d2
+		d( cis) d a(
+		g) a a c4 c %120
+		c2 c g e'
+		d( g,) g r
+		R\breve
+		g1 a
+		g2 c c h4 h %125
+		c2. d8[ c] h2. c8[ h]
+		a1 h2 c
+		d h c1
+		R\breve
+		r1 r2 h4 h %130
+		a2 d4( c) h g g g
+		g g g2( c) g
+		a2. h4 c g h2
+		c2. f4~ f2 e
+		d e d1 %135
+		e\breve\fermata \bar "||" %136 finis
 	}
 }
 
 QuiTollisTenoreLyrics = \lyricmode {
+	Qui tol -- %89
+	lis pec -- ca -- ta %90
+	mun -- 
+	di, pec -- ca -- ta
+	mun --
+	di, pec -- ca --
+	ta mun -- %95
+	di:
 	
+	Mi -- se -- %104
+	re -- %105
+	re, mi -- se -- re -- re
+	no -- _ _ _ _ _
+	_ bis, mi --
+	se -- re -- re
+	no -- bis. %110
+	
+	Qui %115
+	tol -- lis pec -- ca -- ta
+	mun -- di,
+	pec -- ca -- ta
+	mun -- di: Sus --
+	ci -- pe [de -- pre -- %120
+	ca -- ti -- o -- nem
+	no -- stram.]
+	
+	Qui se --
+	des ad dex -- te -- ram %125
+	Pa -- _ _ _
+	_ _ _
+	_ _ tris:
+	
+	Mi -- se -- %130
+	re -- re __ no -- bis, mi -- se --
+	re -- re no -- bis,
+	mi -- se -- re -- re no --
+	bis, mi -- se --
+	re -- re no --
+	bis.
 }
 
 % TenoreNotes = {

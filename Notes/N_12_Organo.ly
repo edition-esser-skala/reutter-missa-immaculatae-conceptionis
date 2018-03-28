@@ -384,7 +384,7 @@ QuiTollisOrgano = {
 			e2. a4 d,2 g %105
 			c, f
 		} \\ {
-			g,2 a2. h4
+			g,2 a2. d4-\critnote
 			d cis8 h\once \tieDashed c2~ c \once \tieDashed b~ %105
 			b a
 		} >> \clef "treble_8" g4 f8 e d4 e
