@@ -192,7 +192,7 @@ QuiTollisTenoreNotes = {
 		f1) e2 r
 		R\breve*7 %103
 		r2 g,( a2.) d4
-		d( cis8[ h] \once \tieDashed c2~ c b~) %105
+		d cis8[ h] \once \tieDashed c2~ c b~ %105
 		b a g4 f8([ e)] d4 e
 		f g a h c2 g
 		f1 g2 d'~
@@ -216,7 +216,7 @@ QuiTollisTenoreNotes = {
 		R\breve
 		r1 r2 h4 h %130
 		a2 d4( c) h g a^\critnote a
-		g g g2( c) g
+		g g g2( h)^\critnote g
 		a2. h4 c g h2
 		c2. f4~ f2 e
 		d e d1 %135
@@ -235,7 +235,7 @@ QuiTollisTenoreLyrics = \lyricmode {
 	di:
 	
 	Mi -- se -- %104
-	re -- %105
+	re -- _ _ _ %105
 	re, mi -- se -- re -- re
 	no -- _ _ _ _ _
 	_ bis, mi --

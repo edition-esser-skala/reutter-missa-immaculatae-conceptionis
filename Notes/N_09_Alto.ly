@@ -188,8 +188,8 @@ QuiTollisAltoNotes = {
 			\set Score.currentBarNumber = #84
 		\mvTr c1\fE^\tuttiE d
 		c2 f f e4( d) %85
-		c2( f1 e2
-		d1) e2 f^\critnote
+		c2 f1 e2
+		d1 e2 f^\critnote
 		a g4( f) e2( f)
 		d c d( f)
 		g e d1 %90
@@ -200,8 +200,8 @@ QuiTollisAltoNotes = {
 		e a g1( %95
 		f) g2 r
 		R\breve*7 %103
-		r2 r4 g~ g fis8([ e)] f2(
-		e2. a4 d,2) g %105
+		r2 r4 g~ g fis8([ e)] f2
+		e2. a4 d,2 g %105
 		c,( f d1)
 		c2 f~ f4 e8([ d)] es2
 		f d( e) f
@@ -234,8 +234,8 @@ QuiTollisAltoNotes = {
 QuiTollisAltoLyrics = \lyricmode {
 	Qui tol -- %84
 	lis pec -- ca -- ta __ %85
-	mun --
-	di, pec --
+	mun -- _ _
+	_ di, pec --
 	ca -- ta, __ pec --
 	ca -- ta, pec --
 	ca -- ta mun -- %90
@@ -247,7 +247,7 @@ QuiTollisAltoLyrics = \lyricmode {
 	di:
 	
 	Mi -- se -- re -- %104
-	re %105
+	_ _ _ re %105
 	no --
 	bis, mi -- se -- re --
 	re, mi -- se --
