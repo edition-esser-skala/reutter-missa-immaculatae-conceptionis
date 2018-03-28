@@ -170,7 +170,55 @@ QuiTollisViolinoII = {
 		\key c \major \time 2/1 \tempoQuiTollis
 			\override Staff.TimeSignature.style = #'single-digit
 			\set Score.currentBarNumber = #84
-		
+		R\breve
+		r1 g' %85
+		a g2 c
+		c b1 a2
+		f4 g a h c b? a2
+		h? a4 g f g a h
+		c h a g a2 h %90
+		a r r1
+		r c
+		d c2 f
+		f e d4 c b2
+		cis d h c %95
+		c h c e,
+		g1 e2 c'4 a-\critnote
+		h g d' h a h c d
+		g,2 e'1 d2
+		R\breve %100
+		d4 c h a g2 e'~
+		e4 a, d2~ d4 g, g'2~
+		g4 f8 e f2~ f4 e8 d e2
+		d2 r r1
+		R\breve %105
+		r1 b2 f4 g
+		a1 g2 r4 c~
+		c h!8 a b1 a2
+		h c1 b2
+		c d b1 %110
+		d es2 d4 c
+		d2 b a1
+		g r4 d' e! f!
+		cis a d1 c2~
+		c b a d %115
+		b c a b
+		c1 b
+		r r2 a
+		g2. g4 f2 r
+		r1 r2 g4 g %120
+		a2 a h! c
+		c h! c r
+		R\breve*5 %127
+		r1 c~
+		c2 h c c
+		d c h d %130
+		c1 h2^\critnote c4 c
+		d d e2 d e~
+		e4 a, d2~ d4 g, g2
+		a2. h4 c g c c
+		h2 c~ c4 h8 a h2 %135
+		c\breve\fermata \bar "||" %136 fini
 	}
 }
 
