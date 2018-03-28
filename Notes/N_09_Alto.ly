@@ -222,7 +222,7 @@ QuiTollisAltoNotes = {
 		r1 r4 c e( f)
 		g d g( f) e2 r
 		r1 g %130
-		a g2 f
+		g2(^\critnote fis) g f
 		f4 f e2 g h,
 		c2. d4 e f g2
 		g2. g4 g2 g

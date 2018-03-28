@@ -215,7 +215,7 @@ QuiTollisTenoreNotes = {
 		d h c1
 		R\breve
 		r1 r2 h4 h %130
-		a2 d4( c) h g g g
+		a2 d4( c) h g a^\critnote a
 		g g g2( c) g
 		a2. h4 c g h2
 		c2. f4~ f2 e

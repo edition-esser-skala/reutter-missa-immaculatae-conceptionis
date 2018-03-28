@@ -188,12 +188,83 @@ QuiTollisBassoNotes = {
 		\key c \major \time 2/1 \autoBeamOff \tempoQuiTollis
 			\override Staff.TimeSignature.style = #'single-digit
 			\set Score.currentBarNumber = #84
-		
+		R\breve*3
+		r1 \mvTr c\fE^\tuttiE
+		d c2 f
+		f e d1
+		e1 fis2 g~ %90
+		g f e( a)
+		d,1 r
+		R\breve
+		r1 r2 g~
+		g f f e %95
+		d1 c2 r
+		R\breve*10 %106
+		r1 c
+		d c4 c f f
+		f2 es d4 d g g
+		g2( fis) g1 %110
+		R\breve*6
+		r1 g
+		b2 a4 g a2 f!
+		e1 d2 d~
+		d cis d e4 e %120
+		f2 f f e
+		d1 c2 c
+		d1 c2 f
+		f2 e4( d) c2 \once \tieDashed f~
+		f e d1 %125
+		e2 fis g4 d g2~
+		g f1 e2
+		d1 c
+		g c2 a
+		h4 h c2 g^\critnote r %130
+		r1 r2 a4 a
+		h h c2 g1
+		R\breve
+		r1 g2 g
+		g g g1 %135
+		c\breve\fermata \bar "||" %136 finis
 	}
 }
 
 QuiTollisBassoLyrics = \lyricmode {
+	Qui %87
+	tol -- lis pec --
+	ca -- ta mun --
+	di, pec -- ca -- %90
+	ta mun --
+	di:
 	
+	Mi -- %94
+	se -- re -- re %95
+	no -- bis.
+	
+	Qui %107
+	tol -- lis pec -- ca -- ta
+	mun -- di: Mi -- se -- re -- re
+	no -- bis. %110
+	
+	Qui %117
+	tol -- lis pec -- ca -- ta
+	mun -- di: Sus --
+	ci -- pe de -- pre -- %120
+	ca -- ti -- o -- nem
+	no -- stram. Qui
+	se -- des ad
+	dex -- te -- ram Pa --
+	_ _ %125
+	_ _ _ _ _
+	_ _
+	_ _
+	tris: Mi -- se --
+	re -- re no -- bis, %130
+	mi -- se --
+	re -- re no -- bis,
+	
+	mi -- se --
+	re -- re no -- %135
+	bis. %136 finis
 }
 
 % BassoNotes = {

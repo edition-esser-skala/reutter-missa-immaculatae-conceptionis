@@ -426,7 +426,7 @@ QuiTollisOrgano = {
 		} >>
 		g c2 a
 		h c g-\critnote \clef "treble_8" h' %130
-		a d4 c h g \clef bass h,2
+		a d4 c h g \clef bass a,2-\critnote
 		h c g1~-\tasto
 		g\breve~
 		g~
@@ -483,8 +483,8 @@ QuiTollisBassFigures = \figuremode {
 	r
 	<4>2 <3> r1
 	<6>1. <6>2 %130
-	r1 <6>2 <6 5>
-	<\t \t> r <4> <3>
+	r1 <6>2 <6>
+	<6 5> r <4> <3>
 	r\breve
 	r
 	<5 3>2 <6 4> <5 \t> <\t 3> %135

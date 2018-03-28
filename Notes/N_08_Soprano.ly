@@ -280,7 +280,7 @@ QuiTollisSopranoNotes = {
 		r1 c
 		c2( h) c c
 		d c h d( %130
-		c1) d2 c4 h
+		c1) h2^\critnote c4 c
 		d d e2 d r
 		r1 r2 g,(
 		a2.) h4 c g c c
