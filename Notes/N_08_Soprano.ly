@@ -338,12 +338,45 @@ QuoniamSopranoNotes = {
 		\key g \major \time 4/4 \autoBeamOff \tempoQuoniam
 			\set Staff.timeSignatureFraction = 2/4
 			\set Score.currentBarNumber = #137
-		
+		R1*10 %146
+		r2 \mvTr g'8\pE^\soloE h16([ c)] d8 e
+		d4 g,8 g a h c4
+		h r8 d a h c8. c16
+		\appoggiatura c8 h4 r8 d \appoggiatura c h4 e8 d %150
+		\appoggiatura d cis8. cis16 fis4 r r8 a,(
+		cis4) d d( cis)
+		d r r2
+		R1*3 %156
+		d8. e16 d8 c h([ a)] g4
+		r r8 g e' d c4
+		h r8 d e d c8. c16
+		h4 r8 h a h fis g %160
+		a4 a8 h a h fis g
+		a8. a16 a8 h c4. h16 a
+		h8([ c] d4.) c16 h c4~
+		c8 h \appoggiatura h a4 g r
+		R1*10 %174
+		\time 2/4 R2\fermataMarkup \bar "||" %175 finis
 	}
 }
 
 QuoniamSopranoLyrics = \lyricmode {
+	Quo -- ni -- am tu %147
+	so -- lus, tu so -- lus San --
+	ctus, tu so -- lus Do -- mi --
+	nus, tu so -- lus al -- %150
+	tis -- si -- mus Je --
+	su Chri --
+	ste.
 	
+	Quo -- ni -- am tu so -- lus,
+	tu so -- lus San --
+	ctus, tu so -- lus Do -- mi --
+	nus, tu so -- lus, so -- lus
+	San -- ctus, tu so -- lus, so -- lus
+	Do -- mi -- nus, tu so -- lus al --
+	tis -- si -- mus Je --
+	su Chri -- ste.
 }
 
 % SopranoNotes = {

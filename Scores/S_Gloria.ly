@@ -219,6 +219,7 @@
 		\header {
 			movement = "2.4 QUONIAM"
 		}
+		\paper { systems-per-page = #2 }
 		\score {
 			<<
 				\new StaffGroup <<
