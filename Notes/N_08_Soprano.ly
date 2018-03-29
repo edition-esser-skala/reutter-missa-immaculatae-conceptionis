@@ -405,7 +405,7 @@ CumSanctoSopranoNotes = {
 		g h4 h c2 h
 		a1 h2 c
 		h4 h e d c h a g %210
-		fis a d c h a g f
+		f? a d c h a g f
 		e g c2 h c
 		c( h) c c4( b
 		a2) g f g

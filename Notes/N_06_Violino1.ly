@@ -284,7 +284,32 @@ CumSanctoViolinoI = {
 		\key c \major \time 4/2 \tempoCumSancto
 			\set Staff.timeSignatureFraction = 2/2
 			\set Score.currentBarNumber = #176
-		
+		R\breve*12 %187
+		c'1\fE e2 g,
+		a c^\critnote d fis,
+		g h4 h c2 h %190
+		a d d4 c8 h c2
+		h r r1
+		R\breve*5 %197
+		r1 r4 h e d
+		c h a g fis a d c
+		h a g f e g c2~ %200
+		c h a1
+		h2 c1 h2
+		c e a, r
+		r d g, r
+		R\breve %205
+		c1 e2 g,
+		a c d fis,
+		g h4 h c2 h
+		a1 h2 c
+		d g g g8 a h c %210
+		f,2 f f f8 g a c
+		c2 e,4 d8 c d2 g4 g
+		g1 f2 c4 b
+		a2 e' f c4 b
+		a2 g4 f \once \tieDashed g1~ %215
+		\time 2/2 g\fermata \bar "|." %216 FINIS
 	}
 }
 
