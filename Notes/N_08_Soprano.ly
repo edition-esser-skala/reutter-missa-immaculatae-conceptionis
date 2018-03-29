@@ -343,7 +343,7 @@ QuoniamSopranoNotes = {
 		d4 g,8 g a h c4
 		h r8 d a h c8. c16
 		\appoggiatura c8 h4 r8 d \appoggiatura c h4 e8 d %150
-		\appoggiatura d cis8. cis16 fis4 r r8 a,(
+		\appoggiatura d cis8. cis16 fis4 r r8 h,(^\critnote
 		cis4) d d( cis)
 		d r r2
 		R1*3 %156
