@@ -385,12 +385,61 @@ CumSanctoSopranoNotes = {
 		\key c \major \time 4/2 \autoBeamOff \tempoCumSancto
 			\set Staff.timeSignatureFraction = 2/2
 			\set Score.currentBarNumber = #176
-		
+		R\breve*12 %187
+		\mvTr c'1\fE^\tuttiE e2 g,
+		a c^\critnote d fis,
+		g h4 h c2 h %190
+		a d d4( c8[ h] c2)
+		h r r1
+		R\breve*5 %197
+		r1 r4 h e d
+		c h a g fis a d c
+		h a g f e g c2~ %200
+		c h a1
+		h2( c1) h2
+		c( e) a, r
+		r d g, r
+		R\breve %205
+		c1 e2 g,
+		a c d fis,
+		g h4 h c2 h
+		a1 h2 c
+		h4 h e d c h a g %210
+		fis a d c h a g f
+		e g c2 h c
+		c( h) c c4( b
+		a2) g f g
+		a( g4 f) g1~ %215
+		\time 2/2 g\fermata \bar "|." %216 FINIS
 	}
 }
 
 CumSanctoSopranoLyrics = \lyricmode {
+	Cum San -- cto %188
+	Spi -- ri -- tu in
+	glo -- ri -- a De -- i %190
+	Pa -- tris, a --
+	men.
 	
+	A -- _ _ %198
+	_ _ _ _ _ _ _ _
+	_ _ _ _ _ _ _ %200
+	_ men,
+	a -- men,
+	a -- men,
+	a -- men.
+	%205
+	Cum San -- cto
+	Spi -- ri -- tu in
+	glo -- ri -- a De -- i
+	Pa -- tris, a --
+	men, a -- _ _ _ _ _ _ %210
+	_ _ _ _ _ _ _ _
+	_ _ _ _ men,
+	a -- men, a --
+	men, a -- men,
+	a -- men. __ %215
+	%216 FINIS
 }
 
 % SopranoNotes = {

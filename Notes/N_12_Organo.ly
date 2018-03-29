@@ -623,7 +623,7 @@ CumSanctoOrgano = {
 			c h a1
 			h2^\critnote c
 		} \\ {
-			g2
+			g2-\tuttiE
 			a c, d fis?
 			g h, c e %200
 			fis g~ g4 f8 e \once \tieDashed f2~
