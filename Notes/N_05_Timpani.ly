@@ -103,7 +103,21 @@ CumSanctoTimpani = {
 		\key c \major \time 4/2 \tempoCumSancto
 			\set Staff.timeSignatureFraction = 2/2
 			\set Score.currentBarNumber = #176
-		
+		R\breve*17 %192
+		r2 g\fE c c
+		g4 g8g g4 g g g g g
+		c2 r r1 %195
+		r2 g c4 c8 c c4 c
+		g2 r r1
+		g2 c g r
+		R\breve*11 %209
+		r1 r2 g %210
+		g g g g4 g
+		g g8 g g4 g g g8 g g4 g
+		g2 g4 g c2 r
+		r1 r2 c
+		c4 c8 c c4 c c c8 c c[ c c c] %215
+		\time 2/2 c1\fermata \bar "|." %216 FINIS
 	}
 }
 
