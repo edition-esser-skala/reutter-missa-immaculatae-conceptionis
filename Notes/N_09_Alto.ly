@@ -282,12 +282,69 @@ CumSanctoAltoNotes = {
 		\key c \major \time 4/2 \autoBeamOff \tempoCumSancto
 			\set Staff.timeSignatureFraction = 2/2
 			\set Score.currentBarNumber = #176
-		
+		R\breve*8 %183
+		\mvTr g'1\fE^\tuttiE a2 c,
+		d f g h, %185
+		c e4 e f2 e
+		d1 c
+		r4 c e f g f e d
+		c e a g fis e d c
+		h d g fis e fis g2~ %190
+		g fis g2.( a4)
+		d,2 r r1
+		R\breve*5 %197
+		r1 g
+		a2 c, d fis
+		g h, c e4 e %200
+		fis2 g g4( f8[ e] f2~)
+		f e d1
+		e2 r r a
+		d, r r g
+		c, g'( f1) %205
+		e r
+		r r2 a
+		d,1 r
+		r g
+		g2 g4 f e1 %210
+		d d2.( c8[ h]
+		c2) g' g1
+		g1~ g2
+		g( f) e^\critnote c( e)
+		f1 f2( e4 d) %215
+		\time 2/2 e1\fermata \bar "|." %216 FINIS
 	}
 }
 
 CumSanctoAltoLyrics = \lyricmode {
+	Cum San -- cto %184
+	Spi -- ri -- tu in %185
+	glo -- ri -- a De -- i
+	Pa -- tris,
+	a -- _ _ _ _ _ _
+	_ _ _ _ _ _ _ _
+	_ _ _ _ _ _ _
+	men, a --
+	men.
 	
+	Cum %198
+	San -- cto Spi -- ri --
+	tu in glo -- ri -- a %200
+	De -- i Pa --
+	tris, a --
+	men, a --
+	men, a --
+	men, a -- %205
+	men,
+	a --
+	men,
+	in
+	glo -- ri -- a De -- %210
+	i Pa --
+	tris, a --
+	men, __ Pa --
+	tris, a --
+	men, a -- %215
+	men. %216 FINIS
 }
 
 % AltoNotes = {
