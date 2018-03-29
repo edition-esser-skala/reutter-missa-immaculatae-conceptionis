@@ -306,7 +306,7 @@ CumSanctoViolinoI = {
 		d g g g8 a h c %210
 		f,2 f f f8 g a c
 		c2 e,4 d8 c d2 g4 g
-		g1 f2 c4 b
+		g1 g2 c4 b
 		a2 e' f c4 b
 		a2 g4 f \once \tieDashed g1~ %215
 		\time 2/2 g\fermata \bar "|." %216 FINIS
