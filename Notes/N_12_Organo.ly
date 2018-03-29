@@ -498,6 +498,44 @@ QuoniamOrgano = {
 			\set Staff.timeSignatureFraction = 2/4
 			\set Score.currentBarNumber = #137
 		\mvTr g'8\pE-\solo a h a g g,16 a h4
+		c8 h a d g a h g
+		fis4 r8 fis e4 r8 e
+		d4 e8 d cis e'16 d cis h a g %140
+		fis8 g a a, d d'16 c h8 g
+		c, c'4 h8 a4 a,
+		r8 h'4 a8 g4 g,
+		r8 a'4 g8 fis4 d
+		g r8 c, d d'16 c h8 g %145
+		c d e fis g d e c
+		d c d d, g, g'16 a h8 c~
+		c h16 a h8 g fis g e fis
+		g a h g fis g e fis
+		g a h fis g fis e r %150
+		a g a fis h4 r8 g
+		a g fis g a g a a,
+		d4 fis8 g~ g fis16 e fis8 d
+		cis d h cis d e fis d
+		cis4 h a8 h cis4 %155
+		d8 fis16 g a8 a, d d'16 c! h8 a
+		g4 r r8 d' e d16 c
+		h8 a g e' c h a d,
+		g a h4 c8 h a d,
+		g a h g fis4 d8 e %160
+		fis e d g fis4 d8 e
+		fis e d g a g fis d
+		g a h4 c r8 c,
+		d g d' d, g a h a
+		g g,16 a h4 c8 h a d %165
+		g a h g fis4 r8 fis
+		e4 r8 e d4 e8 d
+		cis e'16 d cis h a g fis8 g a a,
+		d d'16 c h8 a c, c'4 h8
+		a4 a, r8 h'4 a8 %170
+		g4 g, r8 a'4 g8
+		fis4 d g r8 c,
+		d d'16 c h8 g c d e fis
+		g^\critnote d e c d c d d,
+		\time 2/4 g,4-\critnote r\fermata \bar "||" %175 finis
 	}
 }
 
