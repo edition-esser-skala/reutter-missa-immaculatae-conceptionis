@@ -615,8 +615,8 @@ CumSanctoOrgano = {
 		g
 		c2 c d e %195
 		f g c, c'
-		g c, d1
-		g,2 c g \clef treble << {
+		g1-\critnote c,2 d
+		g, c g \clef treble << {
 			e'''4 d
 			c h a g fis a d c
 			h a g f e g c2~ %200
@@ -663,13 +663,13 @@ CumSanctoBassFigures = \figuremode {
 	r2 <5> <_+>1
 	r1 <5>4 <6\\> <6>2 %190
 	<6 5> <_+> <7> <6>4 <\t>
+	r1 <7>2 <6>4 <\t>
+	r1 <6 4>2 <5 3>
+	<7>1 <8 6>2 <7 5>
+	r1 <6>2 q %195
+	<6 5>1 r
 	r\breve
-	r
-	r
-	r %195
-	r
-	r
-	r
+	<7>
 	r
 	r %200
 	r

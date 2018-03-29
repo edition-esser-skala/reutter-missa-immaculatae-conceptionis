@@ -121,14 +121,14 @@ CumSanctoClarinoI = {
 		e2. d8 e f2 e %195
 		d1 c4 d e f
 		g2 g~ g4 f8 e f2
-		f f e r
+		f e^\critnote d r
 		R\breve*11 %209
 		r1 g %210
 		f f
 		e2 e4 f g f e2
 		d1 e2 r
 		r1 r2 e
-		f1 f2 e4 d %215
+		f1 \pa f2 e4 d \pd %215
 		\time 2/2 e1\fermata \bar "|." %216 FINIS
 	}
 }
