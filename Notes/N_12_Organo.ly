@@ -588,6 +588,61 @@ CumSanctoOrgano = {
 			\set Staff.timeSignatureFraction = 2/2
 			\set Score.currentBarNumber = #176
 		\mvTr g'1\fE-\tuttiE-! a2-! c,-!
+		d-! f-! g-! h,-!
+		c-! e4-! e-!f2-! e-!
+		d1-! c-!
+		<< {
+			c'1 e2 g, %180
+			a c d fis,
+			g h c h
+			a1 g2 g
+		} \\ {
+			r4 c, e f g f e d %180
+			c e a g fis e d c
+			h d g fis e fis \once \tieDashed g2~
+			g fis g4 d g f?
+		} >>
+		e2. d4 c1
+		r2 d e2. d4 %185
+		c1 d2 e
+		f g e4 g c g
+		e2 \clef "treble_8" e'4 d c2. h4
+		a g fis e d2 d'
+		g, g a h %190
+		c \clef bass d, e2. fis4
+		g2 g, a2.-\solo h4
+		c\breve
+		g
+		c2 c d e %195
+		f g c, c'
+		g c, d1
+		g,2 c g \clef treble << {
+			e'''4 d
+			c h a g fis a d c
+			h a g f e g c2~ %200
+			c h a1
+			h2^\critnote c
+		} \\ {
+			g2
+			a c, d fis?
+			g h, c e %200
+			fis g~ g4 f8 e \once \tieDashed f2~
+			f e
+		} >> \clef bass g,1
+		a2 c, d f
+		g h, c e
+		f e d1 %205
+		r4 c e fis g fis e d
+		c e a g fis e d c
+		h d g fis e fis g2~
+		g4 f8 e f1 e4 f
+		g\breve~ %210
+		g~
+		g~
+		g1 c,~
+		c\breve~
+		c~ %215
+		\time 2/2 c1\fermata \bar "|." %216 FINIS
 	}
 }
 
