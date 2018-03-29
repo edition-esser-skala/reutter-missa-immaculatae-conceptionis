@@ -108,13 +108,15 @@ QuiTollisClarinoI = {
 	}
 }
 
-% ClarinoI = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key c \major \time 4/4 \tempo
-% 		
-% 	}
-% }
+CumSanctoClarinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/2 \tempoCumSancto
+			\set Staff.timeSignatureFraction = 2/2
+			\set Score.currentBarNumber = #176
+		
+	}
+}
 
 % ClarinoI = {
 % 	\relative c' {

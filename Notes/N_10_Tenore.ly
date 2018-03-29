@@ -266,18 +266,20 @@ QuiTollisTenoreLyrics = \lyricmode {
 	bis. %136 finis
 }
 
-% TenoreNotes = {
-% 	\relative c' {
-% 		\clef "treble_8"
-% 		\key c \major \time 4/4 \autoBeamOff \tempo
-% 		
-% 	}
-% }
-% 
-% TenoreLyrics = \lyricmode {
-% 	
-% }
-% 
+CumSanctoTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 4/2 \autoBeamOff \tempoCumSancto
+			\set Staff.timeSignatureFraction = 2/2
+			\set Score.currentBarNumber = #176
+		
+	}
+}
+
+CumSanctoTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

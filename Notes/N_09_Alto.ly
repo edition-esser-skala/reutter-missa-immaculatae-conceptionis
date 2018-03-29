@@ -276,17 +276,19 @@ QuiTollisAltoLyrics = \lyricmode {
 	bis. %136 finis
 }
 
-% AltoNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key c \major \time 4/4 \autoBeamOff \tempo
-% 		
-% 	}
-% }
-% 
-% AltoLyrics = \lyricmode {
-% 	
-% }
+CumSanctoAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/2 \autoBeamOff \tempoCumSancto
+			\set Staff.timeSignatureFraction = 2/2
+			\set Score.currentBarNumber = #176
+		
+	}
+}
+
+CumSanctoAltoLyrics = \lyricmode {
+	
+}
 
 % AltoNotes = {
 % 	\relative c' {

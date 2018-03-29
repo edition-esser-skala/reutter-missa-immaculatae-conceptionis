@@ -215,44 +215,111 @@
 % 			\midi { \tempo 2 = 100 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = "2.4 QUONIAM"
+% 		}
+% 		\paper { systems-per-page = #2 }
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\QuoniamViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\QuoniamViolinoII
+% 						}
+% 					>>
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Soprano"
+% 						\new Voice = "Soprano" { \dynamicUp \QuoniamSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \QuoniamSopranoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\QuoniamOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\QuoniamBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 100 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = "2.4 QUONIAM"
+			movement = "2.5 CUM SANCTO SPITIRU"
 		}
-		\paper { systems-per-page = #2 }
 		\score {
 			<<
+				\new StaffGroup <<
+					\new Staff <<
+						\set Staff.instrumentName = "Clarino I, II"
+						\partcombine \CumSanctoClarinoI \CumSanctoClarinoII
+					>>
+					\new Staff {
+						\set Staff.instrumentName = "Timpani"
+						\CumSanctoTimpani
+					}
+				>>
 				\new StaffGroup <<
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\QuoniamViolinoI
+							\CumSanctoViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\QuoniamViolinoII
+							\CumSanctoViolinoII
 						}
 					>>
 				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
-						\new Voice = "Soprano" { \dynamicUp \QuoniamSopranoNotes }
+						\new Voice = "Soprano" { \dynamicUp \CumSanctoSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \QuoniamSopranoLyrics
+					\new Lyrics \lyricsto Soprano \CumSanctoSopranoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \CumSanctoAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \CumSanctoAltoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Tenore"
+						\new Voice = "Tenore" { \dynamicUp \CumSanctoTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \CumSanctoTenoreLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Basso"
+						\new Voice = "Basso" { \dynamicUp \CumSanctoBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \CumSanctoBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\QuoniamOrgano
+						\CumSanctoOrgano
 					}
 				>>
 				\new FiguredBass {
-					\QuoniamBassFigures
+					\CumSanctoBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 100 }
+			\midi { \tempo 2 = 100 }
 		}
 	}
 }

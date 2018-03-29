@@ -379,17 +379,19 @@ QuoniamSopranoLyrics = \lyricmode {
 	su Chri -- ste. %164 finis
 }
 
-% SopranoNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key c \major \time 4/4 \autoBeamOff \tempo
-% 		
-% 	}
-% }
-% 
-% SopranoLyrics = \lyricmode {
-% 	
-% }
+CumSanctoSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/2 \autoBeamOff \tempoCumSancto
+			\set Staff.timeSignatureFraction = 2/2
+			\set Score.currentBarNumber = #176
+		
+	}
+}
+
+CumSanctoSopranoLyrics = \lyricmode {
+	
+}
 
 % SopranoNotes = {
 % 	\relative c' {

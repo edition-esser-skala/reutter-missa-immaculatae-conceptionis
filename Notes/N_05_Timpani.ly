@@ -97,13 +97,15 @@ QuiTollisTimpani = {
 	}
 }
 
-% Timpani = {
-% 	\relative c {
-% 		\clef bass
-% 		\key c \major \time 4/4 \tempo
-% 		
-% 	}
-% }
+CumSanctoTimpani = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/2 \tempoCumSancto
+			\set Staff.timeSignatureFraction = 2/2
+			\set Score.currentBarNumber = #176
+		
+	}
+}
 
 % Timpani = {
 % 	\relative c {

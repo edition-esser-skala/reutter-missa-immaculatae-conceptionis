@@ -267,17 +267,19 @@ QuiTollisBassoLyrics = \lyricmode {
 	bis. %136 finis
 }
 
-% BassoNotes = {
-% 	\relative c {
-% 		\clef bass
-% 		\key c \major \time 4/4 \autoBeamOff \tempo
-% 		
-% 	}
-% }
-% 
-% BassoLyrics = \lyricmode {
-% 	
-% }
+CumSanctoBassoNotes = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/2 \autoBeamOff \tempoCumSancto
+			\set Staff.timeSignatureFraction = 2/2
+			\set Score.currentBarNumber = #176
+		
+	}
+}
+
+CumSanctoBassoLyrics = \lyricmode {
+	
+}
 
 % BassoNotes = {
 % 	\relative c {
