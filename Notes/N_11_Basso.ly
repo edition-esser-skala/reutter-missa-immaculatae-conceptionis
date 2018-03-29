@@ -273,12 +273,73 @@ CumSanctoBassoNotes = {
 		\key c \major \time 4/2 \autoBeamOff \tempoCumSancto
 			\set Staff.timeSignatureFraction = 2/2
 			\set Score.currentBarNumber = #176
-		
+		\mvTr g'1\fE^\tuttiE a2 c,
+		d f g h,
+		c e4 e f2 e
+		d1 c
+		r4 c e f g f e d %180
+		c e a g fis e d c
+		h d g fis e fis g2~
+		g fis g4( d g f
+		e2. d4) c2 c
+		d d e2. d4 %185
+		c2 c d4^\critnote d8 d8 e4 e
+		f2 g r4 g( c g)
+		e2 r r1
+		R\breve*2 %190
+		r2 d( e2. fis4)
+		g2 r r1
+		R\breve*9 %201
+		r1 g
+		a2 c, d f
+		g h, c e4 e
+		f2 e d1^\critnote %205
+		c4^\critnote c e fis g fis e d
+		c e a g fis e d c
+		h d g fis e fis g2~
+		g4 f8[ e] f1 e4 f
+		g1 g~ %210
+		g\breve~
+		g~
+		g1 c,
+		c\breve
+		c~ %215
+		\time 2/2 c1\fermata \bar "|." %216 FINIS
 	}
 }
 
 CumSanctoBassoLyrics = \lyricmode {
+	Cum San -- cto %176
+	Spi -- ri -- tu in
+	glo -- ri -- a De -- i
+	Pa -- tris,
+	a -- _ _ _ _ _ _ %180
+	_ _ _ _ _ _ _ _
+	_ _ _ _ _ _ _
+	men, a --
+	men. Cum
+	San -- cto Spi -- ri -- %185
+	tu in glo -- ri -- a De -- i
+	Pa -- tris, a --
+	men,
 	
+	a -- %191
+	men.
+	
+	Cum %202
+	San -- cto Spi -- ri --
+	tu in glo -- ri -- a
+	De -- i Pa -- %205
+	tris, a -- _ _ _ _ _ _
+	_ _ _ _ _ _ _ _
+	_ _ _ _ _ _ _
+	_ _ _ _
+	men, a -- %210
+	
+	men, %213
+	a --
+	men. __ %215
+	%216 FINIS
 }
 
 % BassoNotes = {

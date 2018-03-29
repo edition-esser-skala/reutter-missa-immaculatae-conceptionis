@@ -589,7 +589,7 @@ CumSanctoOrgano = {
 			\set Score.currentBarNumber = #176
 		\mvTr g'1\fE-\tuttiE-! a2-! c,-!
 		d-! f-! g-! h,-!
-		c-! e4-! e-!f2-! e-!
+		c-! e4-! e-! f2-! e-!
 		d1-! c-!
 		<< {
 			c'1 e2 g, %180
