@@ -491,6 +491,56 @@ QuiTollisBassFigures = \figuremode {
 	r\breve %136 finis
 }
 
+QuoniamOrgano = {
+	\relative c {
+		\clef bass
+		\key g \major \time 4/4 \tempoQuoniam
+			\set Staff.timeSignatureFraction = 2/4
+			\set Score.currentBarNumber = #137
+		\mvTr g'8\pE-\solo a h a g g,16 a h4
+	}
+}
+
+QuoniamBassFigures = \figuremode {
+	
+}
+
+% Organo = {
+% 	\relative c {
+% 		\clef bass
+% 		\key c \major \time 4/4 \tempo
+% 		
+% 	}
+% }
+% 
+% BassFigures = \figuremode {
+% 	
+% }
+
+% Organo = {
+% 	\relative c {
+% 		\clef bass
+% 		\key c \major \time 4/4 \tempo
+% 		
+% 	}
+% }
+% 
+% BassFigures = \figuremode {
+% 	
+% }
+
+% Organo = {
+% 	\relative c {
+% 		\clef bass
+% 		\key c \major \time 4/4 \tempo
+% 		
+% 	}
+% }
+% 
+% BassFigures = \figuremode {
+% 	
+% }
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

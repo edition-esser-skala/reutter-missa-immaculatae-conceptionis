@@ -173,6 +173,7 @@ tempoChriste = \tempoMarkup "[Tempo deest]"
 tempoGloria = \tempoMarkup "[Tempo deest]"
 tempoGratias = \tempoMarkup "[Tempo deest]"
 tempoQuiTollis = \tempoMarkup "[Tempo deest]"
+tempoQuoniam = \tempoMarkup "[Tempo deest]"
 
 
 

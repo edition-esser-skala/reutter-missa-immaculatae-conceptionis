@@ -148,67 +148,106 @@
 % 			\midi { \tempo 4 = 100 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = "2.3 QUI TOLLIS"
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new Staff <<
+% 						\set Staff.instrumentName = "Clarino I, II"
+% 						\partcombine \QuiTollisClarinoI \QuiTollisClarinoII
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Timpani"
+% 						\QuiTollisTimpani
+% 					}
+% 				>>
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\QuiTollisViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\QuiTollisViolinoII
+% 						}
+% 					>>
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Soprano"
+% 						\new Voice = "Soprano" { \dynamicUp \QuiTollisSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \QuiTollisSopranoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \QuiTollisAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \QuiTollisAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \QuiTollisTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \QuiTollisTenoreLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basso"
+% 						\new Voice = "Basso" { \dynamicUp \QuiTollisBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \QuiTollisBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\QuiTollisOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\QuiTollisBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 2 = 100 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = "2.3 QUI TOLLIS"
+			movement = "2.4 QUONIAM"
 		}
 		\score {
 			<<
 				\new StaffGroup <<
-					\new Staff <<
-						\set Staff.instrumentName = "Clarino I, II"
-						\partcombine \QuiTollisClarinoI \QuiTollisClarinoII
-					>>
-					\new Staff {
-						\set Staff.instrumentName = "Timpani"
-						\QuiTollisTimpani
-					}
-				>>
-				\new StaffGroup <<
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\QuiTollisViolinoI
+							\QuoniamViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\QuiTollisViolinoII
+							\QuoniamViolinoII
 						}
 					>>
 				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
-						\new Voice = "Soprano" { \dynamicUp \QuiTollisSopranoNotes }
+						\new Voice = "Soprano" { \dynamicUp \QuoniamSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \QuiTollisSopranoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \QuiTollisAltoNotes }
-					}
-					\new Lyrics \lyricsto Alto \QuiTollisAltoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \QuiTollisTenoreNotes }
-					}
-					\new Lyrics \lyricsto Tenore \QuiTollisTenoreLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Basso"
-						\new Voice = "Basso" { \dynamicUp \QuiTollisBassoNotes }
-					}
-					\new Lyrics \lyricsto Basso \QuiTollisBassoLyrics
+					\new Lyrics \lyricsto Soprano \QuoniamSopranoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\QuiTollisOrgano
+						\QuoniamOrgano
 					}
 				>>
 				\new FiguredBass {
-					\QuiTollisBassFigures
+					\QuoniamBassFigures
 				}
 			>>
 			\layout { }

@@ -332,6 +332,56 @@ QuiTollisSopranoLyrics = \lyricmode {
 	bis. %136 finis
 }
 
+QuoniamSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 4/4 \autoBeamOff \tempoQuoniam
+			\set Staff.timeSignatureFraction = 2/4
+			\set Score.currentBarNumber = #137
+		
+	}
+}
+
+QuoniamSopranoLyrics = \lyricmode {
+	
+}
+
+% SopranoNotes = {
+% 	\relative c' {
+% 		\clef treble
+% 		\key c \major \time 4/4 \autoBeamOff \tempo
+% 		
+% 	}
+% }
+% 
+% SopranoLyrics = \lyricmode {
+% 	
+% }
+
+% SopranoNotes = {
+% 	\relative c' {
+% 		\clef treble
+% 		\key c \major \time 4/4 \autoBeamOff \tempo
+% 		
+% 	}
+% }
+% 
+% SopranoLyrics = \lyricmode {
+% 	
+% }
+
+% SopranoNotes = {
+% 	\relative c' {
+% 		\clef treble
+% 		\key c \major \time 4/4 \autoBeamOff \tempo
+% 		
+% 	}
+% }
+% 
+% SopranoLyrics = \lyricmode {
+% 	
+% }
+% 
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble
