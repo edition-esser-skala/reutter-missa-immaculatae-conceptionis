@@ -595,7 +595,7 @@ CumSanctoOrgano = {
 			c'1 e2 g, %180
 			a c d fis,
 			g h c h
-			a1 g2 g
+			a1 g^\critnote
 		} \\ {
 			r4 c, e f g f e d %180
 			c e a g fis e d c

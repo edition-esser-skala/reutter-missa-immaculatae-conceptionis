@@ -272,12 +272,69 @@ CumSanctoTenoreNotes = {
 		\key c \major \time 4/2 \autoBeamOff \tempoCumSancto
 			\set Staff.timeSignatureFraction = 2/2
 			\set Score.currentBarNumber = #176
-		
+		R\breve*4 %179
+		\mvTr c1\fE^\tuttiE e2 g, %180
+		a c d fis,
+		g h4 h c2 h
+		a1 g^\critnote
+		r4 g a h c h a g
+		f! a d c h a g f %185
+		e g c h a h c2
+		c h c4( d e d)
+		c2 e4 d c2. h4
+		a g fis e d2 d'(
+		g,) g a h %190
+		c a^\critnote e'2.( d4)
+		d2^\critnote r r1
+		R\breve*9 %201
+		r1 r4 h e d
+		c h a g f! a d c
+		h a g f e g c h
+		a h c2 c( h) %205
+		c r r c
+		e,1 r
+		r g4 a h2
+		c d d e^\critnote
+		d h c1 %210
+		d2 a h d
+		c e^\critnote d( e
+		d1) e
+		f2( c4 b a2) c
+		c1 c~ %215
+		\time 2/2 c\fermata \bar "|." %216 FINIS
 	}
 }
 
 CumSanctoTenoreLyrics = \lyricmode {
+	Cum San -- cto %180
+	Spi -- ri -- tu in
+	glo -- ri -- a De -- i
+	Pa -- tris,
+	a -- _ _ _ _ _ _
+	_ _ _ _ _ _ _ _ %185
+	_ _ _ _ _ _ men,
+	a -- men, a --
+	men, a -- _ _ _
+	_ _ _ _ men, De --
+	i Pa -- tris %190
+	a -- men, a --
+	men. %192
 	
+	A -- _ _ %202
+	_ _ _ _ _ _ _ _
+	_ _ _ _ _ _ _ _
+	_ _ men, a -- %205
+	men, a --
+	men,
+	a -- _ _
+	_ _ men, in
+	glo -- ri -- a %210
+	De -- i Pa -- tris,
+	a -- men, a --
+	men,
+	a -- men,
+	a -- men. __ %215
+	%216 FINIS
 }
 
 % TenoreNotes = {
