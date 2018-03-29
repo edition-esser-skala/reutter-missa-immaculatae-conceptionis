@@ -636,7 +636,7 @@ CumSanctoOrgano = {
 		c e a g fis e d c
 		h d g fis e fis g2~
 		g4 f8 e f1 e4 f
-		g\breve~ %210
+		g\breve~^\tastoE %210
 		g~
 		g~
 		g1 c,~
@@ -647,7 +647,47 @@ CumSanctoOrgano = {
 }
 
 CumSanctoBassFigures = \figuremode {
-	
+	r\breve %176
+	r
+	r
+	r
+	r %180
+	r
+	r
+	r
+	<6>2. q4 <6 4>2 <5 3>
+	r1 r2. <6>4 %185
+	r1 <5>4 <6> q2
+	<6 5>1 <6>
+	r2 <6>4 <7> r2. <6>4
+	r2 <5> <_+>1
+	r1 <5>4 <6\\> <6>2 %190
+	<6 5> <_+> <7> <6>4 <\t>
+	r\breve
+	r
+	r
+	r %195
+	r
+	r
+	r
+	r
+	r %200
+	r
+	r1 <4>2 <3>
+	r2 <6>4 <5> r2 <6>
+	r <6 5> r <6>
+	r <6> <7> <6> %205
+	r2 <6>4 <\t> <6 4>1
+	<6>1 q2 <_+>
+	<6> r <6>4 <\t> r2
+	<2> <6> <2> <6>
+	<5 3>\breve %210
+	r
+	r
+	<4>2 <3> <8>2. <7->4
+	<6 4>2 <5 3> <6 4> <5 3>
+	<6 4>1 <5 4>2 \bassFigureExtendersOn <5 3>4 <5 2> %215
+	<5 3>1 \bassFigureExtendersOff %216 FINIS
 }
 
 % Organo = {
