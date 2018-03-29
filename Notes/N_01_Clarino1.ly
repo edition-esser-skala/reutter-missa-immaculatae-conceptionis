@@ -114,7 +114,22 @@ CumSanctoClarinoI = {
 		\key c \major \time 4/2 \tempoCumSancto
 			\set Staff.timeSignatureFraction = 2/2
 			\set Score.currentBarNumber = #176
-		
+		R\breve*16 %191
+		r2 g''2~\fE g4 f8 e f2
+		e g a g
+		f2. e8 f g2 f
+		e2. d8 e f2 e %195
+		d1 c4 d e f
+		g2 g~ g4 f8 e f2
+		f f e r
+		R\breve*11 %209
+		r1 g %210
+		f f
+		e2 e4 f g f e2
+		d1 e2 r
+		r1 r2 e
+		f1 f2 e4 d %215
+		\time 2/2 e1\fermata \bar "|." %216 FINIS
 	}
 }
 
