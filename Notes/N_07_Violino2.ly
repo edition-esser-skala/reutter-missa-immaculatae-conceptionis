@@ -228,6 +228,39 @@ QuoniamViolinoII = {
 		\key g \major \time 4/4 \tempoQuoniam
 			\set Staff.timeSignatureFraction = 2/4
 			\set Score.currentBarNumber = #137
+		g'8\pE h16 c d8 e16 fis g8 g, r g'
+		e d c4 h r8 h'
+		a16 fis d a fis d' fis a g e cis g e cis' e g
+		fis d e fis g8 g g2 %140
+		a8 g16 fis e8. d16 d4 r8 d
+		e e,4 d8 c c'4 d16 e
+		d8 d,4 c8 h h'4 c16 d
+		c8 c,4 h8 a a'4 h16 c
+		h8 e16 d c h a g fis4 r8 d' %145
+		e fis g a, h fis g a
+		d,4 fis g r
+		R1*3 %150
+		r2 r8 d' g4~
+		g8 a16 g fis4 e2
+		d8 fis,16 g a8 h a4 d,8 d'
+		e fis g4 fis r8 fis
+		e16 fis g a d, e fis g a,8 g'4 fis16 e %155
+		fis8 d e, cis' d4 r
+		h8. c16 h8 a g fis g4
+		R1*5 %162
+		r4 r8 d' e4. e8
+		fis g a, fis' g, h16 c d8 e16 fis
+		g8 g, r g' e d c4 %165
+		h r8 h' a16 fis d a fis d' fis a
+		g e cis g e cis' e g fis d e fis g8 g
+		g2 a8 g16 fis e8. d16
+		d4 r8 d e e,4 d8
+		c c'4 d16 e d8 d,4 c8 %170
+		h h'4 c16 d c8 c,4 h8
+		a a'4 h16 c h8 e16 d c h a g
+		fis4 r8 d' e fis g a,
+		h fis g a d,4 fis
+		\time 2/4 g r\fermata \bar "||" %175 finis
 	}
 }
 
