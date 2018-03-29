@@ -369,14 +369,14 @@ QuoniamSopranoLyrics = \lyricmode {
 	su Chri --
 	ste.
 	
-	Quo -- ni -- am tu so -- lus,
+	Quo -- ni -- am tu so -- lus, %157
 	tu so -- lus San --
 	ctus, tu so -- lus Do -- mi --
-	nus, tu so -- lus, so -- lus
+	nus, tu so -- lus, so -- lus %160
 	San -- ctus, tu so -- lus, so -- lus
 	Do -- mi -- nus, tu so -- lus al --
 	tis -- si -- mus Je --
-	su Chri -- ste.
+	su Chri -- ste. %164 finis
 }
 
 % SopranoNotes = {
