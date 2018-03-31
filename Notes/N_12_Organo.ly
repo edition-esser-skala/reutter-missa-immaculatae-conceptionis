@@ -771,6 +771,38 @@ EtIncarnatusOrgano = {
 			\set Staff.timeSignatureFraction = 3/2
 			\set Score.currentBarNumber = #33
 		\mvTr f1.\pE-\solo b,2 f r
+		b4 a g g c2 f,1.
+		b4 a g2 c f,1 b2 %35
+		c c4 d c b a1.
+		b2 d4 c b a g1.
+		c,2 c'4 d c b a2 g f
+		h1. c4 g c2 c,
+		f1 f'2 b f r %40
+		b4 a g2 c, f f,4 g a2
+		b4 a g2 c f, f'4 g a g^\critnote
+		f2 a b c c,4 d e2
+		f1 d2 a' g f
+		e1 c2 g' f e %45
+		f g g, c e c
+		g' f e d f d
+		a' g f d c b
+		a1 d2 g a a,
+		d4 e f2 d a' a,4 h cis2 %50
+		d c b a a' g
+		fis1 d2 g, g' f^\critnote
+		e c e f c b
+		a1 g2 f1 r2
+		h1. c2 c' b? %55
+		a f r g, g' f
+		e c f b, c c,
+		f1. b2 f r
+		b4 a g2 c f,1.
+		b4 a g2 c f,1 b2 %60
+		c c4 d c b a1.
+		c2 d4 c b a g1.
+		c,2 c'4 d c b a2 g f
+		h1. c4 f, c'2 c,
+		\time 3/2 f1.\fermata \bar "||" %65 finis
 	}
 }
 
