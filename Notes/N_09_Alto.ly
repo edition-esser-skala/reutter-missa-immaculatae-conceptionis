@@ -351,12 +351,61 @@ CredoAltoNotes = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \autoBeamOff \tempoCredo
-		
+		R1
+		r4 \mvTr g'2\fE^\tuttiE fis8 fis
+		g4 e d2
+		c r
+		r4 g'4. f!8 e4~ %5
+		e8 f16 g a8 g f4.( g16[ a)]
+		h8 a g g16^\critnote g g8 a g8. g16
+		g4 r r2
+		R1*3 %11
+		r2 d8 d d fis
+		e4 a g8 fis g d16 d
+		fis8. fis16 fis4 g g8 g
+		fis4 fis f f8 f %15
+		e4. e8 d2
+		a'4. g8 f([ g)] a4
+		g4. f8 e([ f)] g e
+		a([ g)] f e g4 g8([ a)]
+		g2 g4 r %20
+		R1
+		r2 r4 r8 gis
+		e4 e8 a gis8. gis16 gis8 gis
+		a a a h16 a a8([ gis)] gis4
+		r r8 e f!([ g)] a f %25
+		d4 g8 g g4 g8 g
+		g2 g4 r
+		R1*4 %31
+		R1\fermataMarkup \bar "||" %32 finis
 	}
 }
 
 CredoAltoLyrics = \lyricmode {
+	Pa -- trem o -- %2
+	mni -- po -- ten --
+	tem,
+	vi -- si -- bi -- %5
+	li -- um o -- mni -- um, __
+	o -- mni -- um, et in -- vi -- si -- bi -- li --
+	um.
 	
+	Et ex Pa -- tre %12
+	na -- tum an -- te o -- mni -- a
+	sae -- cu -- la. De -- um de
+	De -- o, lu -- men de %15
+	lu -- mi -- ne,
+	De -- um ve -- rum,
+	De -- um ve -- rum de
+	De -- o, de De -- o __
+	ve -- ro. %20
+	
+	Qui
+	pro -- pter nos ho -- mi -- nes [et
+	pro -- pter no -- stram sa -- lu -- tem]
+	de -- scen -- dit de %25
+	coe -- lis, de -- scen -- dit de
+	coe -- lis. %27 finis
 }
 
 % AltoNotes = {
