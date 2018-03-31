@@ -341,12 +341,55 @@ CredoTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key c \major \time 4/4 \autoBeamOff \tempoCredo
-		
+		R1*2
+		r4 \mvTr c\fE^\tuttiE c h
+		c h8 h a2
+		g4 r r2 %5
+		R1
+		r4 g8 a16([ h)] c8 c c h
+		c4 r r2
+		R1*4 %12
+		r2 g8. g16 g8 h
+		a4 d cis8 d e cis
+		d4 d g,2 %15
+		g r
+		e'4. e8 a,8. a16 f'4
+		d4. d8 g,8. g16 c4
+		c a d8. d16 c4
+		c4. h8 c4 r %20
+		R1*2
+		r4 r8 c^\critnote h4 e
+		a,8([ h)] c d e4 e,
+		r2 r4 r8 a %25
+		g4 g8 d' e4 e8 e
+		d2 c4 r
+		R1*4 %31
+		R1\fermataMarkup \bar "||" %32 finis
 	}
 }
 
 CredoTenoreLyrics = \lyricmode {
+	Fa -- cto -- rem %3
+	coe -- li et ter --
+	rae, %5
 	
+	et in -- vi -- si -- bi -- li --
+	um.
+	
+	Ge -- ni -- tum, non %13
+	fa -- ctum, con -- sub -- stan -- ti --
+	a -- lem Pa -- %15
+	tri:
+	Per quem o -- mni -- a,
+	per quem o -- mni -- a,
+	per quem o -- mni -- a
+	fa -- cta sunt. %20
+	
+	Et pro -- pter %23
+	no -- stram sa -- lu -- tem
+	de -- %25
+	scen -- dit, de -- scen -- dit de
+	coe -- lis. %27 finis
 }
 
 % TenoreNotes = {
