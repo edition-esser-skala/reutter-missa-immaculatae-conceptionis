@@ -303,7 +303,33 @@ CredoViolinoII = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \tempoCredo
-		
+		r4 c'2\fE h8 h
+		c4 h a2
+		g r
+		R1
+		d'8 c h4. c16 d e8 d %5
+		c4. d16 e f8 e d4
+		d8 e16 f g8 f e d d8. d16
+		c4 r r2
+		R1*3 %11
+		g8. g16 g8 h a8. a16 d4
+		c8 h c a h2
+		a r
+		a8. a16 a4 d d %15
+		d c c8. h16 h4
+		r2 d4. c16 c
+		h8 c d4 r2
+		r4 c8 c16 c f8 f e d
+		e4 d8.\trill d16 c4 g %20
+		e8 a a a fis4 d
+		c a'8 c h4 e8. d16
+		c8. h16 a8 r r4 r8 h
+		c d e d16 c h4 h8 h
+		c d e c d4 d8 c %25
+		h c d h c4 c8 c
+		c8 h16 a h4 c r
+		R1*4 %31
+		R1\fermataMarkup \bar "||" %32 finis
 	}
 }
 
