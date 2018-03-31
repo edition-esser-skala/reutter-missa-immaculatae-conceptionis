@@ -387,7 +387,7 @@ CredoAltoLyrics = \lyricmode {
 	tem,
 	vi -- si -- bi -- %5
 	li -- um o -- mni -- um, __
-	o -- mni -- um, et in -- vi -- si -- bi -- li --
+	o -- mni -- um et in -- vi -- si -- bi -- li --
 	um.
 	
 	Et ex Pa -- tre %12

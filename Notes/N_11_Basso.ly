@@ -346,12 +346,53 @@ CredoBassoNotes = {
 	\relative c {
 		\clef bass
 		\key c \major \time 4/4 \autoBeamOff \tempoCredo
-		
+		R1*3
+		r4 \mvTr g'2\fE^\tuttiE fis4
+		g8 d g([ f)] e d c4 %5
+		a'8 g f e16 e d8 c h4
+		g'8([ f)] e([ d)] c f g g,
+		c4 r r2
+		R1*5 %13
+		d8. d16 d8 fis e4 a,
+		d4. c!8 h a h g %15
+		c([ d e f!] g4) g,
+		a'8([ h)] c4 d,8 e f4
+		g h c,8 d e4
+		f d8([ c)] h([ g)] c f
+		g([ f)] g([ g,)] c4 r %20
+		R1
+		r2 r4 r8 e
+		a4 a8 a gis8. fis16 e4
+		r2 r4 r8 e
+		a,([ h)] c a d([ e)] f! d %25
+		g4 h8 g c, e4 c8
+		g'([ f g g,)] c4 r
+		R1*4 %31
+		R1\fermataMarkup \bar "||" %32 finis
 	}
 }
 
 CredoBassoLyrics = \lyricmode {
+	Vi -- si -- %4
+	bi -- li -- um __ o -- mni -- um, %5
+	vi -- si -- bi -- li -- um o -- mni -- um
+	et __ in -- vi -- si -- bi -- li --
+	um.
 	
+	Ge -- ni -- tum, non fa -- ctum, %14
+	con -- sub -- stan -- ti -- a -- lem %15
+	Pa -- tri:
+	Per quem o -- mni -- a,
+	per quem o -- mni -- a,
+	per quem o -- mni -- a
+	fa -- cta __ sunt. %20
+	
+	Qui %22
+	pro -- pter nos ho -- mi -- nes
+	de --
+	scen -- dit de coe -- lis, de -- %25
+	scen -- dit, de -- scen -- dit de
+	coe -- lis. %27 finis
 }
 
 % BassoNotes = {

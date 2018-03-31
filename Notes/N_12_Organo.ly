@@ -718,7 +718,7 @@ CredoOrgano = {
 		f e d f e fis gis e
 		a h c a e fis gis e
 		a h c d e e, gis e
-		a, h c a d e f d %25
+		a, h c a d e f! d %25
 		g a h g c, d e c
 		g' f g g, c e'16 d c8 c,
 		a' g f e d e f d
