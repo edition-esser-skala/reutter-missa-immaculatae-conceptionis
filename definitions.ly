@@ -176,6 +176,8 @@ tempoQuiTollis = \tempoMarkup "[Tempo deest]"
 tempoQuoniam = \tempoMarkup "[Tempo deest]"
 tempoCumSancto = \tempoMarkup "Alla breve"
 
+tempoCredo = \tempoMarkup "[Tempo deest]"
+
 
 
 % modify the Scheme function 'format-bass-figure'

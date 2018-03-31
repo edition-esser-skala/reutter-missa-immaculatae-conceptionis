@@ -347,6 +347,66 @@ CumSanctoAltoLyrics = \lyricmode {
 	men. %216 FINIS
 }
 
+CredoAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \autoBeamOff \tempoCredo
+		
+	}
+}
+
+CredoAltoLyrics = \lyricmode {
+	
+}
+
+% AltoNotes = {
+% 	\relative c' {
+% 		\clef treble
+% 		\key c \major \time 4/4 \autoBeamOff \tempo
+% 		
+% 	}
+% }
+% 
+% AltoLyrics = \lyricmode {
+% 	
+% }
+
+% AltoNotes = {
+% 	\relative c' {
+% 		\clef treble
+% 		\key c \major \time 4/4 \autoBeamOff \tempo
+% 		
+% 	}
+% }
+% 
+% AltoLyrics = \lyricmode {
+% 	
+% }
+
+% AltoNotes = {
+% 	\relative c' {
+% 		\clef treble
+% 		\key c \major \time 4/4 \autoBeamOff \tempo
+% 		
+% 	}
+% }
+% 
+% AltoLyrics = \lyricmode {
+% 	
+% }
+% 
+% AltoNotes = {
+% 	\relative c' {
+% 		\clef treble
+% 		\key c \major \time 4/4 \autoBeamOff \tempo
+% 		
+% 	}
+% }
+% 
+% AltoLyrics = \lyricmode {
+% 	
+% }
+% 
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

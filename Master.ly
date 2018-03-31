@@ -7,8 +7,8 @@
 #(ly:set-option 'relative-includes #t)
 
 % \include "Scores/S_Kyrie.ly"
-\include "Scores/S_Gloria.ly"
-% \include "Scores/S_Credo.ly"
+% \include "Scores/S_Gloria.ly"
+\include "Scores/S_Credo.ly"
 % \include "Scores/S_Sanctus.ly"
 % \include "Scores/S_AgnusDei.ly"
 

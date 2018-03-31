@@ -299,6 +299,14 @@ CumSanctoViolinoII = {
 	}
 }
 
+CredoViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoCredo
+		
+	}
+}
+
 % ViolinoII = {
 % 	\relative c' {
 % 		\clef treble

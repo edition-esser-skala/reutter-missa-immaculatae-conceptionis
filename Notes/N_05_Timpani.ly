@@ -121,6 +121,38 @@ CumSanctoTimpani = {
 	}
 }
 
+CredoTimpani = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoCredo
+		
+	}
+}
+
+% Timpani = {
+% 	\relative c {
+% 		\clef bass
+% 		\key c \major \time 4/4 \tempo
+% 		
+% 	}
+% }
+
+% Timpani = {
+% 	\relative c {
+% 		\clef bass
+% 		\key c \major \time 4/4 \tempo
+% 		
+% 	}
+% }
+
+% Timpani = {
+% 	\relative c {
+% 		\clef bass
+% 		\key c \major \time 4/4 \tempo
+% 		
+% 	}
+% }
+
 % Timpani = {
 % 	\relative c {
 % 		\clef bass
