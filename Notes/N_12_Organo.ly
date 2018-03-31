@@ -758,10 +758,10 @@ CredoBassFigures = \figuremode {
 	r4 <6> r q
 	<4> <3> r2
 	r1
-	r
-	r %30
-	r
-	r %32 finis
+	r2. <6>4
+	r1 %30
+	r2.. <6>8
+	r1 %32 finis
 }
 
 % Organo = {
