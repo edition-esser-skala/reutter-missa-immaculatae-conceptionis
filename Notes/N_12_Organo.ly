@@ -695,6 +695,37 @@ CredoOrgano = {
 		\clef bass
 		\key c \major \time 4/4 \tempoCredo
 		\mvTr c8\fE-\tuttiE d e a f d g f
+		e fis g h, c a d c
+		h g c e f d g f
+		e fis g h c h a d
+		h a g f e d c h %5
+		a' g f e d c h a
+		g' f e d c f g g,
+		c g' c g e d c a'
+		f e d f g f e d
+		c c' g g, c h c h %10
+		a h c c' d g, d' d,
+		g a h g d e fis d
+		e d e fis g a h g
+		d e fis? d e d cis a
+		d e d c h a h g %15
+		c d e f! g a h g
+		a h c a d, e f d
+		g a h g c, d e c
+		f e d c h g c f
+		g f g g, c e'16 d c8 b %20
+		a f'16 e d8 c h a gis e
+		f e d f e fis gis e
+		a h c a e fis gis e
+		a h c d e e, gis e
+		a, h c a d e f d %25
+		g a h g c, d e c
+		g' f g g, c e'16 d c8 c,
+		a' g f e d e f d
+		g f e d c c' h g
+		c c, g' g, c4 r8 g %30
+		c r d g, c4 d8 e16 f
+		g8 c, g' g, c4 r\fermata \bar "||" %32 finis
 	}
 }
 
