@@ -446,12 +446,62 @@ CredoSopranoNotes = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \autoBeamOff \tempoCredo
-		
+		r4 \mvTr c'2\fE^\tuttiE h8 h
+		c4 h a2
+		g r
+		R1
+		d'8 c h4. c16 d e8 d %5
+		c4. d16 e f8 e d4
+		d8 e16([ f)] g8 f e[( d] d8.) d16
+		c4 r r2
+		R1*3 %11
+		g8. g16 g8 h a8. a16 d4
+		c8 h c a h2
+		a r
+		a8. a16 a4 d d %15
+		d c c8. h16 h4
+		r2 d4. c16 c
+		h8([ c)] d4 r2
+		r4 c8 c16 c f8 f e d
+		e4( d8.\trill) d16 c4 r %20
+		R1
+		r4 r8 a h4 e8 d
+		c8. h16 a8 r r4 r8 h
+		c d e d16 c h4 h8 h
+		c([ d)] e c d4 d8 c %25
+		h([ c)] d h c4 c8 c
+		c4( h) c r
+		R1*4 %31
+		R1\fermataMarkup \bar "||" %32 finis
 	}
 }
 
 CredoSopranoLyrics = \lyricmode {
+	Cre -- do in
+	u -- num De --
+	um.
 	
+	Vi -- si -- bi -- li -- um, vi -- si -- %5
+	bi -- li -- um o -- mni -- um
+	et in -- vi -- si -- bi -- li --
+	um.
+	
+	Et in u -- num Do -- mi -- num %12
+	Je -- sum, Je -- sum Chri --
+	stum,
+	Fi -- li -- um De -- i %15
+	u -- ni -- ge -- ni -- tum,
+	Fi -- li -- um
+	De -- i,
+	Fi -- li -- um De -- i u -- ni --
+	ge -- ni -- tum. %20
+	
+	Qui pro -- pter nos
+	ho -- mi -- nes et
+	pro -- pter no -- stram sa -- lu -- tem de --
+	scen -- dit, de -- scen -- dit, de -- %25
+	scen -- dit de coe -- lis, de
+	coe -- lis. %27 finis
 }
 
 % SopranoNotes = {
