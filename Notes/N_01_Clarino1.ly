@@ -137,7 +137,19 @@ CredoClarinoI = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \tempoCredo
-		
+		R1*7 %7
+		c'16\fE d c d e8 d c4. d16 e
+		f4 f8 e d4.^\critnote e16 f
+		g4 g8 f e4. fis16 g %10
+		\once \tieDashed a4~ a16 h a g fis8 g g8.^\critnote fis16
+		g4 r r2
+		R1*14 %26
+		r2 r4 e8 g
+		c,4. d16 e f4 f8 a
+		d,4. e16 f g8 g g16 a g f
+		e d c d d8. c16 c8 g c d %30
+		e g f16 e f g e8 g f16 g f e
+		d8 e16 d d8. c16 c4 r\fermata \bar "||" %32
 	}
 }
 
