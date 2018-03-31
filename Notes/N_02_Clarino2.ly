@@ -137,7 +137,19 @@ CredoClarinoII = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \tempoCredo
-		
+		R1*7 %7
+		r4 c'8\fE g e4. d'8
+		d4 d8 c g4. c16 d
+		e4 d c r %10
+		r e d8 d d8. d16
+		d4 r r2
+		R1*14 %26
+		r2 r4 c8 c,
+		e4 g8 c d4 d8 d
+		g,4. c16 d e4 e
+		c8 c, g'[ g] e c e g %30
+		c e d16 c d e c8 e d d16 c
+		g8 c g g16 g e4 r\fermata \bar "||" %32
 	}
 }
 
