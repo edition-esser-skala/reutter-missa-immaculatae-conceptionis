@@ -392,17 +392,19 @@ CredoTenoreLyrics = \lyricmode {
 	coe -- lis. %27 finis
 }
 
-% TenoreNotes = {
-% 	\relative c' {
-% 		\clef "treble_8"
-% 		\key c \major \time 4/4 \autoBeamOff \tempo
-% 		
-% 	}
-% }
-% 
-% TenoreLyrics = \lyricmode {
-% 	
-% }
+EtIncarnatusTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key f \major \time 6/2 \autoBeamOff \tempoEtIncarnatus
+			\set Staff.timeSignatureFraction = 3/2
+			\set Score.currentBarNumber = #33
+		
+	}
+}
+
+EtIncarnatusTenoreLyrics = \lyricmode {
+	
+}
 
 % TenoreNotes = {
 % 	\relative c' {

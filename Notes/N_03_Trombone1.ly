@@ -4,10 +4,12 @@
 
 \version "2.18.0"
 
-% TromboneI = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key c \major \time 4/4 \tempo
-% 		
-% 	}
-% }
+EtIncarnatusTromboneI = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 6/2 \tempoEtIncarnatus
+			\set Staff.timeSignatureFraction = 3/2
+			\set Score.currentBarNumber = #33
+		
+	}
+}

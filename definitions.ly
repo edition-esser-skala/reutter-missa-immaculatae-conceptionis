@@ -177,6 +177,7 @@ tempoQuoniam = \tempoMarkup "[Tempo deest]"
 tempoCumSancto = \tempoMarkup "Alla breve"
 
 tempoCredo = \tempoMarkup "[Tempo deest]"
+tempoEtIncarnatus = \tempoMarkup "Tarde"
 
 
 
