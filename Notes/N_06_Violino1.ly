@@ -317,7 +317,35 @@ CredoViolinoI = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \tempoCredo
-		
+		r2 d'\fE
+		g8 a h g e4 fis
+		f e8 g a4 g
+		g8 a d,4 e a
+		d,8 c h4. c16 d e8 d %5
+		c4. d16 e f8 e d4
+		d8 e16 f g8 f e d d8. d16
+		c d c d e8 d c4. d16 e
+		f4 f8 e d4. e16 f
+		g4 g8 f e4. fis16 g %10
+		a4~ a16 h a g fis8 g g8. fis16
+		g4 r r2
+		r2 h,8 d g h
+		fis,4 a' e8 fis? g4
+		d, fis' f, d' %15
+		e4. c8 g4 g'
+		c, e f4. f8
+		h,4 g' e c8 g'
+		a,4 c8 c f f e d
+		e4 d8. c16 c4 e8 d %20
+		cis d16 e f8 e dis4 e8 gis,
+		a4 f'8 a, gis4 h
+		c8 d e4 gis,8 a h4
+		c8 d e a, gis h e d
+		c d e4 f!8 a, d c %25
+		h d g f e f g c,
+		c4 h c2
+		R1*4 %31
+		R1\fermataMarkup \bar "||" %32 finis
 	}
 }
 
