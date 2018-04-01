@@ -776,7 +776,7 @@ EtIncarnatusOrgano = {
 		c c4 d c b a1.
 		b2 d4 c b a g1.
 		c,2 c'4 d c b a2 g f
-		h1. c4 g c2 c,
+		h1 r2\fermata c4 f,-\critnote c'2 c,
 		f1 f'2 b f r %40
 		b4 a g2 c, f f,4 g a2
 		b4 a g2 c f, f'4 g a g^\critnote
@@ -801,7 +801,7 @@ EtIncarnatusOrgano = {
 		c c4 d c b a1.
 		c2 d4 c b a g1.
 		c,2 c'4 d c b a2 g f
-		h1. c4 f, c'2 c,
+		h1 r2\fermata c4 f, c'2 c,
 		\time 3/2 f1.\fermata \bar "||" %65 finis
 	}
 }
