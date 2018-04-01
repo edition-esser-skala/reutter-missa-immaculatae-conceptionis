@@ -153,13 +153,16 @@ CredoClarinoI = {
 	}
 }
 
-% ClarinoI = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key c \major \time 4/4 \tempo
-% 		
-% 	}
-% }
+EtResurrexitClarinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 6/4 \tempoEtResurrexit
+			\set Staff.timeSignatureFraction = 3/4
+			\override Staff.TimeSignature.style = #'single-digit
+			\set Score.currentBarNumber = #78
+		
+	}
+}
 
 % ClarinoI = {
 % 	\relative c' {

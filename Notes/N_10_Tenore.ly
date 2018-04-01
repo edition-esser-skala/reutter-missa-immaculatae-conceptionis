@@ -441,17 +441,20 @@ EtIncarnatusTenoreLyrics = \lyricmode {
 	est. %58 finis
 }
 
-% TenoreNotes = {
-% 	\relative c' {
-% 		\clef "treble_8"
-% 		\key c \major \time 4/4 \autoBeamOff \tempo
-% 		
-% 	}
-% }
-% 
-% TenoreLyrics = \lyricmode {
-% 	
-% }
+EtResurrexitTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 6/4 \autoBeamOff \tempoEtResurrexit
+			\set Staff.timeSignatureFraction = 3/4
+			\override Staff.TimeSignature.style = #'single-digit
+			\set Score.currentBarNumber = #78
+		
+	}
+}
+
+EtResurrexitTenoreLyrics = \lyricmode {
+	
+}
 
 % TenoreNotes = {
 % 	\relative c' {

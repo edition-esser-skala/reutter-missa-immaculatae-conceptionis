@@ -539,6 +539,69 @@ CrucifixusSopranoLyrics = \lyricmode {
 	est. %77 finis
 }
 
+EtResurrexitSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 6/4 \autoBeamOff \tempoEtResurrexit
+			\set Staff.timeSignatureFraction = 3/4
+			\override Staff.TimeSignature.style = #'single-digit
+			\set Score.currentBarNumber = #78
+		
+	}
+}
+
+EtResurrexitSopranoLyrics = \lyricmode {
+	
+}
+
+% SopranoNotes = {
+% 	\relative c' {
+% 		\clef treble
+% 		\key c \major \time 4/4 \autoBeamOff \tempo
+% 		
+% 	}
+% }
+% 
+% SopranoLyrics = \lyricmode {
+% 	
+% }
+
+% SopranoNotes = {
+% 	\relative c' {
+% 		\clef treble
+% 		\key c \major \time 4/4 \autoBeamOff \tempo
+% 		
+% 	}
+% }
+% 
+% SopranoLyrics = \lyricmode {
+% 	
+% }
+
+% SopranoNotes = {
+% 	\relative c' {
+% 		\clef treble
+% 		\key c \major \time 4/4 \autoBeamOff \tempo
+% 		
+% 	}
+% }
+% 
+% SopranoLyrics = \lyricmode {
+% 	
+% }
+
+% SopranoNotes = {
+% 	\relative c' {
+% 		\clef treble
+% 		\key c \major \time 4/4 \autoBeamOff \tempo
+% 		
+% 	}
+% }
+% 
+% SopranoLyrics = \lyricmode {
+% 	
+% }
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

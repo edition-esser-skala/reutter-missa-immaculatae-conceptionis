@@ -877,17 +877,20 @@ CrucifixusBassFigures = \figuremode {
 	<_!>1 %77 finis
 }
 
-% Organo = {
-% 	\relative c {
-% 		\clef bass
-% 		\key c \major \time 4/4 \tempo
-% 		
-% 	}
-% }
-% 
-% BassFigures = \figuremode {
-% 	
-% }
+EtResurrexitOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 6/4 \tempoEtResurrexit
+			\set Staff.timeSignatureFraction = 3/4
+			\override Staff.TimeSignature.style = #'single-digit
+			\set Score.currentBarNumber = #78
+		\mvTr c4\fE-\solo r8 c h g c4 h g
+	}
+}
+
+EtResurrexitBassFigures = \figuremode {
+	
+}
 
 % Organo = {
 % 	\relative c {

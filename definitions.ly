@@ -179,6 +179,7 @@ tempoCumSancto = \tempoMarkup "Alla breve"
 tempoCredo = \tempoMarkup "[Tempo deest]"
 tempoEtIncarnatus = \tempoMarkup "Tarde"
 tempoCrucifixus = \tempoMarkup "[Tempo deest]"
+tempoEtResurrexit = \tempoMarkup "Allegro"
 
 
 

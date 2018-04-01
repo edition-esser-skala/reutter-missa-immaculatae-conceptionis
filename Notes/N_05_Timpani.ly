@@ -137,13 +137,16 @@ CredoTimpani = {
 	}
 }
 
-% Timpani = {
-% 	\relative c {
-% 		\clef bass
-% 		\key c \major \time 4/4 \tempo
-% 		
-% 	}
-% }
+EtResurrexitTimpani = {
+	\relative c {
+		\clef bass
+		\key c \major \time 6/4 \tempoEtResurrexit
+			\set Staff.timeSignatureFraction = 3/4
+			\override Staff.TimeSignature.style = #'single-digit
+			\set Score.currentBarNumber = #78
+		
+	}
+}
 
 % Timpani = {
 % 	\relative c {

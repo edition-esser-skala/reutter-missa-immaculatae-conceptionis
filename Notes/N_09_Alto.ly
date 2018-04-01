@@ -443,17 +443,20 @@ CrucifixusAltoLyrics = \lyricmode {
 	est.] %77 finis
 }
 
-% AltoNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key c \major \time 4/4 \autoBeamOff \tempo
-% 		
-% 	}
-% }
-% 
-% AltoLyrics = \lyricmode {
-% 	
-% }
+EtResurrexitAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 6/4 \autoBeamOff \tempoEtResurrexit
+			\set Staff.timeSignatureFraction = 3/4
+			\override Staff.TimeSignature.style = #'single-digit
+			\set Score.currentBarNumber = #78
+		
+	}
+}
+
+EtResurrexitAltoLyrics = \lyricmode {
+	
+}
 
 % AltoNotes = {
 % 	\relative c' {

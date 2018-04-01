@@ -430,17 +430,20 @@ CrucifixusBassoLyrics = \lyricmode {
 	est. %77 finis
 }
 
-% BassoNotes = {
-% 	\relative c {
-% 		\clef bass
-% 		\key c \major \time 4/4 \autoBeamOff \tempo
-% 		
-% 	}
-% }
-% 
-% BassoLyrics = \lyricmode {
-% 	
-% }
+EtResurrexitBassoNotes = {
+	\relative c {
+		\clef bass
+		\key c \major \time 6/4 \autoBeamOff \tempoEtResurrexit
+			\set Staff.timeSignatureFraction = 3/4
+			\override Staff.TimeSignature.style = #'single-digit
+			\set Score.currentBarNumber = #78
+		
+	}
+}
+
+EtResurrexitBassoLyrics = \lyricmode {
+	
+}
 
 % BassoNotes = {
 % 	\relative c {
