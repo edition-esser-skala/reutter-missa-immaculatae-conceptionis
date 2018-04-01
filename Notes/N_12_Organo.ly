@@ -848,6 +848,17 @@ CrucifixusOrgano = {
 		\key f \dorian \time 4/4 \tempoCrucifixus
 			\set Score.currentBarNumber = #66
 		\mvTr f4\pE-\soloE f f f
+		\clef treble << { as'8. b16 c8 c } \\ { f,8. g16 as8 as } >> \clef bass e,2
+		f4 \clef treble << { c'' des8. c16 b8. h16 } \\ { r4 f g8. f16 } >>
+		\clef bass c4. des16 c b!4. h8
+		c4 c, \clef treble r4 g'' %70
+		fis \clef bass as, g c
+		f, h es, a
+		des, ges des b8 c
+		des2 ges,4 ges'
+		des2 h %75
+		c1
+		f,\fermata \bar "||" %77 finis
 	}
 }
 
