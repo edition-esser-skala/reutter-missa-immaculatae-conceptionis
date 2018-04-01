@@ -771,7 +771,7 @@ EtIncarnatusOrgano = {
 			\set Staff.timeSignatureFraction = 3/2
 			\set Score.currentBarNumber = #33
 		\mvTr f1.\pE-\solo b,2 f r
-		b4 a g g c2 f,1.
+		b4 a g2-\critnote c f,1.
 		b4 a g2 c f,1 b2 %35
 		c c4 d c b a1.
 		b2 d4 c b a g1.
@@ -799,7 +799,7 @@ EtIncarnatusOrgano = {
 		b4 a g2 c f,1.
 		b4 a g2 c f,1 b2 %60
 		c c4 d c b a1.
-		c2 d4 c b a g1.
+		b2^\critnote d4 c b a g1.
 		c,2 c'4 d c b a2 g f
 		h1 r2\fermata c4 f, c'2 c,
 		\time 3/2 f1.\fermata \bar "||" %65 finis
@@ -807,7 +807,39 @@ EtIncarnatusOrgano = {
 }
 
 EtIncarnatusBassFigures = \figuremode {
-	
+	r\breve. %33
+	r2 <6> <7> r1.
+	r2 <6> <7> r1 <8 6>4 <7 5> %35
+	r1. <6>
+	r\breve.
+	r1. <6>2 q <_->
+	<7->1. r4 <_-> r1
+	<_!>\breve. %40
+	r4 <6> <7>2 q r1 <6>2
+	r4 <6> <7>2 q r1.
+	r2 <6> r <4>4 <3> r2 <6>
+	<5> <6>1 <_+>2 <\t> <6>
+	<6!>1. <_!>2 <\t> <6> %45
+	q <4> <_!> r <6> r
+	<_!> <\t> <6> r q r
+	<_+> <\t> <6> <5>4 <6> <7> <6> <7> <6>
+	<7 _+>\breve <4>2 <_+>
+	r2 <6> r <4>4 <_+> <\t>2 <6> %50
+	r <6> r <4>4 <_+> <\t>2 q
+	<6 5!>1 <7 _+>2 <4>4 <_!> <\t>2 q
+	<6 5->2 <7> <\t> r1 <\t>2
+	<6>1 q2 r1.
+	<6 5> r1 <\t>2 %55
+	<6>1. r1 <\t>2
+	<5> <\t> r1 <4>2 <3>
+	r\breve.
+	r2 <6> <7> r1.
+	r2 <6> <7> r1 <8 6>4 <7 5> %60
+	r1. <6>
+	r\breve.
+	r1. <6>2 q <_->
+	<7->1. r4 <_-> r1
+	<_!>1. %65 finis
 }
 
 % Organo = {
