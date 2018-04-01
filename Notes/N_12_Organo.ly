@@ -854,7 +854,7 @@ CrucifixusOrgano = {
 		c4 c, \clef treble r4 g'' %70
 		fis \clef bass as, g c
 		f, h es, a
-		des, ges des b8 c
+		des, ges des b8 ces?
 		des2 ges,4 ges'
 		des2 h %75
 		c1
@@ -863,7 +863,18 @@ CrucifixusOrgano = {
 }
 
 CrucifixusBassFigures = \figuremode {
-	
+	r1 %66
+	r2 <7->
+	r1
+	<8 _!>8 <7> <6 4> <\t \t> <7 _->4 <6 _!>8 <5>
+	<_!>1 %70
+	r4 <6!> <7 _!> <7- _!>
+	<7- _!> <7-> <7- 5-> <7->
+	r <5-> r <6- _->
+	<4-> <3> <5-> <\t>
+	<6 4-> <5 3> <7 _!>2 %75
+	<5! _!>4 <6- 4> <5 \t> <\t _!>
+	<_!>1 %77 finis
 }
 
 % Organo = {

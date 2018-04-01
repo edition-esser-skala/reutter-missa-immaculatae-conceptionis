@@ -407,7 +407,7 @@ CrucifixusBassoNotes = {
 		c4 c, r2 %70
 		r4 as'( g) c
 		f, h es, a
-		des, ges des b8([ c)]
+		des, ges des b8([ ces)]
 		des4. des8 ges,4 r
 		r2 h4. h8 %75
 		c4 c c4. c8
