@@ -849,7 +849,7 @@ CrucifixusOrgano = {
 			\set Score.currentBarNumber = #66
 		\mvTr f4\pE-\soloE f f f
 		\clef treble << { as'8. b16 c8 c } \\ { f,8. g16 as8 as } >> \clef bass e,2
-		f4 \clef treble << { c'' des8. c16 b8. h16 } \\ { r4 f g8. f16 } >>
+		f4 \clef treble << { c'' des8. c16 b8^\critnote h } \\ { r4 f g8. f16 } >>
 		\clef bass c4. des16 c b!4. h8
 		c4 c, \clef treble r4 g'' %70
 		fis \clef bass as, g c

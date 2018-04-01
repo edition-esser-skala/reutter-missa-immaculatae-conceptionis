@@ -125,6 +125,7 @@
 		\header {
 			movement = "3.3 CRUCIFIXUS"
 		}
+		\paper { systems-per-page = #2 }
 		\score {
 			<<
 				\new ChoirStaff <<
