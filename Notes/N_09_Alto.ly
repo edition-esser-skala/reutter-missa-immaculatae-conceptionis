@@ -413,12 +413,34 @@ CrucifixusAltoNotes = {
 		\clef treble
 		\key f \dorian \time 4/4 \autoBeamOff \tempoCrucifixus
 			\set Score.currentBarNumber = #66
-		
+		\mvTr as'4\pE^\soloE as as as
+		f8. g16 as8 as g2
+		as4 r f g8. f16
+		e4 f8([ as)] as4( g8[ f)]
+		e?2 r4 g( %70
+		fis f2) e4
+		es d des c
+		f des f ges
+		ges? f ges ges~
+		ges f d! d %75
+		e?( f2) e?4
+		c1\fermata \bar "||" %77 finis
 	}
 }
 
 CrucifixusAltoLyrics = \lyricmode {
-	
+	[Cru -- ci -- fi -- xus %66
+	e -- ti -- am pro no --
+	bis,] sub Pon -- ti --
+	o Pi -- la --
+	to pas -- %70
+	sus,
+	pas -- sus, pas -- sus,
+	pas -- sus et [se --
+	pul -- tus est, pas --
+	sus et se -- %75
+	pul -- tus
+	est.] %77 finis
 }
 
 % AltoNotes = {
