@@ -398,12 +398,47 @@ EtIncarnatusTenoreNotes = {
 		\key f \major \time 6/2 \autoBeamOff \tempoEtIncarnatus
 			\set Staff.timeSignatureFraction = 3/2
 			\set Score.currentBarNumber = #33
-		
+		R\breve.*7 %39
+		\mvTr c2\pE^\soloE f c d4( c) c2 r %40
+		d4 c b2.\trill b4 a1.
+		d4 c b2.\trill b4 a1.
+		c2 f f4 f f( e) e1
+		r2 d f cis1 d2
+		r c e h1 c2( %45
+		d) d2. c4 c2 r r
+		R\breve.*3
+		a2 d d d4( cis) cis2 e %50
+		f2. e4 d2 d4( cis) cis1
+		r2 c c c4( h) h1
+		b2 b b a4 g g2 r
+		c d e f1.~
+		f1 f2 e1. %55
+		c2 f f, b1.~
+		b2. c4 a2 d g,2.\trill f4
+		f2 r r r1*3/2
+		R\breve.*6 %64
+		\time 3/2 R1.\fermataMarkup \bar "||" %65 finis
 	}
 }
 
 EtIncarnatusTenoreLyrics = \lyricmode {
+	Et in -- car -- na -- tus, %40
+	in -- car -- na -- tus est,
+	in -- car -- na -- tus est
+	de Spi -- ri -- tu San -- cto
+	ex Ma -- ri -- a,
+	ex Ma -- ri -- a __ %45
+	Vir -- gi -- ne.
 	
+	Et in -- car -- na -- tus de %50
+	Spi -- ri -- tu San -- cto
+	ex Ma -- ri -- a,
+	Ma -- ri -- a Vir -- gi -- ne,
+	et ho -- mo fa --
+	ctus est, %55
+	et ho -- mo, ho --
+	_ _ mo fa -- ctus
+	est. %58 finis
 }
 
 % TenoreNotes = {
