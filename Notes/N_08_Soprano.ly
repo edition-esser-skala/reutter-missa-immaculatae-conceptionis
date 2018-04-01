@@ -504,18 +504,19 @@ CredoSopranoLyrics = \lyricmode {
 	coe -- lis. %27 finis
 }
 
-% SopranoNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key c \major \time 4/4 \autoBeamOff \tempo
-% 		
-% 	}
-% }
-% 
-% SopranoLyrics = \lyricmode {
-% 	
-% }
-% 
+CrucifixusSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key f \dorian \time 4/4 \autoBeamOff \tempoCrucifixus
+			\set Score.currentBarNumber = #66
+		
+	}
+}
+
+CrucifixusSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

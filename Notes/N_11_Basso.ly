@@ -395,17 +395,18 @@ CredoBassoLyrics = \lyricmode {
 	coe -- lis. %27 finis
 }
 
-% BassoNotes = {
-% 	\relative c {
-% 		\clef bass
-% 		\key c \major \time 4/4 \autoBeamOff \tempo
-% 		
-% 	}
-% }
-% 
-% BassoLyrics = \lyricmode {
-% 	
-% }
+CrucifixusBassoNotes = {
+	\relative c {
+		\clef bass
+		\key f \dorian \time 4/4 \autoBeamOff \tempoCrucifixus
+			\set Score.currentBarNumber = #66
+		
+	}
+}
+
+CrucifixusBassoLyrics = \lyricmode {
+	
+}
 
 % BassoNotes = {
 % 	\relative c {

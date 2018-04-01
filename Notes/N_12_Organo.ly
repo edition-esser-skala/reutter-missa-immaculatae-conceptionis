@@ -842,6 +842,67 @@ EtIncarnatusBassFigures = \figuremode {
 	<_!>1. %65 finis
 }
 
+CrucifixusOrgano = {
+	\relative c {
+		\clef bass
+		\key f \dorian \time 4/4 \tempoCrucifixus
+			\set Score.currentBarNumber = #66
+		\mvTr f4\pE-\soloE f f f
+	}
+}
+
+CrucifixusBassFigures = \figuremode {
+	
+}
+
+% Organo = {
+% 	\relative c {
+% 		\clef bass
+% 		\key c \major \time 4/4 \tempo
+% 		
+% 	}
+% }
+% 
+% BassFigures = \figuremode {
+% 	
+% }
+
+% Organo = {
+% 	\relative c {
+% 		\clef bass
+% 		\key c \major \time 4/4 \tempo
+% 		
+% 	}
+% }
+% 
+% BassFigures = \figuremode {
+% 	
+% }
+
+% Organo = {
+% 	\relative c {
+% 		\clef bass
+% 		\key c \major \time 4/4 \tempo
+% 		
+% 	}
+% }
+% 
+% BassFigures = \figuremode {
+% 	
+% }
+
+% Organo = {
+% 	\relative c {
+% 		\clef bass
+% 		\key c \major \time 4/4 \tempo
+% 		
+% 	}
+% }
+% 
+% BassFigures = \figuremode {
+% 	
+% }
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

@@ -408,17 +408,18 @@ CredoAltoLyrics = \lyricmode {
 	coe -- lis. %27 finis
 }
 
-% AltoNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key c \major \time 4/4 \autoBeamOff \tempo
-% 		
-% 	}
-% }
-% 
-% AltoLyrics = \lyricmode {
-% 	
-% }
+CrucifixusAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key f \dorian \time 4/4 \autoBeamOff \tempoCrucifixus
+			\set Score.currentBarNumber = #66
+		
+	}
+}
+
+CrucifixusAltoLyrics = \lyricmode {
+	
+}
 
 % AltoNotes = {
 % 	\relative c' {
