@@ -455,21 +455,21 @@ EtResurrexitAltoNotes = {
 		d4 d8([ e)] f e16 d c4 g'8 g g([ a)]
 		g g g4( fis) g r r
 		g g g8 g g2 g4
-		r1*3/4 a4 a h
+		r1*3/4 a4 a h %85
 		a4. a8 a2 a4( gis)
 		a r r r1*3/4
 		R1. \noBreak
 		\mvTr e4.\fE^\tuttiE e8 c^\critnote f h,2 h4\fermata \bar "||"
-		\clef treble \time 4/4 \newSpacingSection \tempoEtMortuos
+		\time 4/4 \newSpacingSection \tempoEtMortuos
 			\unset Staff.timeSignatureFraction
 			\revert Staff.TimeSignature.style
 			r2 r4 e \noBreak %90
 		f( \tempoEtMortuosB a2) g4 \noBreak
 		fis1\fermata \bar "||"
-		\clef treble \time 6/4 \newSpacingSection \tempoCuiusRegni
+		\time 6/4 \newSpacingSection \tempoCuiusRegni
 			\set Staff.timeSignatureFraction = 3/4
 			\override Staff.TimeSignature.style = #'single-digit
-		r1*3/4 \mvTr g4.\fE^\tuttiE a8 h g16 fis \noBreak
+		r1*3/4 g4. a8 h g16 fis \noBreak
 		e8 a a2 a4 r r
 		R1.*10 %104
 		r4 \mvTr fis\pE^\soloE a g a g %105

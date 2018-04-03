@@ -448,12 +448,91 @@ EtResurrexitTenoreNotes = {
 			\set Staff.timeSignatureFraction = 3/4
 			\override Staff.TimeSignature.style = #'single-digit
 			\set Score.currentBarNumber = #78
-		
+		R1.*3 %80
+		r8 \mvTr g\fE^\tuttiE c c d([ c16 d)] e8 r r4 r
+		r1*3/4 r8 c d2
+		d8 e d2 d4 r r
+		h e d8 d d2 d4
+		r1*3/4 c4 e h %85
+		c2 e4 f e2
+		e4 r r r1*3/4
+		R1. \noBreak
+		\mvTr c4.\fE^\tuttiE h8 a a gis2 gis4\fermata \bar "||"
+		\time 4/4 \newSpacingSection \tempoEtMortuos
+			\unset Staff.timeSignatureFraction
+			\revert Staff.TimeSignature.style
+			R1 \noBreak %90
+		r4 \tempoEtMortuosB d' d4. d8 \noBreak
+		d1\fermata \bar "||"
+		\time 6/4 \newSpacingSection \tempoCuiusRegni
+			\set Staff.timeSignatureFraction = 3/4
+			\override Staff.TimeSignature.style = #'single-digit
+		r1*3/4 r4 r r8 h \noBreak
+		cis d d4( cis) d r r
+		R1.*2
+		r4 \mvTr a\pE^\soloE d cis4. h8 a4
+		h8 a g4.\trill g8 fis4 r r
+		R1.
+		r4 a d cis4. h8 a4
+		h8 a g4.\trill g8 fis4 d'8 e d cis
+		h4 h r r1*3/4
+		r4 h d g, g e'8 d
+		c([ h)] a([ g)] fis([ g)] a4 a r
+		r4 d fis, g c c %105
+		d4. d8 d4 \mvTr h\fE^\tuttiE d d8 d
+		d2 d4 h d8 d d d
+		d2 d4 r h8 c d c
+		d2 c4 c c( h)
+		c4 r r r1*3/4 %110
+		R1.*36 \noBreak %146
+		r1*3/2\fermata \bar "||" %147
+		\time 4/4 \newSpacingSection \tempoEtExpecto
+			\unset Staff.timeSignatureFraction
+			\revert Staff.TimeSignature.style
+		r8 \mvTr e4\fE^\tuttiE d8 e4 d
+		g,8. a16 h8 c d2(
+		c4) c r2\fermata %150
+		\tempoMortuorum r4 a4. a8 as4
+		g1\fermata \bar "||" %152 finis
 	}
 }
 
 EtResurrexitTenoreLyrics = \lyricmode {
+	Et re -- sur -- re -- xit %81
+	se -- cun --
+	dum Scri -- ptu -- ras.
+	A -- scen -- dit in coe -- lum,
+	[se -- det ad %85
+	dex -- te -- ram Pa --
+	tris.] 
 	
+	[Ju -- di -- ca -- re vi -- vos:]
+	%90
+	Et mor --  tu --
+	os.
+	Non
+	e -- rit fi -- nis.
+	
+	Et in Spi -- ri -- tum %97
+	San -- ctum, Do -- mi -- num,
+	
+	et in Spi -- ri -- tum %100
+	San -- ctum, Do -- mi -- num et vi -- vi -- fi --
+	can -- tem,
+	qui ex Pa -- tre Fi -- li --
+	o -- que pro -- ce -- dit.
+	[Qui cum Pa -- tre et %105
+	Fi -- li -- o si -- mul ad -- o --
+	ra -- tur et con -- glo -- ri -- fi --
+	ca -- tur: Qui lo -- cu -- tus
+	est per Pro -- phe --
+	tas.] %110
+	
+	[Et ex -- pe -- cto %148
+	re -- sur -- re -- cti -- o --
+	nem %150
+	mor -- tu -- o --
+	rum.] %152 finis
 }
 
 % TenoreNotes = {

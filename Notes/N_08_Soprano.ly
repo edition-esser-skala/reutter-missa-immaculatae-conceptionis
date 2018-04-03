@@ -557,13 +557,13 @@ EtResurrexitSopranoNotes = {
 		c4 r \mvTr e\pE^\soloE c8 h a4 h
 		c8. h16 a4 h c4. h8 a4 \noBreak
 		\mvTr a4.\fE^\tuttiE h8 c d e2 e,4\fermata \bar "||"
-		\clef treble \time 4/4 \newSpacingSection \tempoEtMortuos
+		\time 4/4 \newSpacingSection \tempoEtMortuos
 			\unset Staff.timeSignatureFraction
 			\revert Staff.TimeSignature.style
 			r4 e' f( cis \noBreak %90
 		d \tempoEtMortuosB c) b2 \noBreak
 		a1\fermata \bar "||"
-		\clef treble \time 6/4 \newSpacingSection \tempoCuiusRegni
+		\time 6/4 \newSpacingSection \tempoCuiusRegni
 			\set Staff.timeSignatureFraction = 3/4
 			\override Staff.TimeSignature.style = #'single-digit
 		d4. e8 fis d h2 r8 g' \noBreak
