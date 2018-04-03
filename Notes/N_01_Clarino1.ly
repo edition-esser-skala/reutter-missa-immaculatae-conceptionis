@@ -160,15 +160,15 @@ EtResurrexitClarinoI = {
 			\set Staff.timeSignatureFraction = 3/4
 			\override Staff.TimeSignature.style = #'single-digit
 			\set Score.currentBarNumber = #78
-		r8 g'\fE c c d c16 d e8 d e e f e16 f
-		g8 g c, c c d16 e f8 f g, g g c16 d
-		e8 g16 f e8 d16 c d8. c16 c4 r r %80
+		\pa r8 g'[\fE c c] d c16 d e8[ d e e] f e16 f
+		g8[ g c, c] c d16 e f8[ f g, g] g c16 d
+		e8 g16 f e8 d16 c d8. c16 c4 \pd r r %80
 		R1.
 		r1*3/4 r4 r r8 a'
 		h g g2 g4 r r
-		r8 g4 g8 g a h d,16 d d8 d d d
-		d4 r r r8 e,16 e e8 e e e %85
-		e4 r r r1*3/4
+		\pa r8 g4 g8 g a h d,16 d d8 d d d \pd
+		d4 r r \pa r8 e,16 e e8 e e e %85
+		e4 r r r1*3/4 \pd
 		R1.*2 \noBreak
 		R1.\fermataMarkup \bar "||"
 		\time 4/4 \newSpacingSection \tempoEtMortuos
@@ -179,7 +179,8 @@ EtResurrexitClarinoI = {
 			\set Staff.timeSignatureFraction = 3/4
 			\override Staff.TimeSignature.style = #'single-digit
 		R1.*17 %109
-		c'16\fE d e f g8 g a g16 f g16 c, e f g8 g a g16 f %110
+		\set Staff.soloText = \markup { \null }
+		c'16\fE^\markup { \remark "Clarino 2do tacet" } d e f g8 g a g16 f g16 c, e f g8 g a g16 f %110
 		g16 c h c f, c' h c e, g f g d8-! g,-! d'-! d-! e d16 c
 		d8 g,16 g g8 d' e d16 c d8 e16 f g8 g g g
 		a16 c h c g8 f e f g16 c h c g8 f e f
