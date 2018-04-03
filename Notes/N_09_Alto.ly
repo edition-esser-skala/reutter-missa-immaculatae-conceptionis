@@ -450,12 +450,101 @@ EtResurrexitAltoNotes = {
 			\set Staff.timeSignatureFraction = 3/4
 			\override Staff.TimeSignature.style = #'single-digit
 			\set Score.currentBarNumber = #78
-		
+		R1.*3 %80
+		r8 \mvTr h'\fE^\tuttiE g g h,4 c8 c(^\critnote f4 g8) f16 e
+		d4 d8([ e)] f e16 d c4 g'8 g g([ a)]
+		g g g4( fis) g r r
+		g g g8 g g2 g4
+		r1*3/4 a4 a h
+		a4. a8 a2 a4( gis)
+		a r r r1*3/4
+		R1. \noBreak
+		\mvTr e4.\fE^\tuttiE e8 c^\critnote f h,2 h4\fermata \bar "||"
+		\clef treble \time 4/4 \newSpacingSection \tempoEtMortuos
+			\unset Staff.timeSignatureFraction
+			\revert Staff.TimeSignature.style
+			r2 r4 e \noBreak %90
+		f( \tempoEtMortuosB a2) g4 \noBreak
+		fis1\fermata \bar "||"
+		\clef treble \time 6/4 \newSpacingSection \tempoCuiusRegni
+			\set Staff.timeSignatureFraction = 3/4
+			\override Staff.TimeSignature.style = #'single-digit
+		r1*3/4 \mvTr g4.\fE^\tuttiE a8 h g16 fis \noBreak
+		e8 a a2 a4 r r
+		R1.*10 %104
+		r4 \mvTr fis\pE^\soloE a g a g %105
+		g4. fis8 fis4 \mvTr g\fE^\tuttiE a a8 a
+		g4.( a8) h4 g a8 a a fis
+		g4.( a8) h4 r1*3/4
+		a4( g) g a2( g4)
+		e4 r r r1*3/4 %110
+		R1.*4
+		\mvTr g4\pE^\soloE g g a g4. g8 %115
+		a([ g] f4.)\trill f8 e4 r r
+		R1.
+		g4 g g a g4. g8
+		a([ g] f4.)\trill f8 e4. g8 e g
+		a g fis4. a8 h([ a] g[ a16 h] a8[ g] %120
+		fis4.) fis8 g a h16([ a g a] fis4.)\trill fis8
+		g4 r r r1*3/4
+		R1.
+		r4 r8 d g f! e f g4. g8
+		a4.( g8 f[ g16 a] d,4.) e16([ f)] g8 f %125
+		e4( d4.)\trill d8 c4 r r
+		R1.*20
+		r1*3/2\fermata \bar "||" %147
+		\time 4/4 \newSpacingSection \tempoEtExpecto
+			\unset Staff.timeSignatureFraction
+			\revert Staff.TimeSignature.style
+		r8 \mvTr g'4\fE^\tuttiE g8 g4 g \noBreak
+		r2 f8. g16 a8 h
+		a4 a r2\fermata %150
+		\tempoMortuorum r4 f4. f8 f4
+		e1\fermata \bar "||" %152 finis
 	}
 }
 
 EtResurrexitAltoLyrics = \lyricmode {
+	Et re -- sur -- re -- xit ter -- ti -- a %81
+	di -- e, __ ter -- ti -- a di -- e se -- cun --
+	dum Scri -- ptu -- ras.
+	A -- scen -- dit in coe -- lum,
+	se -- det [ad %85
+	dex -- te -- ram Pa --
+	tris.]
 	
+	[Ju -- di -- ca -- re vi -- vos:]
+	Et %90
+	mor -- tu --
+	os.
+	Cu -- ius re -- gni non
+	e -- rit fi -- nis.
+	
+	[Qui cum Pa -- tre et %105
+	Fi -- li -- o si -- mul ad -- o --
+	ra -- tur et con -- glo -- ri -- fi --
+	ca -- tur:]
+	Per __ Pro -- phe --
+	tas. %110
+	
+	Et u -- nam San -- ctam ca -- %115
+	tho -- li -- cam,
+	
+	et u -- nam San -- ctam ca --
+	tho -- li -- cam et a -- po --
+	sto -- li -- cam ec -- cle -- %120
+	si -- am, ec -- cle -- si --
+	am,
+	
+	et a -- po -- sto -- li -- cam ec --
+	cle -- si -- am, ec -- %125
+	cle -- si -- am.
+	
+	Et ex -- pe -- cto %148
+	re -- sur -- re -- cti --
+	[o -- nem %150
+	mor -- tu -- o --
+	rum.] %152 finis
 }
 
 % AltoNotes = {

@@ -547,7 +547,7 @@ EtResurrexitSopranoNotes = {
 			\override Staff.TimeSignature.style = #'single-digit
 			\set Score.currentBarNumber = #78
 		R1.*2
-		r1*3/4 r8 \mvTr g' c c d([ c16 d] %80
+		r1*3/4 r8 \mvTr g'\fE^\tuttiE c c d([ c16 d] %80
 		e8) d e e f([ e16 f)] g8 g4 f16 e d8([ e)]
 		f f4 e16 d c8([ d)] e e d([ c h a)]
 		h a a2 h4 d d
@@ -566,7 +566,7 @@ EtResurrexitSopranoNotes = {
 		\clef treble \time 6/4 \newSpacingSection \tempoCuiusRegni
 			\set Staff.timeSignatureFraction = 3/4
 			\override Staff.TimeSignature.style = #'single-digit
-		d4. e8 fis d h2 r8 g'
+		d4. e8 fis d h2 r8 g' \noBreak
 		g fis e2 fis4 r r
 		R1.*10 %104
 		r4 \mvTr a,\pE^\soloE d h c a %105
