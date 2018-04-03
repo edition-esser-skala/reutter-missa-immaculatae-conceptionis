@@ -356,7 +356,61 @@ EtResurrexitViolinoI = {
 			\set Staff.timeSignatureFraction = 3/4
 			\override Staff.TimeSignature.style = #'single-digit
 			\set Score.currentBarNumber = #78
-		
+		R1.*2
+		r1*3/4 r8 g'\fE c c d c16 d %80
+		e8 d e e f e16 f g8 g4 f16 e d8 e
+		f f4 e16 d c8 d e e d4 a'16 h c8
+		h8 g a,4 fis' g r r
+		h,16 g' c, g' d g e g d g c, fis g8 h,16 c d8 d d16 e d c
+		h4 r r r16 e fis gis a8 e h' a16 h %85
+		c4. h8 a4. c,8 h4 gis'
+		a, r r r1*3/4
+		R1. \noBreak
+		e'4. e8 a a h2.\fermata \bar "||"
+		\time 4/4 \newSpacingSection \tempoEtMortuos
+			\unset Staff.timeSignatureFraction
+			\revert Staff.TimeSignature.style
+		R1*3 \bar "||" %92
+		\time 6/4 \newSpacingSection \tempoCuiusRegni
+			\set Staff.timeSignatureFraction = 3/4
+			\override Staff.TimeSignature.style = #'single-digit
+		d,4. e8 fis d h2 r8 g' \noBreak
+		g fis e2 d16 e fis g a8 a g fis16 e
+		fis8 fis e d16 cis d8 a g fis16 e fis8 a \tuplet 3/2 8 { h16[ cis d] cis d e } %95
+		d cis d e d cis d e fis8 a, h e16 d cis8 e,16 d cis8 a'
+		fis4 r r r1*3/4
+		r fis8\pE e fis g a4
+		g8 fis16 e fis8 g a4 g8 fis16 e fis8d' e, cis'
+		d4 r r r1*3/4 %100
+		R1.
+		r16 d e fis g8 g g16 a g fis e8 a,16 g fis8 d d16 e d c!
+		h4 r r r1*3/4
+		r d'16 e fis g a c,! h c a' c, h c
+		h4 a r r1*3/4 %105
+		r d4.\fE e8 d c
+		h16 d e fis g8 a h g d4 d8 e d c
+		h4. a8 g4 r d'8 e f! e
+		f2 e4 d d2
+		e4 r r r1*3/4 %110
+		R1.*19 %129
+		r1*3/4 r4 e16\pE fis gis a h8 e, %130
+		c' h a4 f e dis d8^\critnote c16 h
+		c8 a' h,4 gis' a,2 r4
+		R1.*7 %139
+		c16\pE d e f g8 g f e16 d e8 e d c16 h c8 g %140
+		f e16 d e8 c' d, h' c4 r r
+		R1.*3
+		r16 e fis gis a8 e h' e, c'8. h16 a4 f %145
+		e dis d8 c16 h c8 a' h,4 gis' \noBreak
+		a,2.*2\fermata \bar "||"
+		\time 4/4 \newSpacingSection \tempoEtExpecto
+			\unset Staff.timeSignatureFraction
+			\revert Staff.TimeSignature.style
+		r8 g'4\fE g8 g4 g \noBreak
+		r2 a8. g16 f8 f
+		e4 e r2\fermata %150
+		\tempoMortuorum R1
+		R\fermataMarkup \bar "||" %152 finis
 	}
 }
 
