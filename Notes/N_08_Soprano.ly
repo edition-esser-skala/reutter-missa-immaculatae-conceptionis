@@ -580,7 +580,7 @@ EtResurrexitSopranoNotes = {
 		\time 4/4 \newSpacingSection \tempoEtExpecto
 			\unset Staff.timeSignatureFraction
 			\revert Staff.TimeSignature.style
-		r8 \mvTr c4\fE^\tuttiE h8 c4 h
+		r8 \mvDll c4\fE^\tuttiE h8 c4 h
 		h8. c16 d8 e f2(
 		e4) e r2\fermata %150
 		\tempoMortuorum r4 c8 c d2

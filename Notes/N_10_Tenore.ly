@@ -452,7 +452,7 @@ EtResurrexitTenoreNotes = {
 		r8 \mvTr g\fE^\tuttiE c c d([ c16 d)] e8 r r4 r
 		r1*3/4 r8 c d2
 		d8 e d2 d4 r r
-		h e d8 d d2 d4
+		h d^\critnote d8 d d2 d4
 		r1*3/4 c4 e h %85
 		c2 e4 f e2
 		e4 r r r1*3/4
@@ -469,12 +469,12 @@ EtResurrexitTenoreNotes = {
 			\override Staff.TimeSignature.style = #'single-digit
 		r1*3/4 r4 r r8 h \noBreak
 		cis d d4( cis) d r r
-		R1.*2
+		R1.*2 %96
 		r4 \mvTr a\pE^\soloE d cis4. h8 a4
 		h8 a g4.\trill g8 fis4 r r
 		R1.
-		r4 a d cis4. h8 a4
-		h8 a g4.\trill g8 fis4 d'8 e d cis
+		r4 a d cis4. h8 a4 %100
+		h8 a g4.\trill g8 fis4 d'8 e d c?
 		h4 h r r1*3/4
 		r4 h d g, g e'8 d
 		c([ h)] a([ g)] fis([ g)] a4 a r
@@ -489,7 +489,7 @@ EtResurrexitTenoreNotes = {
 		\time 4/4 \newSpacingSection \tempoEtExpecto
 			\unset Staff.timeSignatureFraction
 			\revert Staff.TimeSignature.style
-		r8 \mvTr e4\fE^\tuttiE d8 e4 d
+		r8 \mvDll e4\fE^\tuttiE d8 e4 d \noBreak
 		g,8. a16 h8 c d2(
 		c4) c r2\fermata %150
 		\tempoMortuorum r4 a4. a8 as4
@@ -510,8 +510,8 @@ EtResurrexitTenoreLyrics = \lyricmode {
 	%90
 	Et mor --  tu --
 	os.
-	Non
-	e -- rit fi -- nis.
+	[Non
+	e -- rit fi -- nis.]
 	
 	Et in Spi -- ri -- tum %97
 	San -- ctum, Do -- mi -- num,

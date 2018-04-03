@@ -496,7 +496,7 @@ EtResurrexitAltoNotes = {
 		\time 4/4 \newSpacingSection \tempoEtExpecto
 			\unset Staff.timeSignatureFraction
 			\revert Staff.TimeSignature.style
-		r8 \mvTr g'4\fE^\tuttiE g8 g4 g \noBreak
+		r8 \mvDll g'4\fE^\tuttiE g8 g4 g \noBreak
 		r2 f8. g16 a8 h
 		a4 a r2\fermata %150
 		\tempoMortuorum r4 f4. f8 f4

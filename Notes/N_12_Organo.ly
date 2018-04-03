@@ -912,7 +912,7 @@ EtResurrexitOrgano = {
 		d8\pE e fis e fis d a' a, a' g fis d
 		g fis e d cis a d a d4 r8 d
 		e a, d4 r8 d e a, d fis a a,
-		d e fis e fis d a' a, a' g fis e %100
+		d e fis e fis d a' a, a' g fis d^\critnote %100
 		g fis? e d cis a d4 fis d
 		g8 a h a h g c c, d e fis d
 		g fis g a h4 e4. d8 c h
@@ -963,7 +963,7 @@ EtResurrexitOrgano = {
 		\time 4/4 \newSpacingSection \tempoEtExpecto
 			\unset Staff.timeSignatureFraction
 			\revert Staff.TimeSignature.style
-		r8 \mvTr c4\fE-\tuttiE g8 c4 g \noBreak
+		r8 \mvDll c4\fE-\tuttiE g8 c4 g \noBreak
 		\clef "treble_8" g'8. a16 h8 c \clef bass d,8. e16 f8 g
 		a4 a, r2\fermata %150
 		\tempoMortuorum f'4 f, b h

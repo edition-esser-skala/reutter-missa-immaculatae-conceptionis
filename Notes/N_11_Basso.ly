@@ -437,12 +437,109 @@ EtResurrexitBassoNotes = {
 			\set Staff.timeSignatureFraction = 3/4
 			\override Staff.TimeSignature.style = #'single-digit
 			\set Score.currentBarNumber = #78
-		
+		R1.*3 %80
+		r8 \mvTr g'\fE^\tuttiE c c, g'4 c,8 r r4 r
+		r1*3/4 r8 c' h([ a g fis)]
+		g c, d2 g4 r r
+		g8 a h c h([ a)] g2 g4
+		r1*3/4 a4 c gis %85
+		a2 a8([ g)] f([ d)] e2
+		a,4 r r r1*3/4
+		R1. \noBreak
+		\mvTr a'4.\fE^\tuttiE g8 f f e2 e4\fermata \bar "||"
+		\time 4/4 \newSpacingSection \tempoEtMortuos
+			\unset Staff.timeSignatureFraction
+			\revert Staff.TimeSignature.style
+			R1 \noBreak %90
+		r4 \tempoEtMortuosB fis g4. g8 \noBreak
+		d1\fermata \bar "||"
+		\time 6/4 \newSpacingSection \tempoCuiusRegni
+			\set Staff.timeSignatureFraction = 3/4
+			\override Staff.TimeSignature.style = #'single-digit
+		r1*3/4 r4 r r8 g \noBreak
+		a d, a'2 d,4 r r
+		R1.*11 %105
+		r1*3/4 \mvTr g4\fE^\tuttiE fis8([ e)] d d
+		g2 g,4 g' fis8 fis d d
+		g2 g,4 r1*3/4
+		d''8 c h g c4 f,!8 f g2
+		c,4 r r r1*3/4 %110
+		R1.*18 %128
+		r4 r \mvTr e\pE^\soloE a4. a8 h4
+		c h a gis8([ fis?)] e4 r %130
+		R1.
+		r1*3/4 r4 r e
+		a4. a8 h4 c h a
+		gis8([ fis?)] e4 r r h'8 gis e h'
+		c([ h)] a2 a4. fis8 d a'^\critnote %135
+		h([ a)] g2 g4. e8 c g'
+		a4~ a16[ f g a] d,8[ a'] h4~ h16[ g a h] e,8[ h']
+		c4~ c16[ a h c] f,8[^\critnote c'] d[ c h a g f]
+		e[ d] c4 g' a g( g,)
+		c2 r4 r1*3/4 %140
+		r r4 g'8 e c g'
+		a([ g)] a2 a4. fis8 d a'
+		h([ a)] h2 h4. gis8 e h'
+		c4. h8 a4 d, e2
+		a,4 r r r1*3/4 %145
+		R1. \noBreak
+		r1*3/2\fermata \bar "||" %147
+		\time 4/4 \newSpacingSection \tempoEtExpecto
+			\unset Staff.timeSignatureFraction
+			\revert Staff.TimeSignature.style
+		r8 \mvDll c'4\fE^\tuttiE g8 c4 g \noBreak
+		r2 d8. e16 f8 g
+		a4 a, r2\fermata %150
+		\tempoMortuorum f'4. f8 b,4( h)
+		c1\fermata \bar "||" %152 finis
 	}
 }
 
 EtResurrexitBassoLyrics = \lyricmode {
+	Et re -- sur -- re -- xit %81
+	se -- cun --
+	dum Scri -- ptu -- ras.
+	Et a -- scen -- dit in __ coe -- lum,
+	se -- det ad %85
+	dex -- te -- ram Pa --
+	tris.
 	
+	Ju -- di -- ca -- re vi -- vos:
+	Et mor -- %90
+	tu --
+	os.
+	Non
+	e -- rit fi -- nis.
+	
+	Si -- mul ad -- o -- %106
+	ra -- tur et con -- glo -- ri -- fi --
+	ca -- tur:
+	Qui lo -- cu -- tus est per Pro -- phe --
+	tas. %110
+	
+	Con -- fi -- te -- or %129
+	u -- num ba -- pti -- sma, %130
+	
+	con --
+	fi -- te -- or u -- num ba --
+	pti -- sma in re -- mis -- si --
+	o -- nem, in re -- mis -- si -- %135
+	o -- nem, in re -- mis -- si --
+	o -- _ _ _
+	_ _ _
+	_ nem pec -- ca -- to --
+	rum, %140
+	in re -- mis -- si --
+	o -- nem, in re -- mis -- si --
+	o -- nem, in re -- mis -- si --
+	o -- nem pec -- ca -- to --
+	rum. %145
+	
+	Et ex -- pe -- cto %148
+	re -- sur -- re -- cti --
+	o -- nem %150
+	mor -- tu -- o --
+	rum. %152 finis
 }
 
 % BassoNotes = {
