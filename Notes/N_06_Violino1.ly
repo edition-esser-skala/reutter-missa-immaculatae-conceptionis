@@ -366,7 +366,7 @@ EtResurrexitViolinoI = {
 		c4. h8 a4. c,8 h4 gis'
 		a, r r r1*3/4
 		R1. \noBreak
-		e'4. e8 a a h2.\fermata \bar "||"
+		e'4.\fE e8 a a h2.\fermata \bar "||"
 		\time 4/4 \newSpacingSection \tempoEtMortuos
 			\unset Staff.timeSignatureFraction
 			\revert Staff.TimeSignature.style
