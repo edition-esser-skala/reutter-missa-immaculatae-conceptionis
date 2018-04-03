@@ -887,8 +887,8 @@ EtResurrexitOrgano = {
 		\mvTr c4\fE-\solo r8 c h g c4 r-\critnote g
 		c8 e a g f e d f g f e d
 		c h c c' g g, c4-\tutti r8 c' g4 %80
-		c,8 g' c c, g' g, c \noBeam \clef treble c'' f4 g8 f16 e
-		d8 d4 e8 f e16 d c8 \noBeam \clef bass c, h a g fis
+		c,8 g' c c, g' g, c \noBeam \clef treble c'4-\critnote f8 g8 f16 e
+		d8 d4 e8 f e16 d c8 \noBeam \clef bass c h a g fis
 		g c, d c d d, g4 \clef treble d'''4 d
 		\clef bass g,,8 a h c h a g2.
 		\clef treble r4 e''-! e-! \clef bass a,,8 h c a gis e %85
@@ -935,7 +935,7 @@ EtResurrexitOrgano = {
 		a c d c h a g d' e d c4 %120
 		d8 e d c h a g c d c d d,
 		g4\fE r8 g' c4 g r8 h c a
-		g f e d c e f4 e c-\critnote
+		g f! e d c e f4 e c-\critnote
 		c g8 a\pE h4 c8 d e d e c
 		f,4 f'8 e d c h a g4 r8 h' %125
 		c f, g f g g, c\fE d e d e c
@@ -972,7 +972,81 @@ EtResurrexitOrgano = {
 }
 
 EtResurrexitBassFigures = \figuremode {
-	
+	r2 <6>4 r2 <7>4 %78
+	r8 <6> r2 r2.
+	r8 <6> r2 r2. %80
+	r2 <7>4 r2.
+	r r4 <6>4. q8
+	r <6 5> <4>4 <_+> r2.
+	r4 <6> q8 q r2.
+	r r4 <6> q8 <_+> %85
+	r2 r8 <6> r <6 5> <4>4 <_+>
+	r <6> q8 <_+> r4 <6> q8 <_+>
+	r4 <6> q8 <_+> r2.
+	r4. <6>8 <5> <6> <_+>2.
+	r1 %90
+	r4 <6 5> <9 _-> <8 \t>
+	<_+>1
+	r1.
+	<7 _+>8 <_+> <4>4 <_+> q4. <6>8 <7> <7 _+>
+	<_+> <\t> <6> q16 <6\\> <6>8 <_+> r <_+> q <6> r <_+> %95
+	<5+>4 <6> <_+>8 <6> q4 <_+>2
+	<_+>4 <6>4. <_+>8 <_+>2 <6>8 <_+>
+	r <6> <7>4 <7 _+> <_+>8 q q4. <\t>8
+	r <_+> q4. <\t>8 r <_+> q <6> <_+>4
+	<_+>4 <6>4. <_+>8 <_+>2 <6>8 <_+> %100
+	r <6> <7>4 <6 5>8 <\t \t> <_+>4 <6> <7! _+>
+	r <6>2 <5>8 <6> <_+>4 <6>8 <7 _+>
+	r2 <6>4 r2 r8 <6>
+	r4 <5> <_+> <6> <_+> <6>8 <_+>
+	r4 <_+> <6> r <8 6> <7 5> %105
+	<4>2 <_+>4 r <6> <7 _+>
+	r2. r4 <6> <7 _+>
+	r1.
+	<_!>4 <\t> r <6 5> <4> <3>
+	r4. <6>8 r4 r4. <6>8 r4 %110
+	<6>4 <7> r r4. <6>8 r4
+	<6>4. q r4 <6>2
+	r4 <6>2 <\t>2.
+	q r8 <6> <4>4 <3>
+	r4 <6>2 r4 <6>2 %115
+	r8 <6> <7>4 <6 5>8 <\t \t> r4. <6>8 <7> q
+	r4. <6>8 <7> q r <6> <4>4 <3>
+	r <6>2 r4 <6>2
+	r8 <6> <7>4 <6 5>8 <\t \t> r4 <6>4. q8
+	r4 <_+>2 r8 q r4 <6>8 <5> %120
+	<_+>4. <\t>8 <6> <6\\> r <6> <_+>2
+	r2. r4. <6>
+	r4 <6>4. q8 r4 <6>2
+	r2 <6 5>4 r <6>2
+	r4. <6>8 r4 <6>2 r8 <6 5> %125
+	r <6> <4>4 <3> r <6>2
+	r4 <6>2 <\t>2.
+	q r8 <6> <4>4 <3>
+	r4 <6\\>8 <8> <6> <_+> r2 <6>4
+	r <6> <5> <_+>2 <6>4 %130
+	r <6>2 <_+>4 <5+ _+> <6 5!>8 <\t \t>
+	r4 <4> <_+> r <6> <_+>
+	<6> r <_+> r <6> <5>
+	<_+>2 <6\\>4 <6>2.
+	r2 <\t>4 <6> <_+> <6> %135
+	r2 <\t>4 <6> r q
+	r <\t> <[_+]> r <\t> <[_+]>
+	r <\t> r <6>2 <5>4
+	r <6> r1
+	r2 <7>8 q r2 r8 <3> %140
+	q q16 q q2 r2 <6>4
+	r2 <\t>4 <_+> <6> <_+>
+	r2 <\t>4 <_+> <6> <_+>
+	r <\t> r <6> <4> <_+>
+	r2 <6>8 <_+> r4 <6>2 %145
+	<_+>4 <5+ _+> <6 5!>8 <\t \t> r4 <4> <_+>
+	r1.
+	r1
+	<3>8. q16 q8 q r4 <6>
+	r1
+	r2 <7>4 <7->
+	r1
 }
 
 % Organo = {

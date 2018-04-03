@@ -451,7 +451,7 @@ EtResurrexitAltoNotes = {
 			\override Staff.TimeSignature.style = #'single-digit
 			\set Score.currentBarNumber = #78
 		R1.*3 %80
-		r8 \mvTr h'\fE^\tuttiE g g h,4 c8 c(^\critnote f4 g8) f16 e
+		r8 \mvTr h'\fE^\tuttiE g g h,4 c8 c4( f8 g) f16 e
 		d4 d8([ e)] f e16 d c4 g'8 g g([ a)]
 		g g g4( fis) g r r
 		g g g8 g g2 g4

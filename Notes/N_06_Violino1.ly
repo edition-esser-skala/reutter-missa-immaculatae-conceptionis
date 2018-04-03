@@ -363,7 +363,7 @@ EtResurrexitViolinoI = {
 		h8 g a,4 fis' g r r
 		h,16 g' c, g' d g e g d g c, fis g8 h,16 c d8 d d16 e d c
 		h4 r r r16 e fis gis a8 e h' a16 h %85
-		c4. h8 a4. c,8 h4 gis'
+		c4. h8 a4. d,8^\critnote h4 gis'
 		a, r r r1*3/4
 		R1. \noBreak
 		e'4.\fE e8 a a h2.\fermata \bar "||"

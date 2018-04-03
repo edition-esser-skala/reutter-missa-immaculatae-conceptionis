@@ -191,7 +191,7 @@ EtResurrexitClarinoI = {
 		c2 r4 r1*3/4
 		R1.*3 %121
 		d8\fE g, g d' e d16 c d8 g,16 g g8 d' e d16 c
-		d8 e16 f g8 g g g a16 c h c g c h c e, g f g
+		d8 e16 f! g8 g g g a16 c h c g c h c e, g f g
 		e4 d r r1*3/4
 		R1. %125
 		r1*3/4 c16\fE d e f g8 g g g
