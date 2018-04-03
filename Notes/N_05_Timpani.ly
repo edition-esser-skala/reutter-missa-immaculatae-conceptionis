@@ -144,7 +144,31 @@ EtResurrexitTimpani = {
 			\set Staff.timeSignatureFraction = 3/4
 			\override Staff.TimeSignature.style = #'single-digit
 			\set Score.currentBarNumber = #78
-		
+		c4\fE r r r8 g c c g4
+		c r r r r8 g16 g g8 g
+		c4 r8 c g g c4 r r %80
+		R1.*3
+		r8 g16 g g8 g16 g g g g g g8 g16 g g g g g g g g g
+		g4 r r r1*3/4 %85
+		R1.*3 \noBreak
+		R1.\fermataMarkup \bar "||"
+		\time 4/4 \newSpacingSection \tempoEtMortuos
+			\unset Staff.timeSignatureFraction
+			\revert Staff.TimeSignature.style
+		R1*3 \bar "||" %92
+		\time 6/4 \newSpacingSection \tempoCuiusRegni
+			\set Staff.timeSignatureFraction = 3/4
+			\override Staff.TimeSignature.style = #'single-digit
+		R1.*54 \noBreak %146
+		r1*3/2\fermata \bar "||" %147
+		\time 4/4 \newSpacingSection \tempoEtExpecto
+			\unset Staff.timeSignatureFraction
+			\revert Staff.TimeSignature.style
+		r8 c16\fE c c8 g c4 g \noBreak
+		R1
+		R\fermataMarkup %150
+		\tempoMortuorum R
+		R\fermataMarkup \bar "||" %152 finis
 	}
 }
 
