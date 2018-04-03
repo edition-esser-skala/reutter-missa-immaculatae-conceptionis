@@ -546,12 +546,77 @@ EtResurrexitSopranoNotes = {
 			\set Staff.timeSignatureFraction = 3/4
 			\override Staff.TimeSignature.style = #'single-digit
 			\set Score.currentBarNumber = #78
-		
+		R1.*2
+		r1*3/4 r8 \mvTr g' c c d([ c16 d] %80
+		e8) d e e f([ e16 f)] g8 g4 f16 e d8([ e)]
+		f f4 e16 d c8([ d)] e e d([ c h a)]
+		h a a2 h4 d d
+		d4. e8 d([ c)] h2 h4
+		r e e e e e %85
+		e4. d8 c([ h)] a([ h] h2)
+		c4 r \mvTr e\pE^\soloE c8 h a4 h
+		c8. h16 a4 h c4. h8 a4 \noBreak
+		\mvTr a4.\fE^\tuttiE h8 c d e2 e,4\fermata \bar "||"
+		\clef treble \time 4/4 \newSpacingSection \tempoEtMortuos
+			\unset Staff.timeSignatureFraction
+			\revert Staff.TimeSignature.style
+			r4 e' f( cis \noBreak %90
+		d \tempoEtMortuosB c) b2 \noBreak
+		a1\fermata \bar "||"
+		\clef treble \time 6/4 \newSpacingSection \tempoCuiusRegni
+			\set Staff.timeSignatureFraction = 3/4
+			\override Staff.TimeSignature.style = #'single-digit
+		d4. e8 fis d h2 r8 g'
+		g fis e2 fis4 r r
+		R1.*10 %104
+		r4 \mvTr a,\pE^\soloE d h c a %105
+		a4. a8 a4 \mvTr d4.\fE^\tuttiE e8 d c
+		h([ a)] g4 d' d4. e8 d c
+		h4.( a8) g4 r d'8 e f! e
+		f2 e4 d d2
+		c4 r r r1*3/4 %110
+		R1.*36 \noBreak %146
+		r1*3/2\fermata \bar "||" %147
+		\time 4/4 \newSpacingSection \tempoEtExpecto
+			\unset Staff.timeSignatureFraction
+			\revert Staff.TimeSignature.style
+		r8 \mvTr c4\fE^\tuttiE h8 c4 h
+		h8. c16 d8 e f2(
+		e4) e r2\fermata %150
+		\tempoMortuorum r4 c8 c d2
+		g,1\fermata \bar "||" %152 finis
 	}
 }
 
 EtResurrexitSopranoLyrics = \lyricmode {
+	Et re -- sur -- re -- %80
+	xit, re -- sur -- re -- xit ter -- ti -- a di --
+	e, ter -- ti -- a di -- e se -- cun --
+	dum Scri -- ptu -- ras. Et a --
+	scen -- dit in __ coe -- lum,
+	se -- det, se -- det ad %85
+	dex -- te -- ram Pa --
+	tris. Et i -- te -- rum ven --
+	tu -- rus est cum glo -- ri -- a
+	ju -- di -- ca -- re vi -- vos:
+	Et mor -- %90
+	tu --
+	os.
+	Cu -- ius re -- gni non, non
+	e -- rit fi -- nis.
 	
+	Qui cum Pa -- tre et %105
+	Fi -- li -- o si -- mul ad -- o --
+	ra -- tur et con -- glo -- ri -- fi --
+	ca -- tur: Qui lo -- cu -- tus
+	est per Pro -- phe --
+	tas. %110
+	
+	Et ex -- pe -- cto %148
+	re -- sur -- re -- cti -- o --
+	nem %150
+	mor -- tu -- o --
+	rum. %152 finis
 }
 
 % SopranoNotes = {

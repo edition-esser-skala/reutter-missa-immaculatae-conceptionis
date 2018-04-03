@@ -180,6 +180,11 @@ tempoCredo = \tempoMarkup "[Tempo deest]"
 tempoEtIncarnatus = \tempoMarkup "Tarde"
 tempoCrucifixus = \tempoMarkup "[Tempo deest]"
 tempoEtResurrexit = \tempoMarkup "Allegro"
+	tempoEtMortuos = \tempoMarkup "Adagio"
+	tempoEtMortuosB = \tempoMarkup "Adagio"
+	tempoCuiusRegni = \tempoMarkup "Allegro"
+	tempoEtExpecto = \tempoMarkup "Adagio"
+	tempoMortuorum = \tempoMarkup "Adagio"
 
 
 
