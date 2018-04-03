@@ -884,7 +884,7 @@ EtResurrexitOrgano = {
 			\set Staff.timeSignatureFraction = 3/4
 			\override Staff.TimeSignature.style = #'single-digit
 			\set Score.currentBarNumber = #78
-		\mvTr c4\fE-\solo r8 c h g c4 h g
+		\mvTr c4\fE-\solo r8 c h g c4 r-\critnote g
 		c8 e a g f e d f g f e d
 		c h c c' g g, c4-\tutti r8 c' g4 %80
 		c,8 g' c c, g' g, c \noBeam \clef treble c'' f4 g8 f16 e
@@ -928,18 +928,18 @@ EtResurrexitOrgano = {
 		f4 e8 d c d e4 e8 d c d
 		e4 r r8 g, c f g f g g,
 		c\pE d e d e c f f, e' d e c %115
-		f e d c h g c4 r8 e d g,
+		f e d c h g c4\fE r8 e d g,
 		c4 r8 e d g, c f g f g g,
-		c d e d e c f f, e' d e c
+		c\pE d e d e c f f, e' d e c
 		f e d c h g c d e d c h
 		a c d c h a g d' e d c4 %120
 		d8 e d c h a g c d c d d,
-		g4 r8 g' c4 g r8 h c a
-		g f e d c e f4 e d
-		c g8 a h4 c8 d e d e c
+		g4\fE r8 g' c4 g r8 h c a
+		g f e d c e f4 e c-\critnote
+		c g8 a\pE h4 c8 d e d e c
 		f,4 f'8 e d c h a g4 r8 h' %125
 		c f, g f g g, c\fE d e d e c
-		e4 e8 d c d e4 e8 d c d
+		f4^\critnote e8 d c d^\critnote e4 e8 d c d
 		e4 r r8 g c, f g f g g,
 		c\pE c' h a gis e a,4 a' gis
 		a d,2 e4 e8 fis gis4 %130

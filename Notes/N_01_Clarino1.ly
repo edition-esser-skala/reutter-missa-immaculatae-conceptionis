@@ -160,7 +160,53 @@ EtResurrexitClarinoI = {
 			\set Staff.timeSignatureFraction = 3/4
 			\override Staff.TimeSignature.style = #'single-digit
 			\set Score.currentBarNumber = #78
-		
+		r8 g'\fE c c d c16 d e8 d e e f e16 f
+		g8 g c, c c d16 e f8 f g, g g c16 d
+		e8 g16 f e8 d16 c d8. c16 c4 r r %80
+		R1.
+		r1*3/4 r4 r r8 a'
+		h g g2 g4 r r
+		r8 g4 g8 g a h d,16 d d8 d d d
+		d4 r r r8 e,16 e e8 e e e %85
+		e4 r r r1*3/4
+		R1.*2 \noBreak
+		R1.\fermataMarkup \bar "||"
+		\time 4/4 \newSpacingSection \tempoEtMortuos
+			\unset Staff.timeSignatureFraction
+			\revert Staff.TimeSignature.style
+		R1*3 \bar "||" %92
+		\time 6/4 \newSpacingSection \tempoCuiusRegni
+			\set Staff.timeSignatureFraction = 3/4
+			\override Staff.TimeSignature.style = #'single-digit
+		R1.*17 %109
+		c'16\fE d e f g8 g a g16 f g16 c, e f g8 g a g16 f %110
+		g16 c h c f, c' h c e, g f g d8-! g,-! d'-! d-! e d16 c
+		d8 g,16 g g8 d' e d16 c d8 e16 f g8 g g g
+		a16 c h c g8 f e f g16 c h c g8 f e f
+		g16 c h a g f e d c8 d e d d4.\trill c8
+		c4 r r r1*3/4 %115
+		r c16\fE d e f g8 g f e16 d
+		e16 c e f g8 g f e16 d e8 d d4.\trill c8
+		c2 r4 r1*3/4
+		R1.*3 %121
+		d8\fE g, g d' e d16 c d8 g,16 g g8 d' e d16 c
+		d8 e16 f g8 g g g a16 c h c g c h c e, g f g
+		e4 d r r1*3/4
+		R1. %125
+		r1*3/4 c16\fE d e f g8 g g g
+		a16 c h c g8 f e f g16 c h c g8 f e f
+		g16 c h a g f e d c8 d e d d4.\trill c8
+		c4 r r r1*3/4
+		R1.*17 \noBreak %146
+		r1*3/2\fermata \bar "||" %147
+		\time 4/4 \newSpacingSection \tempoEtExpecto
+			\unset Staff.timeSignatureFraction
+			\revert Staff.TimeSignature.style
+		r8 e16\fE f g8 d e4 d \noBreak
+		r2 f8. f16 f8 f
+		e4 e r2\fermata %150
+		\tempoMortuorum R1
+		R\fermataMarkup \bar "||" %152 finis
 	}
 }
 
