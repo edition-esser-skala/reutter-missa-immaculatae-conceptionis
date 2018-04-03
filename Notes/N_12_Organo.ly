@@ -885,6 +885,89 @@ EtResurrexitOrgano = {
 			\override Staff.TimeSignature.style = #'single-digit
 			\set Score.currentBarNumber = #78
 		\mvTr c4\fE-\solo r8 c h g c4 h g
+		c8 e a g f e d f g f e d
+		c h c c' g g, c4-\tutti r8 c' g4 %80
+		c,8 g' c c, g' g, c \noBeam \clef treble c'' f4 g8 f16 e
+		d8 d4 e8 f e16 d c8 \noBeam \clef bass c, h a g fis
+		g c, d c d d, g4 \clef treble d'''4 d
+		\clef bass g,,8 a h c h a g2.
+		\clef treble r4 e''-! e-! \clef bass a,,8 h c a gis e %85
+		a2 a8 g f d e d e e,
+		\mvTr a'\pE-\solo h c a gis e a h c a gis e
+		a h c a gis e a,2. \noBreak
+		\mvTr a'4.\fE-\tuttiE g8 f4 e2.\fermata \bar "||"
+		\clef treble \time 4/4 \newSpacingSection \tempoEtMortuos
+			\unset Staff.timeSignatureFraction
+			\revert Staff.TimeSignature.style
+			<< { r4 e'' f cis \noBreak d } \\ { r2 r4 e, f } >> %90
+		\clef bass \tempoEtMortuosB fis, g g, \noBreak
+		d'1\fermata \bar "||"
+		\clef treble \time 6/4 \newSpacingSection \tempoCuiusRegni
+			\set Staff.timeSignatureFraction = 3/4
+			\override Staff.TimeSignature.style = #'single-digit
+			<< { d''4. e8 fis d h2 } \\ { r1*3/4 g4. a8 h } >> \clef bass g, \noBreak
+		a d, a' g a a, d4 r8 fis-\soloE e a,
+		d a' g fis16 e fis8 d e a, d fis g a %95
+		h a16 g fis8 e d fis g4 a a,
+		d8\pE e fis e fis d a' a, a' g fis d
+		g fis e d cis a d a d4 r8 d
+		e a, d4 r8 d e a, d fis a a,
+		d e fis e fis d a' a, a' g fis e %100
+		g fis? e d cis a d4 fis d
+		g8 a h a h g c c, d e fis d
+		g fis g a h4 e4. d8 c h
+		a g fis e d e fis e d e fis d
+		g4 \clef "treble_8" d' fis, g c2 %105
+		d2. \clef bass \mvTr g,4\fE-\tuttiE fis d
+		g2 g,4 g' fis d
+		g2 g,4 r1*3/4
+		d''8 c h g c4 f,! g8 f g g,
+		c4 r8 e-\solo f d c4. e8 f d %110
+		e4 d c g r8 h c a
+		h4 r8 h' c a g f e d e c
+		f4 e8 d c d e4 e8 d c d
+		e4 r r8 g, c f g f g g,
+		c\pE d e d e c f f, e' d e c %115
+		f e d c h g c4 r8 e d g,
+		c4 r8 e d g, c f g f g g,
+		c d e d e c f f, e' d e c
+		f e d c h g c d e d c h
+		a c d c h a g d' e d c4 %120
+		d8 e d c h a g c d c d d,
+		g4 r8 g' c4 g r8 h c a
+		g f e d c e f4 e d
+		c g8 a h4 c8 d e d e c
+		f,4 f'8 e d c h a g4 r8 h' %125
+		c f, g f g g, c\fE d e d e c
+		e4 e8 d c d e4 e8 d c d
+		e4 r r8 g c, f g f g g,
+		c\pE c' h a gis e a,4 a' gis
+		a d,2 e4 e8 fis gis4 %130
+		a8. h16 c4 d, e16 fis? gis a h8 a gis e
+		a d, e d e e, a4 c e
+		c a e' a d,2
+		e fis4 gis2.
+		a2 g4 fis d fis %135
+		g2 f4 e c e
+		f e d g f e
+		a g f h2 h,4
+		c e g f g g,
+		c r8 c d g c, r r4 r8 e' %140
+		d c16 h c8 f, g g, c2 e4
+		f f, e' d8 e fis4 d
+		g, g' f e8 fis gis4 e
+		a g f d e e,
+		a r8 a' gis e a8. h16 c4 d, %145
+		e16 fis gis a h8 a gis e a d, e d e e, \noBreak
+		a2.*2\fermata \bar "||"
+		\time 4/4 \newSpacingSection \tempoEtExpecto
+			\unset Staff.timeSignatureFraction
+			\revert Staff.TimeSignature.style
+		r8 \mvTr c4\fE-\tuttiE g8 c4 g \noBreak
+		\clef "treble_8" g'8. a16 h8 c \clef bass d,8. e16 f8 g
+		a4 a, r2\fermata %150
+		\tempoMortuorum f'4 f, b h
+		c1\fermata \bar "||" %152 finis
 	}
 }
 
