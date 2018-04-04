@@ -680,7 +680,7 @@ EtVitamSopranoLyrics = \lyricmode {
 	a --
 	men, a -- _
 	_ _ _ _
-	men.
+	men. %199 FINIS
 }
 
 % SopranoNotes = {

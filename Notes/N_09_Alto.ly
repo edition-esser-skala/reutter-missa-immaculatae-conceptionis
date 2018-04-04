@@ -552,12 +552,73 @@ EtVitamAltoNotes = {
 		\clef treble
 		\key c \major \time 4/4 \autoBeamOff \tempoEtVitam
 			\set Score.currentBarNumber = #153
-		
+		R1*8 %160
+		\mvTr c2\fE^\tuttiE e
+		g r4 a
+		f2 e
+		d4. d8 c2
+		r8 c4 e8 g d4 h8~ %165
+		h h'4 \once \tieDashed g8~ g c4 \once \tieDashed a8~
+		a fis4 d8 g d4 g8~
+		g[ fis16 e] fis4. g8 d[( e16 f?]
+		g4. f8 e4) f
+		r8 f[( g a] d,4) g %170
+		f2 e
+		R1*9 %180
+		r2 r8 g4 d8
+		h h'4 g c a8~
+		a fis4 d8 g d4^\critnote g8~
+		g[ fis16 e] fis4 g r
+		R1 %185
+		c,2 e
+		g r4 a
+		f2 e
+		d4. d8 c g'( fis4)
+		g r r2 %190
+		R1
+		r2 r4 g~
+		g8([ fis16 e] fis4) g8 d([ e f?]
+		g4. f8) e c([ d e]
+		f4. e8) d4 h( %195
+		c4. d8 e[ f)] g4
+		r2 g4. g8
+		g4 g g2
+		g4\fermata r r2 \bar "|." %199 FINIS
 	}
 }
 
 EtVitamAltoLyrics = \lyricmode {
+	Et vi -- %161
+	tam ven --
+	tu -- ri
+	sae -- cu -- li,
+	a -- _ _ _ _ %165
+	_ _ _ _
+	_ _ _ _ _
+	_ men, a --
+	men,
+	a -- men, %170
+	a -- men.
 	
+	A -- _ %181
+	_ _ _ _ _
+	_ _ _ _ _
+	_ men.
+	%185
+	Et vi --
+	tam ven --
+	tu -- ri
+	sae -- cu -- li, a --
+	men, %190
+	
+	a --
+	men, a --
+	men, a --
+	men, a -- %195
+	men,
+	a -- men,
+	a -- men, a --
+	men. %199 FINIS
 }
 
 % AltoNotes = {

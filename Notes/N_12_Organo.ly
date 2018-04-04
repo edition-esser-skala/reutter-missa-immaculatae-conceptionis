@@ -1087,7 +1087,7 @@ EtVitamOrgano = {
 			h,8 h'4 \once \tieDashed g8~ g c4 a8~
 			a fis4 d8
 		} >> \clef "treble_8" g,4 h
-		c d h8 \clef bass g4 f8
+		c d h8 \clef bass g4 f!8
 		e e f g a4. g8
 		f2 g4 e %170
 		d2 c
