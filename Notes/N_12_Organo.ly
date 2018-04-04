@@ -1044,22 +1044,101 @@ EtResurrexitBassFigures = \figuremode {
 	r1.
 	r1
 	<3>8. q16 q8 q r4 <6>
-	r1
+	r1 %150
 	r2 <7>4 <7->
-	r1
+	r1 %152 finis
 }
 
-% Organo = {
-% 	\relative c {
-% 		\clef bass
-% 		\key c \major \time 4/4 \tempo
-% 		
-% 	}
-% }
-% 
-% BassFigures = \figuremode {
-% 	
-% }
+EtVitamOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoEtVitam
+			\set Score.currentBarNumber = #153
+		\mvTr c2-!\fE-\tuttiE e-!
+		g-! r4 a-!
+		f2.-! e4-! %155
+		d4.-! d8-! c2-!
+		<< {
+			g'2 h
+			d r4 e
+			c2 h
+			a4. a8 g2 %160
+		} \\ {
+			r8 c,4 e8 g d4 h8~
+			h h'4 \once \tieDashed g8~ g c4 a8~
+			a fis4 d8 g d g4~
+			g fis g8 d g f %160
+		} >>
+		e4 c \clef "treble_8" << {
+			e'2
+			g r4 a
+			f2
+		} \\ {
+			h,8 g4 e8~
+			e e'4 \once \tieDashed c8~ c f4 d8~
+			d h4 g8
+		} >> \clef bass c,4 e
+		f g e4. d8
+		c4 \clef "treble_8" c' g' g, %165
+		\clef treble << {
+			d''2. e4
+			c2
+		} \\ {
+			h,8 h'4 \once \tieDashed g8~ g c4 a8~
+			a fis4 d8
+		} >> \clef "treble_8" g,4 h
+		c d h8 \clef bass g4 f8
+		e e f g a4. g8
+		f2 g4 e %170
+		d2 c
+		r c'4-\solo c,
+		r f g g,
+		c c' g g,
+		c a g \clef treble g'' %175
+		<< {
+			r8 g'4 d8 h h'4 \once \tieDashed g8~
+			g c4 \once \tieDashed a8~ a fis4 d8
+			g d g4. fis16 e fis4
+			g8
+		} \\ {
+			h,2 d
+			r4 e c2
+			h a4. a8
+			g8
+		} >> \clef "treble_8" e4. d8 c4 \clef bass g,8
+		c4 r8 c' f,4 c %180
+		g2 h
+		d r4 e
+		c2 h
+		a4. a8 g g'4 f8
+		e4. d16 c d2 %185
+		c \clef treble << {
+			r8 c''4 g8
+			e e'4 \once \tieDashed c8~ c f4 \once \tieDashed d8~
+			d h4 g8 c g c4~
+			c8 h16 a h4 c8
+		} \\ {
+			e,2
+			g r4 a
+			f2 e
+			d4. d8 c
+		} >> \clef bass c h a
+		g4 r r8 g4 d8 %190
+		h h'4 \once \tieDashed g8~ g c4 a8~
+		a fis4 d8 g4 \clef "treble_8" h
+		c d h8 \clef bass g4 f8
+		e e f g a4. g8
+		f d e f g4 g, %195
+		g1~
+		\once \tieDashed g~
+		g
+		c4\fermata r r2 \bar "|." %199 FINIS
+	}
+}
+
+EtVitamBassFigures = \figuremode {
+	
+}
 
 % Organo = {
 % 	\relative c {

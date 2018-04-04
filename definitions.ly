@@ -185,6 +185,7 @@ tempoEtResurrexit = \tempoMarkup "Allegro"
 	tempoCuiusRegni = \tempoMarkup "Allegro"
 	tempoEtExpecto = \tempoMarkup "Adagio"
 	tempoMortuorum = \tempoMarkup "Adagio"
+tempoEtVitam = \tempoMarkup "Allegro"
 
 
 

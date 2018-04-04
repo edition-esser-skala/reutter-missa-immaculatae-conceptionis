@@ -414,6 +414,47 @@ EtResurrexitViolinoI = {
 	}
 }
 
+EtVitamViolinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoEtVitam
+			\set Score.currentBarNumber = #153
+		
+	}
+}
+
+% ViolinoI = {
+% 	\relative c' {
+% 		\clef treble
+% 		\key c \major \time 4/4 \tempo
+% 		
+% 	}
+% }
+
+% ViolinoI = {
+% 	\relative c' {
+% 		\clef treble
+% 		\key c \major \time 4/4 \tempo
+% 		
+% 	}
+% }
+
+% ViolinoI = {
+% 	\relative c' {
+% 		\clef treble
+% 		\key c \major \time 4/4 \tempo
+% 		
+% 	}
+% }
+
+% ViolinoI = {
+% 	\relative c' {
+% 		\clef treble
+% 		\key c \major \time 4/4 \tempo
+% 		
+% 	}
+% }
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

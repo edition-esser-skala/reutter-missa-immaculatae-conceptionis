@@ -161,67 +161,134 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = "3.4 ET RESURREXIT"
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new Staff <<
+% 						\set Staff.instrumentName = "Clarino I, II"
+% 						\partcombine \EtResurrexitClarinoI \EtResurrexitClarinoII
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Timpani"
+% 						\EtResurrexitTimpani
+% 					}
+% 				>>
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\EtResurrexitViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\EtResurrexitViolinoII
+% 						}
+% 					>>
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Soprano"
+% 						\new Voice = "Soprano" { \dynamicUp \EtResurrexitSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \EtResurrexitSopranoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \EtResurrexitAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \EtResurrexitAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \EtResurrexitTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \EtResurrexitTenoreLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basso"
+% 						\new Voice = "Basso" { \dynamicUp \EtResurrexitBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \EtResurrexitBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\EtResurrexitOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\EtResurrexitBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 110 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = "3.4 ET RESURREXIT"
+			movement = "3.5 ET VITAM"
 		}
 		\score {
 			<<
 				\new StaffGroup <<
 					\new Staff <<
 						\set Staff.instrumentName = "Clarino I, II"
-						\partcombine \EtResurrexitClarinoI \EtResurrexitClarinoII
+						\partcombine \EtVitamClarinoI \EtVitamClarinoII
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "Timpani"
-						\EtResurrexitTimpani
+						\EtVitamTimpani
 					}
 				>>
 				\new StaffGroup <<
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\EtResurrexitViolinoI
+							\EtVitamViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\EtResurrexitViolinoII
+							\EtVitamViolinoII
 						}
 					>>
 				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
-						\new Voice = "Soprano" { \dynamicUp \EtResurrexitSopranoNotes }
+						\new Voice = "Soprano" { \dynamicUp \EtVitamSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \EtResurrexitSopranoLyrics
+					\new Lyrics \lyricsto Soprano \EtVitamSopranoLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \EtResurrexitAltoNotes }
+						\new Voice = "Alto" { \dynamicUp \EtVitamAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \EtResurrexitAltoLyrics
+					\new Lyrics \lyricsto Alto \EtVitamAltoLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \EtResurrexitTenoreNotes }
+						\new Voice = "Tenore" { \dynamicUp \EtVitamTenoreNotes }
 					}
-					\new Lyrics \lyricsto Tenore \EtResurrexitTenoreLyrics
+					\new Lyrics \lyricsto Tenore \EtVitamTenoreLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Basso"
-						\new Voice = "Basso" { \dynamicUp \EtResurrexitBassoNotes }
+						\new Voice = "Basso" { \dynamicUp \EtVitamBassoNotes }
 					}
-					\new Lyrics \lyricsto Basso \EtResurrexitBassoLyrics
+					\new Lyrics \lyricsto Basso \EtVitamBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\EtResurrexitOrgano
+						\EtVitamOrgano
 					}
 				>>
 				\new FiguredBass {
-					\EtResurrexitBassFigures
+					\EtVitamBassFigures
 				}
 			>>
 			\layout { }

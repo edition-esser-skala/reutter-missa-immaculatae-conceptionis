@@ -172,13 +172,14 @@ EtResurrexitTimpani = {
 	}
 }
 
-% Timpani = {
-% 	\relative c {
-% 		\clef bass
-% 		\key c \major \time 4/4 \tempo
-% 		
-% 	}
-% }
+EtVitamTimpani = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoEtVitam
+			\set Score.currentBarNumber = #153
+		
+	}
+}
 
 % Timpani = {
 % 	\relative c {

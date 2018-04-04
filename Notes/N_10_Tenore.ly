@@ -535,17 +535,18 @@ EtResurrexitTenoreLyrics = \lyricmode {
 	rum.] %152 finis
 }
 
-% TenoreNotes = {
-% 	\relative c' {
-% 		\clef "treble_8"
-% 		\key c \major \time 4/4 \autoBeamOff \tempo
-% 		
-% 	}
-% }
-% 
-% TenoreLyrics = \lyricmode {
-% 	
-% }
+EtVitamTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 4/4 \autoBeamOff \tempoEtVitam
+			\set Score.currentBarNumber = #153
+		
+	}
+}
+
+EtVitamTenoreLyrics = \lyricmode {
+	
+}
 
 % TenoreNotes = {
 % 	\relative c' {

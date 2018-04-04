@@ -191,6 +191,15 @@ EtResurrexitClarinoII = {
 	}
 }
 
+EtVitamClarinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoEtVitam
+			\set Score.currentBarNumber = #153
+		
+	}
+}
+
 % ClarinoII = {
 % 	\relative c' {
 % 		\clef treble
