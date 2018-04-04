@@ -1107,16 +1107,16 @@ EtVitamOrgano = {
 			g8
 		} >> \clef "treble_8" e4. d8 c4 \clef bass g,8
 		c4 r8 c' f,4 c %180
-		g2 h
+		g2-\tuttiE h
 		d r4 e
 		c2 h
-		a4. a8 g g'4 f8
+		a4. a8 g g'4 f!8
 		e4. d16 c d2 %185
 		c \clef treble << {
 			r8 c''4 g8
 			e e'4 \once \tieDashed c8~ c f4 \once \tieDashed d8~
-			d h4 g8 c g c4~
-			c8 h16 a h4 c8
+			d h4 g8 c g4^\critnote c8~
+			c h16 a h4 c8
 		} \\ {
 			e,2
 			g r4 a
