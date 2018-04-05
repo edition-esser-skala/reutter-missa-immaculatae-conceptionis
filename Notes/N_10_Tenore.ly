@@ -540,12 +540,73 @@ EtVitamTenoreNotes = {
 		\clef "treble_8"
 		\key c \major \time 4/4 \autoBeamOff \tempoEtVitam
 			\set Score.currentBarNumber = #153
-		
+		R1*4 %156
+		\mvTr g2\fE^\tuttiE h
+		d r4 e
+		c2 h
+		a4. a8 g2 %160
+		r8 e4 g8 h g4 \once \tieDashed e8~
+		e e'4 \once \tieDashed c8~ c f4 d8~
+		d h4 g8 c[ g] c4~
+		c8 h16([ a]) h4 c8 h([ c d]
+		e4 c g') g, %165
+		R1
+		r2 g4 h
+		c( d) h r
+		r2 r8 c([ d e]
+		f4. e8 d4) e %170
+		a,( d) g,2
+		R1*12 %183
+		r2 r8 h([ c d])
+		e g,( c4. h16[ a] h4) %185
+		c2 r
+		R1*2
+		r2 r8 e([ d c])
+		h4 r r8 d4 e16[ fis] %190
+		g8 d4 \once \tieDashed h8~ h[ g a h]
+		fis a4( h16[ c] d4 h
+		c d) h8 h4( a8)
+		g g([ a h] c4. h8)
+		a f!([ g a] g4) g %195
+		a4.( h8) c g h4
+		c4. f8 f4 e
+		d e d2
+		e4\fermata r r2 \bar "|." %199 FINIS
 	}
 }
 
 EtVitamTenoreLyrics = \lyricmode {
+	Et vi -- %157
+	tam ven --
+	tu -- ri
+	sae -- cu -- li, %160
+	a -- _ _ _ _
+	_ _ _ _
+	_ _ _ _
+	men, a -- men, a --
+	men, %165
 	
+	a -- men,
+	a -- men
+	a --
+	men, %170
+	a -- men.
+	
+	A -- %184
+	men, a -- %185
+	men,
+	
+	a -- %189
+	men, a -- _ %190
+	_ _ _
+	men, a --
+	men, a --
+	men, a --
+	men, a -- men, %195
+	a -- men, a -- _
+	_ _ _ _
+	_ _ _
+	men. %199 FINIS
 }
 
 % TenoreNotes = {
