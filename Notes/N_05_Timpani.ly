@@ -177,7 +177,15 @@ EtVitamTimpani = {
 		\clef bass
 		\key c \major \time 4/4 \tempoEtVitam
 			\set Score.currentBarNumber = #153
-		
+		R1*20 %172
+		r2 r8 g16\fE g g8 g
+		c4 c8 c g g g g
+		c4 r r2 %175
+		R1*20 %195
+		r2 r4 r8 g
+		g g16 g g8 g g g16 g g g g g
+		g8 g16 g g8 g g g16 g g g g g
+		c4\fermata r r2 \bar "|." %199 FINIS
 	}
 }
 
