@@ -401,7 +401,42 @@ EtVitamViolinoII = {
 		\clef treble
 		\key c \major \time 4/4 \tempoEtVitam
 			\set Score.currentBarNumber = #153
-		
+		R1*12 %164
+		g'2\fE h %165
+		d r4 e
+		c2 h
+		a4. a8 g h c d
+		e e4 d8 c a h c
+		d4. c8 h4 \once \tieDashed c~ %170
+		c h c2
+		r8 c4 g8 e e'4 \once \tieDashed c8~
+		c f4 d h g8
+		c g c4 d4. d8
+		e d c d g,2
+		h d
+		r4 e c2
+		h a4. a8
+		g4 r r8 e' f4
+		e8 c d e f e d c
+		h4 r r2
+		r8 d4 h8 g g4 h8
+		d4. e16 fis g4 d
+		c2 h8 d e f
+		g4. f16 e f2 %185
+		e r8 c4 g8
+		e e'4 c f d8~
+		d h4 g8 c g4 c8~
+		c h16 a h4 c r
+		g2 h %190
+		d r4 e
+		c2 h
+		a4. a8 g h c d
+		e4. d8 c a h c
+		d4. c8 h4 e~ %195
+		e8 d16 c d4. g,8 g4
+		a4. h8^\critnote c g h c
+		h4 c2 h4
+		c4\fermata r r2 \bar "|." %199 FINIS
 	}
 }
 
