@@ -156,6 +156,10 @@ markKyrie = {
 	\once \override Score.RehearsalMark.self-alignment-X = #RIGHT
 	\mark \markup { \remark "Kyrie ut supra Kyrie adagio" }
 }
+markOsanna = {
+	\once \override Score.RehearsalMark.self-alignment-X = #RIGHT
+	\mark \markup { \remark "Osanna ut supra" }
+}
 
 tempoMarkup =
 	#(define-music-function
@@ -188,7 +192,8 @@ tempoEtResurrexit = \tempoMarkup "Allegro"
 tempoEtVitam = \tempoMarkup "Allegro"
 
 tempoSanctus = \tempoMarkup "Adagio"
-tempoOsanna = \tempoMarkup "Adagio"
+	tempoOsanna = \tempoMarkup "Adagio"
+tempoBenedictus = \tempoMarkup "[Tempo deest]"
 
 
 

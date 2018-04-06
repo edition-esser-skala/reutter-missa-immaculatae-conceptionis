@@ -208,13 +208,14 @@ SanctusTimpani = {
 	}
 }
 
-% Timpani = {
-% 	\relative c {
-% 		\clef bass
-% 		\key c \major \time 4/4 \tempo
-% 		
-% 	}
-% }
+BenedictusTimpani = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoBenedictus
+			\set Score.currentBarNumber = #45
+		
+	}
+}
 
 % Timpani = {
 % 	\relative c {

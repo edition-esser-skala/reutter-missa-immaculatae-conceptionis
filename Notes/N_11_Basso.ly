@@ -700,6 +700,31 @@ SanctusBassoLyrics = \lyricmode {
 	sis. %44 finis
 }
 
+BenedictusBassoNotes = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \autoBeamOff \tempoBenedictus
+			\set Score.currentBarNumber = #45
+		
+	}
+}
+
+BenedictusBassoLyrics = \lyricmode {
+	
+}
+
+% BassoNotes = {
+% 	\relative c {
+% 		\clef bass
+% 		\key c \major \time 4/4 \autoBeamOff \tempo
+% 		
+% 	}
+% }
+% 
+% BassoLyrics = \lyricmode {
+% 	
+% }
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

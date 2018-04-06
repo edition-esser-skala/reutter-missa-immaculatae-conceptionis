@@ -1279,24 +1279,25 @@ SanctusBassFigures = \figuremode {
 	<8 3>2 <7- 2> <\t 3> <6 4> <5 3> <6 5->
 	r <6> <5> r <6 _->2. <5 \t>4
 	<8 _+>2 <7 2> <\t _+> <6 4> <5 _+> <6 5>
-	r <4> <_+> r <6> r
+	r <4> <_+> r <6> r %40
 	<_+>1. <8 _+>2 <7 2> <\t 3>
 	r <_+> <6 5> <8 3> <7! 2> <\t _+>
 	<6- 4> <7 _+>1 <6- 4>1.
-	<5 _+>
+	<5 _+> %44 finis
 }
 
-% Organo = {
-% 	\relative c {
-% 		\clef bass
-% 		\key c \major \time 4/4 \tempo
-% 		
-% 	}
-% }
-% 
-% BassFigures = \figuremode {
-% 	
-% }
+BenedictusOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoBenedictus
+			\set Score.currentBarNumber = #45
+		\mvTr c4\fE-\soloE r8 g c4 r8 g'
+	}
+}
+
+BenedictusBassFigures = \figuremode {
+	
+}
 
 % Organo = {
 % 	\relative c {

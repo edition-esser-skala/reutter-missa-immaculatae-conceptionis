@@ -705,6 +705,31 @@ SanctusAltoLyrics = \lyricmode {
 	sis. %44 finis
 }
 
+BenedictusAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \autoBeamOff \tempoBenedictus
+			\set Score.currentBarNumber = #45
+		
+	}
+}
+
+BenedictusAltoLyrics = \lyricmode {
+	
+}
+
+% AltoNotes = {
+% 	\relative c' {
+% 		\clef treble
+% 		\key c \major \time 4/4 \autoBeamOff \tempo
+% 		
+% 	}
+% }
+% 
+% AltoLyrics = \lyricmode {
+% 	
+% }
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

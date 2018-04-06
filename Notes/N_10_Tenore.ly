@@ -684,6 +684,31 @@ SanctusTenoreLyrics = \lyricmode {
 	sis. %44 finis
 }
 
+BenedictusTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 4/4 \autoBeamOff \tempoBenedictus
+			\set Score.currentBarNumber = #45
+		
+	}
+}
+
+BenedictusTenoreLyrics = \lyricmode {
+	
+}
+
+% TenoreNotes = {
+% 	\relative c' {
+% 		\clef "treble_8"
+% 		\key c \major \time 4/4 \autoBeamOff \tempo
+% 		
+% 	}
+% }
+% 
+% TenoreLyrics = \lyricmode {
+% 	
+% }
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

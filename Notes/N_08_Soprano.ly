@@ -768,17 +768,18 @@ SanctusSopranoLyrics = \lyricmode {
 	sis. %44 finis
 }
 
-% SopranoNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key c \major \time 4/4 \autoBeamOff \tempo
-% 		
-% 	}
-% }
-% 
-% SopranoLyrics = \lyricmode {
-% 	
-% }
+BenedictusSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \autoBeamOff \tempoBenedictus
+			\set Score.currentBarNumber = #45
+		
+	}
+}
+
+BenedictusSopranoLyrics = \lyricmode {
+	
+}
 
 % SopranoNotes = {
 % 	\relative c' {

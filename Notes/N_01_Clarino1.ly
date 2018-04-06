@@ -259,6 +259,15 @@ SanctusClarinoI = {
 	}
 }
 
+BenedictusClarinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoBenedictus
+			\set Score.currentBarNumber = #45
+		
+	}
+}
+
 % ClarinoI = {
 % 	\relative c' {
 % 		\clef treble
