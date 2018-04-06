@@ -625,7 +625,7 @@ SanctusTenoreNotes = {
 		c4. c8 c2\fermata \bar "||" %10
 		a4 a r8 c c c16 c \noBreak
 		c8 c b4( c8) a16 a d8([ c)]
-		d4 r8 a( b[ c] d4
+		c4 r8 a( b[ c] d4
 		g,8) c16 c c4 c r \noBreak
 		R1\fermataMarkup \bar "||" %15
 		\key d \dorian \time 6/2 \newSpacingSection \tempoOsanna
@@ -641,8 +641,8 @@ SanctusTenoreNotes = {
 		R\breve.*8 %36
 		c2( b) g a g r
 		r f'( e) d e2.( d4)
-		cis1. r2 r a
-		a a1 a1. %40
+		cis1^\critnote r2 r r a
+		a a1 a1^\critnote r2 %40
 		r1*3/2 cis2( d e)
 		a, cis r d( c) a
 		b a d d1.

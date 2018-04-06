@@ -708,7 +708,7 @@ SanctusSopranoNotes = {
 		r1*3/2 r2 r \mvTr d\pE^\soloE %20
 		cis2.( h4) a2 r1*3/2
 		r r2 e'1
-		d2 d( cis) d1.
+		d2 d( cis) d^\critnote r r
 		R\breve.*2 %25
 		r1*3/2 a2( g) e^\critnote
 		f e r r1*3/2

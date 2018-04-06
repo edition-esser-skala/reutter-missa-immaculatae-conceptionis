@@ -650,20 +650,20 @@ SanctusAltoNotes = {
 		r1*3/2 a2( h) cis
 		d cis r a'1 g2
 		f( e1) d1.
-		R\breve.*2
+		R\breve.*2 %30
 		r2 r f e2.( d4) c2
 		r1*3/2 r2 g' c,
 		a'1.( g4 f e1)
 		f1. r1*3/2
-		R\breve.*2
+		R\breve.*2 %36
 		c2( d) e f e r
 		R\breve.
-		a2( g) f f e g
-		f e1 f f2
+		a2( g) e^\critnote f e g
+		f e1 f f2 %40
 		e2.( d4) cis2 r1*3/2
 		r2 a' g f( g) a
 		d,( fis) fis g1.
-		\time 3/2 fis\fermata \bar "||"
+		\time 3/2 fis\fermata \bar "||" %44 finis
 	}
 }
 
