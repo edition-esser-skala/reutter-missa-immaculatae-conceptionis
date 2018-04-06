@@ -444,7 +444,48 @@ SanctusViolinoII = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \tempoSanctus
-		
+		c'1\fE
+		h\fermata
+		r2 h4 a
+		a gis a2
+		e' dis4 e~ %5
+		e dis \once \tieDashed e2~
+		e4 d c8. c16 c4
+		h c c4. h8
+		c4 c8 b a4 g \noBreak
+		a4. a8  g2\fermata \bar "||" %10
+		c4 c8 c f4 e16 d c b \noBreak
+		a8 f d'4 c8 d16 c b4
+		a8 c f16 e f e d c d c b4~
+		b8 a g4 f8 a b g \noBreak
+		a f g e f2\fermata \bar "||" %15
+		\key d \dorian \time 6/2 \newSpacingSection \tempoOsanna
+			\set Staff.timeSignatureFraction = 3/2
+			r2 r f\pE e1 e2
+		a, h cis d cis e
+		d4 cis d f e d cis h cis d e cis
+		d2 g4 f e d cis1 d2~
+		d d cis d^\critnote r r %20
+		R\breve.*2
+		r1*3/2 r2 r4 f e d
+		cis h cis e d cis d2 cis e
+		d d cis d1. %25
+		R\breve.*2
+		r1*3/2 r2 f4 g a2
+		e4 f f e e d d e e d d cis
+		cis2 e1 d2 f-\critnote g %30
+		c,1. e
+		R\breve.*2
+		r2 r4 a g f f e e g g f
+		f e f a g f e d e f g e %35
+		f1. r1*3/2
+		R\breve.*2
+		r1*3/2 r2 e'1
+		d2 d cis d1^\critnote r2 %40
+		r1*3/2 a2 g e-\critnote
+		f e r r1*3/2
+		d'2 c? a b1.
+		\time 3/2 a\fermata \bar "||" %44 finis
 	}
 }
 

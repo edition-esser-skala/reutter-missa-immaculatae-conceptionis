@@ -499,7 +499,7 @@ SanctusViolinoI = {
 		R\breve.*2
 		r1*3/2 r2 e'1
 		d2 d cis d1^\critnote r2 %40
-		r1*3/2 a2 g e^\critnote
+		r1*3/2 a2 g e-\critnote
 		f e r r1*3/2
 		d'2 c? a b1.
 		\time 3/2 a\fermata \bar "||" %44 finis
