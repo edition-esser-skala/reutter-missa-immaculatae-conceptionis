@@ -1183,7 +1183,7 @@ EtVitamBassFigures = \figuremode {
 	r1
 	r
 	<5 3>4 <6 4> <5 \t> <\t 3>
-	r1
+	r1 %199 FINIS
 }
 
 % Organo = {
