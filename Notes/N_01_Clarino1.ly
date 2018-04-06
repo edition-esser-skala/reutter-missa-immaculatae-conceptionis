@@ -216,7 +216,24 @@ EtVitamClarinoI = {
 		\clef treble
 		\key c \major \time 4/4 \tempoEtVitam
 			\set Score.currentBarNumber = #153
-		
+		R1*18 %170
+		r2 c'\fE
+		e g
+		r4 a f2
+		e d4. d8
+		c d e fis g4 r %175
+		R1*3
+		r8 c, e f g4 f
+		e8 e f g a g f e %180
+		d4 r r2
+		R1*11 %192
+		r2 r8 d e f
+		g4. f8 e c d e
+		f4. e8 d4 r %195
+		r2 r4 g~
+		g8 f16 e f4 f f8 e^\critnote
+		d4 e8 f g2
+		g4\fermata r r2 \bar "|." %199 FINIS
 	}
 }
 
