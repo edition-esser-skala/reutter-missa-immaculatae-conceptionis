@@ -1191,6 +1191,51 @@ SanctusOrgano = {
 		\clef bass
 		\key c \major \time 4/4 \tempoSanctus
 		\mvTr c2\fE-\tuttiE fis
+		g1\fermata
+		\clef "treble_8" d'2 \clef bass e,4 a,
+		e'2 a,
+		\clef treble << { e'''2 } \\ { r4 a, } >> \clef bass a, e %5
+		h2 e
+		c4 g' a4. f8
+		g2 g4 g,
+		c c2 c4 \noBreak
+		c1\fermata \bar "||" %10
+		f2 r8 f c' e, \noBreak
+		f g16 a b4 a8 f g c,
+		f4 r8 f b a g b
+		c f, c4 f8 d b c \noBreak
+		f d b c f,2\fermata \bar "||" %15
+		\key d \dorian \time 6/2 \newSpacingSection \tempoOsanna
+			\set Staff.timeSignatureFraction = 3/2
+			d'2-\solo f d a'1. \noBreak
+		a, a2 a4 h cis2
+		d1 f2 a1 a,2
+		d g1 a2 g f
+		g a a, d-\tuttiE f d %20
+		a'1.~ a
+		a, a'2 a,4 h cis2
+		d a' a, d f g
+		a1. d,2 a cis
+		d4 g a2 a, d f d %25
+		a'1. a,
+		a1 h2 cis1.
+		d2 a1 d2 d4 e f g
+		a1 a,2 a1.
+		a2 cis1 d e2 %30
+		f a f c'1 c,2
+		c1. c2 c4 d e2
+		f1. b2 c c,
+		f a f c1.
+		f1 f,2 c'1. %35
+		f4 g a2 f c1.~-\tasto
+		c c1 e2
+		f a1 b2 g1
+		a1.~ a1 cis,2
+		d a' a, d f d %40
+		a'1. a,2 h cis
+		d a cis d1 d2
+		d1.~ d~
+		\time 3/2 d1.\fermata \bar "||" %44 finis
 	}
 }
 
