@@ -440,6 +440,14 @@ EtVitamViolinoII = {
 	}
 }
 
+SanctusViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoSanctus
+		
+	}
+}
+
 % ViolinoII = {
 % 	\relative c' {
 % 		\clef treble

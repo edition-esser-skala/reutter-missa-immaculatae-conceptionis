@@ -189,6 +189,14 @@ EtVitamTimpani = {
 	}
 }
 
+SanctusTimpani = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoSanctus
+		
+	}
+}
+
 % Timpani = {
 % 	\relative c {
 % 		\clef bass

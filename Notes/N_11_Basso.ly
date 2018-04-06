@@ -627,17 +627,17 @@ EtVitamBassoLyrics = \lyricmode {
 	men. %199 FINIS
 }
 
-% BassoNotes = {
-% 	\relative c {
-% 		\clef bass
-% 		\key c \major \time 4/4 \autoBeamOff \tempo
-% 		
-% 	}
-% }
-% 
-% BassoLyrics = \lyricmode {
-% 	
-% }
+SanctusBassoNotes = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \autoBeamOff \tempoSanctus
+		
+	}
+}
+
+SanctusBassoLyrics = \lyricmode {
+	
+}
 
 % BassoNotes = {
 % 	\relative c {

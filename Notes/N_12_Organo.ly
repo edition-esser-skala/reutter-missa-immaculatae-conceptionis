@@ -1186,17 +1186,17 @@ EtVitamBassFigures = \figuremode {
 	r1 %199 FINIS
 }
 
-% Organo = {
-% 	\relative c {
-% 		\clef bass
-% 		\key c \major \time 4/4 \tempo
-% 		
-% 	}
-% }
-% 
-% BassFigures = \figuremode {
-% 	
-% }
+SanctusOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoSanctus
+		\mvTr c2\fE-\tuttiE fis
+	}
+}
+
+SanctusBassFigures = \figuremode {
+	
+}
 
 % Organo = {
 % 	\relative c {

@@ -217,6 +217,14 @@ EtVitamClarinoII = {
 	}
 }
 
+SanctusClarinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoSanctus
+		
+	}
+}
+
 % ClarinoII = {
 % 	\relative c' {
 % 		\clef treble

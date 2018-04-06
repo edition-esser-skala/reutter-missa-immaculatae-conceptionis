@@ -683,17 +683,17 @@ EtVitamSopranoLyrics = \lyricmode {
 	men. %199 FINIS
 }
 
-% SopranoNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key c \major \time 4/4 \autoBeamOff \tempo
-% 		
-% 	}
-% }
-% 
-% SopranoLyrics = \lyricmode {
-% 	
-% }
+SanctusSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \autoBeamOff \tempoSanctus
+		
+	}
+}
+
+SanctusSopranoLyrics = \lyricmode {
+	
+}
 
 % SopranoNotes = {
 % 	\relative c' {
