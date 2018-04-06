@@ -248,8 +248,8 @@ SanctusClarinoI = {
 		R1*2 %6
 		e'16 f e f g4 c, f
 		f8 g16 f e4 d4. d8
-		c4 e f g \noBreak
-		f4. f8 e2\fermata \bar "||" %10
+		c4 \pa e f \pd g \noBreak
+		\pa f4. f8 \pd e2\fermata \bar "||" %10
 		R1*4 \noBreak
 		R1\fermataMarkup \bar "||" %15
 		\key d \dorian \time 6/2 \newSpacingSection \tempoOsanna
