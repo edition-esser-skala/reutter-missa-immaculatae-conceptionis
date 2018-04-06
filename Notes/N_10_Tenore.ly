@@ -613,12 +613,75 @@ SanctusTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key c \major \time 4/4 \autoBeamOff \tempoSanctus
-		
+		\mvTr e(\fE^\tuttiE d)
+		d1\fermata
+		d2.( c4
+		h2) c
+		r fis,4( g8[ a] %5
+		h2) h
+		c4 h a8. a16 f'4
+		f e d4. d8
+		e4 g,( a) c \noBreak
+		c4. c8 c2\fermata \bar "||" %10
+		a4 a r8 c c c16 c \noBreak
+		c8 c b4( c8) a16 a d8([ c)]
+		d4 r8 a( b[ c] d4
+		g,8) c16 c c4 c r \noBreak
+		R1\fermataMarkup \bar "||" %15
+		\key d \dorian \time 6/2 \newSpacingSection \tempoOsanna
+			\set Staff.timeSignatureFraction = 3/2
+			R\breve.*5 %20
+		r1*3/2 \mvTr a2(\pE^\soloE h) cis
+		d cis r r1*3/2
+		R\breve.*2
+		r1*3/2 r2 r d %25
+		cis2.( h4) a2 r1*3/2
+		r r2 e'1
+		d2 d( cis) d1.
+		R\breve.*8 %36
+		c2( b) g a g r
+		r f'( e) d e2.( d4)
+		cis1. r2 r a
+		a a1 a1. %40
+		r1*3/2 cis2( d e)
+		a, cis r d( c) a
+		b a d d1.
+		\time 3/2 d\fermata \bar "||" %44 FINIS
 	}
 }
 
 SanctusTenoreLyrics = \lyricmode {
+	San --
+	ctus,
+	San --
+	ctus,
+	San -- %5
+	ctus,
+	San -- ctus [Do -- mi -- nus
+	De -- us Sa -- ba --
+	oth, De -- us
+	Sa -- ba -- oth.] %10
+	[Ple -- ni sunt coe -- li et
+	ter -- ra glo -- ri -- a tu --
+	a,] glo --
+	ri -- a tu -- a.
 	
+	In __ ex -- %21
+	cel -- sis.
+	
+	O -- %25
+	san -- na
+	in
+	ex -- cel -- sis,
+	
+	in __ ex -- cel -- sis, %37
+	in ex -- cel -- sis, in
+	ex -- cel -- sis.
+	%40
+	O --
+	san -- na in __ ex --
+	cel -- sis, ex -- cel --
+	sis. %44 finis
 }
 
 % TenoreNotes = {
