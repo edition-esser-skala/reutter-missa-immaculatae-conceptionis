@@ -545,7 +545,7 @@ EtVitamTenoreNotes = {
 		d r4 e
 		c2 h
 		a4. a8 g2 %160
-		r8 e4 g8 h g4 \once \tieDashed e8~
+		r8 e4 g8 c^\critnote g4 \once \tieDashed e8~
 		e e'4 \once \tieDashed c8~ c f4 d8~
 		d h4 g8 c[ g] c4~
 		c8 h16([ a]) h4 c8 h([ c d]

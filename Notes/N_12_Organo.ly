@@ -1074,7 +1074,7 @@ EtVitamOrgano = {
 			g r4 a
 			f2
 		} \\ {
-			h,8 g4 e8~
+			c8-\critnote g4 e8~
 			e e'4 \once \tieDashed c8~ c f4 d8~
 			d h4 g8
 		} >> \clef bass c,4 e
@@ -1105,7 +1105,7 @@ EtVitamOrgano = {
 			r4 e c2
 			h a4. a8
 			g8
-		} >> \clef "treble_8" e4. d8 c4 \clef bass g,8
+		} >> \clef "treble_8" e4 d8 c4 \clef bass g,
 		c4 r8 c' f,4 c %180
 		g2-\tuttiE h
 		d r4 e
@@ -1129,7 +1129,7 @@ EtVitamOrgano = {
 		c d h8 \clef bass g4 f8
 		e e f g a4. g8
 		f d e f g4 g, %195
-		g1~
+		g1~-\tastoE
 		\once \tieDashed g~
 		g
 		c4\fermata r r2 \bar "|." %199 FINIS
@@ -1137,7 +1137,53 @@ EtVitamOrgano = {
 }
 
 EtVitamBassFigures = \figuremode {
-	
+	r1 %153
+	r
+	r %155
+	r
+	r
+	r
+	r
+	r %160
+	<6>
+	r
+	r2. <6>4
+	<6 5>2 <6>4. q8
+	r1 %165
+	r
+	r2. <6>4
+	<6 5> <_+> <6>4. <\t>8
+	<8 6>4. <7 5>8 <5 3>4. <\t>8
+	<6>4. <5>8 r4 <6> %170
+	<7> q r2
+	r1
+	r2 <7>
+	r1
+	r4 <5>8 <6\\> r2 %175
+	r1
+	r
+	r
+	r4. <6>8 q4 <7>
+	r1 %180
+	r2 <6>
+	<6 4>1
+	<4\+ 2>2 <6>
+	<7>4 <6\\> r4. <\t>8
+	<6>2 <7>4 <6> %185
+	r1
+	r
+	r
+	r2. <6>8 <6\\>
+	r2.. <\t>8 %190
+	<6>1
+	<6\\>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff r4 <6>
+	<6 5> <_+> <6>4. <\t>8
+	<8 6>4. <7 5>8 <5 3>4. <\t>8
+	<8 6>4. <7 5>8 <5 3>2 %195
+	r1
+	r
+	<5 3>4 <6 4> <5 \t> <\t 3>
+	r1
 }
 
 % Organo = {
