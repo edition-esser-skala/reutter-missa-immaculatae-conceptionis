@@ -220,7 +220,7 @@ EtVitamClarinoI = {
 		r2 c'\fE
 		e g
 		r4 a f2
-		e d4. d8
+		e \pa d4. d8 \pd
 		c d e fis g4 r %175
 		R1*3
 		r8 c, e f g4 f
