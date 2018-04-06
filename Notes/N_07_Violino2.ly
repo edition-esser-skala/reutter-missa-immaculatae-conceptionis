@@ -463,7 +463,7 @@ SanctusViolinoII = {
 			\set Staff.timeSignatureFraction = 3/2
 			r2 r f\pE e1 e2
 		a, h cis d cis e
-		d4 cis d f e d cis h cis d e cis
+		d4 cis d f e d cis h cis e-\critnote d cis
 		d2 g4 f e d cis1 d2~
 		d d cis d^\critnote r r %20
 		R\breve.*2
