@@ -547,12 +547,84 @@ EtVitamBassoNotes = {
 		\clef bass
 		\key c \major \time 4/4 \autoBeamOff \tempoEtVitam
 			\set Score.currentBarNumber = #153
-		
+		\mvTr c2\fE^\tuttiE e
+		g r4 a
+		f2. e4 %155
+		d4. d8 c2
+		r8 c4 e8 g d4 h8~
+		h h'4 g c a8~
+		a fis4 d8 g[ d] g4~
+		g fis g8 d([ g f] %160
+		e4) c r2
+		R1
+		r2 c4 e
+		f g e4. d8
+		c4 r r2 %165
+		R1*2
+		r2 r8 g'4( f!8)
+		e e[ f g] a4. g8
+		f2 g4 e %170
+		d g c,2
+		R1*9 %180
+		g2 h
+		d r4 e
+		c2 h
+		a4. a8 g g'4 f!8
+		e4.( d16[ c] d2) %185
+		c r
+		R1*2
+		r2 r8 c'([ h a)]
+		g4 r r8 g4 d8 %190
+		h h'4 g c a8~
+		a fis4 d8 g4 r
+		r2 r8 g4( f8)
+		e e([ f g] a4. g8)
+		f d([ e f)] g4 r %195
+		R1
+		r2 g,
+		g g
+		c4\fermata r r2 \bar "|." %199 FINIS
 	}
 }
 
 EtVitamBassoLyrics = \lyricmode {
+	Et vi -- %153
+	tam ven --
+	tu -- ri %155
+	sae -- cu -- li,
+	a -- _ _ _ _
+	_ _ _ _
+	_ _ _ _
+	_ men, a -- %160
+	men,
 	
+	a -- _
+	_ _ _ _
+	men, %165
+	
+	a -- %168
+	men, a -- _ _
+	_ _ _ %170
+	_ _ men.
+	
+	Et vi -- %181
+	tam ven --
+	tu -- ri
+	sae -- cu -- li, a -- men,
+	a -- %185
+	men,
+	
+	a -- %189
+	men, a -- _ %190
+	_ _ _ _ _
+	_ _ men,
+	a --
+	men, a --
+	men, a -- men, %195
+	
+	a --
+	men, a --
+	men. %199 FINIS
 }
 
 % BassoNotes = {
