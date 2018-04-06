@@ -625,12 +625,84 @@ SanctusAltoNotes = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \autoBeamOff \tempoSanctus
-		
+		\mvTr g'2(\fE^\tuttiE a)
+		g1\fermata
+		r2 gis4 e
+		e2 e
+		r4 a2 g!4 %5
+		fis2 g
+		g4 g e8. e16 a4
+		d, g g4. g8
+		g4 e( f) e \noBreak
+		f4. f8 e2\fermata \bar "||" %10
+		f4 f r8 a g g16 g \noBreak
+		f8 a f4 f8 f f([ e)]
+		f4 r r8 d( g16[ f g f]
+		e8) f16 f f8([ e)] f4 r \noBreak
+		R1\fermataMarkup \bar "||" %15
+		\key d \dorian \time 6/2 \newSpacingSection \tempoOsanna
+			\set Staff.timeSignatureFraction = 3/2
+			R\breve.*5 %20
+		r1*3/2 \mvTr a2(\pE^\soloE g) e
+		f e r a1 g2
+		f( e1) d2 r r
+		R\breve.*2 %25
+		r1*3/2 a2( h) cis
+		d cis r a'1 g2
+		f( e1) d1.
+		R\breve.*2
+		r2 r f e2.( d4) c2
+		r1*3/2 r2 g' c,
+		a'1.( g4 f e1)
+		f1. r1*3/2
+		R\breve.*2
+		c2( d) e f e r
+		R\breve.
+		a2( g) f f e g
+		f e1 f f2
+		e2.( d4) cis2 r1*3/2
+		r2 a' g f( g) a
+		d,( fis) fis g1.
+		\time 3/2 fis\fermata \bar "||"
 	}
 }
 
 SanctusAltoLyrics = \lyricmode {
+	San --
+	ctus,
+	San -- ctus,
+	San -- ctus,
+	San -- ctus, %5
+	San -- ctus,
+	San -- ctus [Do -- mi -- nus
+	De -- us Sa -- ba --
+	oth, De -- us
+	Sa -- ba -- oth.] %10
+	[Ple -- ni sunt coe -- li et
+	ter -- ra glo -- ri -- a tu --
+	a,] glo --
+	ri -- a tu -- a.
 	
+	In __ ex -- %21
+	cel -- sis, in ex --
+	cel -- sis,
+	
+	in __ ex -- %26
+	cel -- sis, in ex --
+	cel -- sis.
+	
+	O -- san -- na %31
+	in ex --
+	cel -- sis,
+	
+	in __ ex -- %37
+	cel -- sis,
+	in __ ex -- cel -- sis. O --
+	san -- na in ex -- %40
+	cel -- sis,
+	in ex -- cel -- sis,
+	in __ ex -- cel --
+	sis. %44 finis
 }
 
 % AltoNotes = {

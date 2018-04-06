@@ -710,7 +710,7 @@ SanctusSopranoNotes = {
 		r r2 e'1
 		d2 d( cis) d1.
 		R\breve.*2 %25
-		r1*3/2 a2( g) f
+		r1*3/2 a2( g) e^\critnote
 		f e r r1*3/2
 		R\breve.*4 %31
 		c'2( b) g a g r
