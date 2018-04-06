@@ -687,12 +687,85 @@ SanctusSopranoNotes = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \autoBeamOff \tempoSanctus
-		
+		\mvTr c'1\fE^\tuttiE
+		h\fermata
+		r2 h4 a
+		a( gis) a2
+		e' dis4 e~ %5
+		e dis \once \tieDashed e2~
+		e4 d c8. c16 c4
+		h c c4. h8
+		c4 c8([ b] a4) g \noBreak
+		a4. a8  g2\fermata \bar "||" %10
+		c4 c8 c f4 e16([ d)] c([ b)] \noBreak
+		a8 f d'4( c8) d16 c b4
+		a8 c( f16[ e f e] d[ c d c] b4~)
+		b8 a16 a g4 a r \noBreak
+		R1\fermataMarkup \bar "||" %15
+		\key d \dorian \time 6/2 \newSpacingSection \tempoOsanna
+			\set Staff.timeSignatureFraction = 3/2
+		R\breve.*4
+		r1*3/2 r2 r \mvTr d\pE^\soloE %20
+		cis2.( h4) a2 r1*3/2
+		r r2 e'1
+		d2 d( cis) d1.
+		R\breve.*2 %25
+		r1*3/2 a2( g) f
+		f e r r1*3/2
+		R\breve.*4 %31
+		c'2( b) g a g r
+		r c f, b4( a g1)
+		f1. r1*3/2
+		R\breve. %35
+		r2 r f' e2.( d4) c2
+		r1*3/2 r2 c b
+		a( c1 f,2 b1)
+		a r2 r e'1
+		d2 d( cis) d1 r2 %40
+		r1*3/2 a2( g) e^\critnote
+		f e r r1*3/2
+		d'2 c?( a) b1.
+		\time 3/2 a\fermata \bar "||" %44 finis
 	}
 }
 
 SanctusSopranoLyrics = \lyricmode {
+	San --
+	ctus,
+	San -- ctus,
+	San -- ctus,
+	San -- _ _ %5
+	_ _
+	ctus Do -- mi -- nus
+	De -- us Sa -- ba --
+	oth, De -- us
+	Sa -- ba -- oth. %10
+	Ple -- ni sunt coe -- li __ et __
+	ter -- ra glo -- ri -- a tu --
+	a, glo --
+	ri -- a tu -- a.
 	
+	O -- %20
+	san -- na
+	in
+	ex -- cel -- sis,
+	
+	in __ ex -- %25
+	cel -- sis,
+	
+	in __ ex -- cel -- sis, %32
+	in ex -- cel --
+	sis.
+	%35
+	O -- san -- na
+	in ex --
+	cel --
+	sis, in
+	ex -- cel -- sis, %40
+	in ex --
+	cel -- sis,
+	in ex -- cel --
+	sis. %44 finis
 }
 
 % SopranoNotes = {

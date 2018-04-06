@@ -1207,11 +1207,11 @@ SanctusOrgano = {
 		f d b c f,2\fermata \bar "||" %15
 		\key d \dorian \time 6/2 \newSpacingSection \tempoOsanna
 			\set Staff.timeSignatureFraction = 3/2
-			d'2-\solo f d a'1. \noBreak
+			\mvTr d'2\pE-\solo f d a'1. \noBreak
 		a, a2 a4 h cis2
 		d1 f2 a1 a,2
 		d g1 a2 g f
-		g a a, d-\tuttiE f d %20
+		g a a, d f d %20
 		a'1.~ a
 		a, a'2 a,4 h cis2
 		d a' a, d f g
