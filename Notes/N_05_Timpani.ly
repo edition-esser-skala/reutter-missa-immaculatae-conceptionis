@@ -190,10 +190,21 @@ EtVitamTimpani = {
 }
 
 SanctusTimpani = {
-	\relative c' {
-		\clef treble
+	\relative c {
+		\clef bass
 		\key c \major \time 4/4 \tempoSanctus
-		
+		R1
+		g8\fE g16 g g g g g g g g g g4\fermata
+		R1*5 %7
+		g4 g8 g g g16 g g8 g
+		c4 r r c8 c16 c \noBreak
+		c8 c16 c c c c c c2\fermata \bar "||" %10
+		R1*4 \noBreak
+		R1\fermataMarkup \bar "||" %15
+		\key d \dorian \time 6/2 \newSpacingSection \tempoOsanna
+			\set Staff.timeSignatureFraction = 3/2
+			R\breve.*28
+		\time 3/2 R1.\fermataMarkup \bar "||" %44 finis
 	}
 }
 
