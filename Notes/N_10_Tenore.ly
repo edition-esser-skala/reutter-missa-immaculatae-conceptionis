@@ -720,10 +720,27 @@ AgnusDeiTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key c \major \time 4/4 \autoBeamOff \tempoAgnusDei
-		
+		R1*9 %9
+		r2 \mvTr a4.\pE^\soloE c8 %10
+		c([ h)] h d e([ d16 c)] d8 r
+		r4 r8 g, c4. h8
+		a([ h] a4) g g8 a
+		b2 a4 d8. d16
+		h8 c c([ h)] c4 \mvTr e8\fE^\tuttiE d %15
+		c8.([ d16)] e8 h c8.([ d16)] e8 c
+		d4 d d2
+		d1\fermata \bar "||" %18 finis
 	}
 }
 
 AgnusDeiTenoreLyrics = \lyricmode {
-	
+	A -- gnus %10
+	De -- i, qui tol -- lis
+	pec -- ca -- ta
+	mun -- di: Mi -- se --
+	re -- re, mi -- se --
+	re -- re no -- bis. [A -- gnus %15
+	De -- i, qui tol -- lis pec --
+	ca -- ta mun --
+	di:] %18 finis
 }
