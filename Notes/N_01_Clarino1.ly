@@ -282,6 +282,10 @@ AgnusDeiClarinoI = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \tempoAgnusDei
-		
+		R1*14 %14
+		r2 r4 c'8\fE d
+		e16 d e f g8 d e16 d e f g8 e
+		fis4 g g fis
+		g1\fermata \bar "||"
 	}
 }
