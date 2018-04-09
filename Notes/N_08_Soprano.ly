@@ -800,26 +800,14 @@ BenedictusSopranoLyrics = \lyricmode {
 	ni. %57 FINIS
 }
 
-% SopranoNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key c \major \time 4/4 \autoBeamOff \tempo
-% 		
-% 	}
-% }
-% 
-% SopranoLyrics = \lyricmode {
-% 	
-% }
+AgnusDeiSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \autoBeamOff \tempoAgnusDei
+		
+	}
+}
 
-% SopranoNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key c \major \time 4/4 \autoBeamOff \tempo
-% 		
-% 	}
-% }
-% 
-% SopranoLyrics = \lyricmode {
-% 	
-% }
+AgnusDeiSopranoLyrics = \lyricmode {
+	
+}

@@ -227,10 +227,10 @@ BenedictusTimpani = {
 	}
 }
 
-% Timpani = {
-% 	\relative c {
-% 		\clef bass
-% 		\key c \major \time 4/4 \tempo
-% 		
-% 	}
-% }
+AgnusDeiTimpani = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoAgnusDei
+		
+	}
+}

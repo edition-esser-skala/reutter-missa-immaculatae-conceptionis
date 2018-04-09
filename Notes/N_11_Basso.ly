@@ -730,26 +730,14 @@ BenedictusBassoLyrics = \lyricmode {
 	ni. %57 FINIS
 }
 
-% BassoNotes = {
-% 	\relative c {
-% 		\clef bass
-% 		\key c \major \time 4/4 \autoBeamOff \tempo
-% 		
-% 	}
-% }
-% 
-% BassoLyrics = \lyricmode {
-% 	
-% }
+AgnusDeiBassoNotes = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \autoBeamOff \tempoAgnusDei
+		
+	}
+}
 
-% BassoNotes = {
-% 	\relative c {
-% 		\clef bass
-% 		\key c \major \time 4/4 \autoBeamOff \tempo
-% 		
-% 	}
-% }
-% 
-% BassoLyrics = \lyricmode {
-% 	
-% }
+AgnusDeiBassoLyrics = \lyricmode {
+	
+}

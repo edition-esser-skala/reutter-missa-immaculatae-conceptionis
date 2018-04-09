@@ -195,6 +195,8 @@ tempoSanctus = \tempoMarkup "Adagio"
 	tempoOsanna = \tempoMarkup "Adagio"
 tempoBenedictus = \tempoMarkup "[Tempo deest]"
 
+tempoAgnusDei = \tempoMarkup "[Tempo deest]"
+
 
 
 % modify the Scheme function 'format-bass-figure'

@@ -1331,14 +1331,14 @@ BenedictusBassFigures = \figuremode {
 	r1 %61 FINIS
 }
 
-% Organo = {
-% 	\relative c {
-% 		\clef bass
-% 		\key c \major \time 4/4 \tempo
-% 		
-% 	}
-% }
-% 
-% BassFigures = \figuremode {
-% 	
-% }
+AgnusDeiOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoAgnusDei
+		\mvTr c8\pE-\soloE d e c g'4. c,8
+	}
+}
+
+AgnusDeiBassFigures = \figuremode {
+	
+}

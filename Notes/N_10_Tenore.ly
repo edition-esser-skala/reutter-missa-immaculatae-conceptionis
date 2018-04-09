@@ -716,26 +716,14 @@ BenedictusTenoreLyrics = \lyricmode {
 	ni. %57 FINIS
 }
 
-% TenoreNotes = {
-% 	\relative c' {
-% 		\clef "treble_8"
-% 		\key c \major \time 4/4 \autoBeamOff \tempo
-% 		
-% 	}
-% }
-% 
-% TenoreLyrics = \lyricmode {
-% 	
-% }
+AgnusDeiTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 4/4 \autoBeamOff \tempoAgnusDei
+		
+	}
+}
 
-% TenoreNotes = {
-% 	\relative c' {
-% 		\clef "treble_8"
-% 		\key c \major \time 4/4 \autoBeamOff \tempo
-% 		
-% 	}
-% }
-% 
-% TenoreLyrics = \lyricmode {
-% 	
-% }
+AgnusDeiTenoreLyrics = \lyricmode {
+	
+}

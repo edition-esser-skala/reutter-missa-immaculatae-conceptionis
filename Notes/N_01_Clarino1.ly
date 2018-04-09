@@ -278,10 +278,10 @@ BenedictusClarinoI = {
 	}
 }
 
-% ClarinoI = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key c \major \time 4/4 \tempo
-% 		
-% 	}
-% }
+AgnusDeiClarinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoAgnusDei
+		
+	}
+}

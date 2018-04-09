@@ -737,26 +737,14 @@ BenedictusAltoLyrics = \lyricmode {
 	ni. %57 FINIS
 }
 
-% AltoNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key c \major \time 4/4 \autoBeamOff \tempo
-% 		
-% 	}
-% }
-% 
-% AltoLyrics = \lyricmode {
-% 	
-% }
+AgnusDeiAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \autoBeamOff \tempoAgnusDei
+		
+	}
+}
 
-% AltoNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key c \major \time 4/4 \autoBeamOff \tempo
-% 		
-% 	}
-% }
-% 
-% AltoLyrics = \lyricmode {
-% 	
-% }
+AgnusDeiAltoLyrics = \lyricmode {
+	
+}
