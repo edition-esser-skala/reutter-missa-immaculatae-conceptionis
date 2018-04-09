@@ -1292,6 +1292,22 @@ BenedictusOrgano = {
 		\key c \major \time 4/4 \tempoBenedictus
 			\set Score.currentBarNumber = #45
 		\mvTr c4\fE-\soloE r8 g c4 r8 g'
+		c,4 r8 g c4 f8 c
+		g g'16 f e8 d e c g' a
+		h16 a g f e8 g c, c' g g,
+		c c' h g c, d e f
+		c4 r8 g' c4 r8 g %50
+		c, d e f g4 g,8 e'
+		f4 d8 e16 f g4 \clef "treble_8" r8 h
+		c8. c16 g8 g a4. h16 c
+		d8 g, d' d, g4 \clef bass g,8 h
+		c d e c g' g, r e' %55
+		f4 r8 f g c, g' g,
+		c4 r8 g c4 r8 g'
+		c,4 r8 g c4 f8 c
+		g g'16 f e8 d e c g' a
+		h16 a g f e8 g c, c' g g, %60
+		c4 r r2\fermata \markOsanna \bar "||" %61 finis
 	}
 }
 
