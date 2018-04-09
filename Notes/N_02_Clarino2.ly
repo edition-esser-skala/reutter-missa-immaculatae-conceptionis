@@ -244,7 +244,17 @@ BenedictusClarinoII = {
 		\clef treble
 		\key c \major \time 4/4 \tempoBenedictus
 			\set Score.currentBarNumber = #45
-		
+		r8 c\fE e g c g d'[ g,] %45
+		c d16 e d8 g, c g16 c d e c d
+		g,4 r r8 e g g16 g
+		g8 c16 d e f e d c e d c g8 g16 g
+		e4 r r2
+		R1*7 %56
+		r8 c e g c g d'[ g,]
+		c d16 e d8 g, c g16 c d e c d
+		g,4 r r8 e g g16 g
+		g8 c16 d e f e d c e d c g8 g16 g %60
+		e4 r r2\fermata \markOsanna \bar "||" %61 FINIS
 	}
 }
 
