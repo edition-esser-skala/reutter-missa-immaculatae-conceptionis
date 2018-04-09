@@ -1312,7 +1312,23 @@ BenedictusOrgano = {
 }
 
 BenedictusBassFigures = \figuremode {
-	
+	r1 %45
+	r
+	r
+	r
+	r4 <6> r <6>8 <2>
+	r1 %50
+	r4 <6>8 <8 6>16 <7 5> <6 4>4 <5 3>8 <6>
+	r4 <7> r4. <6 5>8
+	r4 <6 4>8 <5 3> r2
+	<7 _+>4 <4>8 <_+> r4. <6 5!>8
+	<9>4 <6> <6 4>8 <5 3> r <6> %55
+	r2 <7>4 <4>8 <3>
+	r1
+	r
+	r
+	r %60
+	r %61 FINIS
 }
 
 % Organo = {
