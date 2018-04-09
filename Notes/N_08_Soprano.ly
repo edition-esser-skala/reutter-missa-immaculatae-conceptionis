@@ -804,10 +804,30 @@ AgnusDeiSopranoNotes = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \autoBeamOff \tempoAgnusDei
-		
+		\mvTr g'4.\pE^\soloE c8 c([ h)] h g
+		a4 g8 r r4 r8 g
+		c4. h8 a4( h
+		a2) g4 g8 a
+		b2 a4 c8 c %5
+		h c c([ h)] c4 r
+		R1*8 %14
+		r2 r4 \mvTr c8\fE^\tuttiE d %15
+		e8.([ d16)] c8 d e8.([ d16)] c8 e
+		a,4 h c2
+		h1\fermata \bar "||" %18 finis
 	}
 }
 
 AgnusDeiSopranoLyrics = \lyricmode {
+	A -- gnus De -- i, qui
+	tol -- lis pec --
+	ca -- ta mun --
+	di: Mi -- se --
+	re -- re, mi -- se -- %5
+	re -- re no -- bis.
 	
+	A -- gnus %15
+	De -- i, qui tol -- lis pec --
+	ca -- ta mun --
+	di: %18 finis
 }
