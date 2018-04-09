@@ -1295,8 +1295,8 @@ BenedictusOrgano = {
 		c,4 r8 g c4 f8 c
 		g g'16 f e8 d e c g' a
 		h16 a g f e8 g c, c' g g,
-		c c' h g c, d e f
-		c4 r8 g' c4 r8 g %50
+		c c' h g c, d e g^\critnote
+		c,4 r8 g' c4 r8 g %50
 		c, d e f g4 g,8 e'
 		f4 d8 e16 f g4 \clef "treble_8" r8 h
 		c8. c16 g8 g a4. h16 c
@@ -1313,10 +1313,10 @@ BenedictusOrgano = {
 
 BenedictusBassFigures = \figuremode {
 	r1 %45
-	r
-	r
-	r
-	r4 <6> r <6>8 <2>
+	r2. <6>4
+	r <6> q r
+	q q r2
+	r4 <6> r q
 	r1 %50
 	r4 <6>8 <8 6>16 <7 5> <6 4>4 <5 3>8 <6>
 	r4 <7> r4. <6 5>8
@@ -1325,10 +1325,10 @@ BenedictusBassFigures = \figuremode {
 	<9>4 <6> <6 4>8 <5 3> r <6> %55
 	r4. <6>8 <7>4 <4>8 <3>
 	r1
-	r
-	r
-	r %60
-	r %61 FINIS
+	r2. <6>4
+	r q q r
+	q q r2 %60
+	r1 %61 FINIS
 }
 
 % Organo = {
