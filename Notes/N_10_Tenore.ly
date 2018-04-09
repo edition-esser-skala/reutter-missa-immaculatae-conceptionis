@@ -689,12 +689,31 @@ BenedictusTenoreNotes = {
 		\clef "treble_8"
 		\key c \major \time 4/4 \autoBeamOff \tempoBenedictus
 			\set Score.currentBarNumber = #45
-		
+		R1*4 %48
+		r2 r4 \mvTr e8\fE^\soloE h
+		c8.([ d16)] e8 h c8.([ d16)] e8 r %50
+		R1
+		r8 c f([ e] d8.) d16 d8 h^\critnote
+		c8. c16 g8 g a4.( h16[ c]
+		d8) g,16 g d'8 d, g4 r
+		r r8 e' e d r4 %55
+		r8 c f4~ f8 e16 e d8. d16
+		e4 r r2
+		R1*3 %60
+		R1\fermataMarkup \markOsanna \bar "||" %61 FINIS
 	}
 }
 
 BenedictusTenoreLyrics = \lyricmode {
+	[Be -- ne -- %49
+	di -- ctus, qui ve -- nit] %50
 	
+	in no -- mi -- ne, in
+	no -- mi -- ne, in no --
+	mi -- ne Do -- mi -- ni.
+	Qui ve -- nit %55
+	in no -- mi -- ne Do -- mi --
+	ni. %57 FINIS
 }
 
 % TenoreNotes = {
