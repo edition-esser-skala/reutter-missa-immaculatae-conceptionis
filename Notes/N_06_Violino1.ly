@@ -511,7 +511,18 @@ BenedictusViolinoI = {
 		\clef treble
 		\key c \major \time 4/4 \tempoBenedictus
 			\set Score.currentBarNumber = #45
-		
+		R1*4 %48
+		r2 r16 g''\fE a h c8 g
+		e16 f e f g8 d e16 d e f g8 d %50
+		e f g c, c8. h16 h8 r
+		r4 r8 a' d,4. e16 f
+		e8. e16 d8 h' a c16 h a g fis e
+		fis d g h, a8 fis' g,4 h8 c16 d
+		e4 c8 c c h r4 %55
+		r8 a d4. c8^\critnote c[ h]
+		c4 r r2
+		R1*3 %60
+		R1\fermataMarkup \markOsanna \bar "||" %61 FINIS
 	}
 }
 
