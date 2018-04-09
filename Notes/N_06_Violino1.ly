@@ -519,7 +519,7 @@ BenedictusViolinoI = {
 		e8. e16 d8 h' a c16 h a g fis e
 		fis d g h, a8 fis' g,4 h8 c16 d
 		e4 c8 c c h r4 %55
-		r8 a d4. c8^\critnote c[ h]
+		r8 a d4. c8^\critnote c8. h16
 		c4 r r2
 		R1*3 %60
 		R1\fermataMarkup \markOsanna \bar "||" %61 FINIS
