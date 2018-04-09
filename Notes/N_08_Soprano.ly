@@ -773,12 +773,31 @@ BenedictusSopranoNotes = {
 		\clef treble
 		\key c \major \time 4/4 \autoBeamOff \tempoBenedictus
 			\set Score.currentBarNumber = #45
-		
+		R1*4 %48
+		r2 r4 \mvTr c'8\fE^\soloE d
+		e8.([ d16)] c8 d e8.([ d16)] c8 d %50
+		e4. d16 c c8. h16 h8 g
+		a4 c8 c h4.( c16[ d]
+		e8.) e16 e8 d c2~
+		c8 h16 h a8. a16 h4 d8 d
+		d([ c16 h)] c8 c c h r g %55
+		a4.( h16[ c] h8) c16 c c8. h16
+		c4 r r2
+		R1*3 %60
+		R1\fermataMarkup \markOsanna \bar "||" %61 FINIS
 	}
 }
 
 BenedictusSopranoLyrics = \lyricmode {
-	
+	Be -- ne -- %49
+	di -- ctus, qui ve -- nit in %50
+	no -- mi -- ne Do -- mi -- ni, in
+	no -- mi -- ne Do --
+	mi -- ni, in no --
+	mi -- ne Do -- mi -- ni. Be -- ne --
+	di -- ctus, qui ve -- nit in %55
+	no -- mi -- ne Do -- mi --
+	ni. %57 FINIS
 }
 
 % SopranoNotes = {

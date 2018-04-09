@@ -1307,7 +1307,7 @@ BenedictusOrgano = {
 		c,4 r8 g c4 f8 c
 		g g'16 f e8 d e c g' a
 		h16 a g f e8 g c, c' g g, %60
-		c4 r r2\fermata \markOsanna \bar "||" %61 finis
+		c4 r r2\fermata \markOsanna \bar "||" %61 FINIS
 	}
 }
 
