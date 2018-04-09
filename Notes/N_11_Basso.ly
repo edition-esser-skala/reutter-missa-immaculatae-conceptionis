@@ -705,12 +705,29 @@ BenedictusBassoNotes = {
 		\clef bass
 		\key c \major \time 4/4 \autoBeamOff \tempoBenedictus
 			\set Score.currentBarNumber = #45
-		
+		R1*4 %48
+		\mvTr c'4\fE^\soloE g e8.([ d16)] c4
+		r r8 g' c4 c,8 g' %50
+		c, d e([ f)] g8. g,16 g8 r
+		R1*2
+		r2 r4 g'8 h
+		c4 g8 c, g' g, r4 %55
+		r r8 f' g c,16 c g'8 g,
+		c4 r r2
+		R1*3 %60
+		R1\fermataMarkup \markOsanna \bar "||" %61 FINIS
 	}
 }
 
 BenedictusBassoLyrics = \lyricmode {
+	Be -- ne -- di -- ctus, %49
+	qui ve -- nit in %50
+	no -- mi -- ne __ Do -- mi -- ni.
 	
+	Be -- ne -- %54
+	di -- ctus, qui ve -- nit %55
+	in no -- mi -- ne Do -- mi --
+	ni. %57 FINIS
 }
 
 % BassoNotes = {
