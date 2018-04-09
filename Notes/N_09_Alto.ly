@@ -768,3 +768,33 @@ AgnusDeiAltoLyrics = \lyricmode {
 	ca -- ta mun --
 	di: %18 finis
 }
+
+DonaNobisAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 6/4  \autoBeamOff\tempoDonaNobis
+			\set Staff.timeSignatureFraction = 3/4
+			\override Staff.TimeSignature.style = #'single-digit
+			\set Score.currentBarNumber = #19
+		\mvTr g'8.\fE^\tuttiE g16 g8 g f4 e r8 g g([ fis)]
+		g4 r8 a a([ gis)] a4 r8 g? g([ a)] %20
+		d,4 r r r1*3/4
+		r4 g8([ f)] e([ g)] c,4 a'8([ g)] f([ a)]
+		d,4 h'8([ a)] g([ h)] e,4 r8 c c4
+		g' r r8 g a4( g2)
+		g4 r r r r8 g g([ fis)] %25
+		g4 r8 a a([ gis)] a4 r8 a gis([ a)]
+		gis4 e a gis2 a4
+		gis2 e4 f e2
+		e4 r r a8. a16 a8 a a([ gis)]
+		a4 r8 g g([ a)] d,4 r r %30
+		r1*3/4 r4 r8 g c,4
+		f8[ g16 a] d,4 g e8 a g2
+		g4 r r g8. c,16 c8 c c([ h)]
+		c e d2 e2.\fermata \bar "|." %34 FINIS
+	}
+}
+
+DonaNobisAltoLyrics = \lyricmode {
+	
+}

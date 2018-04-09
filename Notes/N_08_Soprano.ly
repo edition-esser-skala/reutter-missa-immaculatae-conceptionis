@@ -831,3 +831,33 @@ AgnusDeiSopranoLyrics = \lyricmode {
 	ca -- ta mun --
 	di: %18 finis
 }
+
+DonaNobisSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 6/4  \autoBeamOff\tempoDonaNobis
+			\set Staff.timeSignatureFraction = 3/4
+			\override Staff.TimeSignature.style = #'single-digit
+			\set Score.currentBarNumber = #19
+			\mvTr c'8.\fE^\tuttiE g16 g8 g a([ h)] c4 r8 e d([ c)]
+			h4 r8 f' e([ d)] c4 r8 e d([ c)] %20
+		h4 r r r1*3/4
+		r8 g c4~ c16[ c h c] a8[ c] d4~ d16[ d c d]
+		h8[ d] e4~ e16[ e d e] c8[ e] f4~ f16[ f e f]
+		d8 g, e'([ d c h)] c c c4( h)
+		c r r r r8 e d([ c)] %25
+		h4 r8 f' e([ d)] c4 r8 e d([ c)]
+		h4 h c d2 e4
+		h2 c4 a a( gis)
+		a r r c8. d16 e8 f e([ d)]
+		c4 r8 e d([ c)] h4 r r %30
+		r1*3/4 r8 g c4 a8[ h16 c]
+		d4 h8[ c16 d] e4 c8 c c4( h)
+		c r r c8. g16 g8 a g([ f)]
+		e c' c4( h) c2.\fermata \bar "|." %34 FINIS
+	}
+}
+
+DonaNobisSopranoLyrics = \lyricmode {
+	
+}

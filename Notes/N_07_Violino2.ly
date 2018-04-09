@@ -531,3 +531,29 @@ AgnusDeiViolinoII = {
 		h1\fermata \bar "||"
 	}
 }
+
+DonaNobisViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 6/4 \tempoDonaNobis
+			\set Staff.timeSignatureFraction = 3/4
+			\override Staff.TimeSignature.style = #'single-digit
+			\set Score.currentBarNumber = #19
+		c'8.\fE g16 g8 g g g c4 r8 e d c
+		h4 r8 f' e d c4 r8 e d c %20
+		h4 h16 g g g d' g, g g c4 c16 g g g e' g, g g
+		h8 g r g e g c,4 r8 a' f a
+		d,4 r8 h' g h e,4 r8 c' a c
+		h4 e8 d c h c c c4 h
+		c4 r r r r8 e d c %25
+		h4 r8 f' e d c4 r8 e d c
+		h4 h c d2 e4
+		h2 c4 a a gis
+		a r8 c d h a4 r r
+		r r8 e' d c h4 h16 g g g d' g, g g %30
+		c4 c16 g g g e' g, g g g4 r8 g a4
+		f8 g16 a d,4 g e8 c' c4 h
+		c r8 e f d c4 r8 f, e d
+		c c' c4 h c2.\fermata \bar "|." %34 FINIS
+	}
+}

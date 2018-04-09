@@ -196,6 +196,7 @@ tempoSanctus = \tempoMarkup "Adagio"
 tempoBenedictus = \tempoMarkup "[Tempo deest]"
 
 tempoAgnusDei = \tempoMarkup "[Tempo deest]"
+tempoDonaNobis = \tempoMarkup "[Tempo deest]"
 
 
 

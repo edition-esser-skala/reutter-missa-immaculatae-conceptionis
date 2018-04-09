@@ -758,3 +758,33 @@ AgnusDeiBassoLyrics = \lyricmode {
 	ca -- ta mun --
 	di: %18 finis
 }
+
+DonaNobisBassoNotes = {
+	\relative c {
+		\clef bass
+		\key c \major \time 6/4  \autoBeamOff\tempoDonaNobis
+			\set Staff.timeSignatureFraction = 3/4
+			\override Staff.TimeSignature.style = #'single-digit
+			\set Score.currentBarNumber = #19
+		\mvTr c8.\fE^\tuttiE c16 c8 e f([ d)] c4 r8 c' h([ a)]
+		g4 r8 d' c([ h)] a4 r8 c h([ a)] %20
+		g4 r r r1*3/4
+		r4 r r8 e f4.( e8) d f
+		g4.( f8) e g a4.( g8[ f a])
+		g h c([ h a g)] f d g([ f g g,)]
+		c4 r r r r8 c' h([ a)] %25
+		g4 r8 d' c([ h)] a4 r8 c h([ a)]
+		e4 gis a h e,( c')
+		h8([ gis e gis)] a4 d, e2
+		a,4 r r a'8. h16 c8 d c([ h)]
+		a4 r8 c h([ a)] g4 r r %30
+		r1*3/4 r4 r8 c, f4
+		d8[ e16 f] g4 e8[ f16 g] a8 f g4( g,)
+		c r r r1*3/4
+		r8 c g2 c2.\fermata \bar "|." %34 FINIS
+	}
+}
+
+DonaNobisBassoLyrics = \lyricmode {
+	
+}

@@ -1376,3 +1376,48 @@ AgnusDeiBassFigures = \figuremode {
 	<4\+>4 <6> <7> <6\\>
 	r1
 }
+
+DonaNobisOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 6/4 \tempoDonaNobis
+			\set Staff.timeSignatureFraction = 3/4
+			\override Staff.TimeSignature.style = #'single-digit
+			\set Score.currentBarNumber = #19
+		\mvTr c4\fE-\tuttiE r8 e f d c4 r8 c' h a
+		g4 r8 d' c h a4 r8 c h a %20
+		g4 g-! g-! g-! g,-! g-!
+		g'8 f e d c e f e d e f d
+		g f e f g e a g f g a f
+		g h c h a g f d g f g g,
+		c4 r r c r8 c' h a %25
+		g4 r8 d' c h a4 r8 c h a
+		gis e gis e a e h' e, h' e, c' e,
+		h' gis e gis a4 d, e e,
+		a r r a'8. h16 c8 d c h
+		a4 r8 c h a g4 g-! g-! %30
+		g-! g,-! g-! g-! r8 c f4
+		d8 e16 f g4 e8 f16 g a8 f g4 g,
+		c r r c r r
+		r8 c g2 c2.\fermata \bar "|." %34 FINIS
+	}
+}
+
+DonaNobisBassFigures = \figuremode {
+	r4. <6>8 r q r2 <6>8 <6\\> %19
+	r2 <6>8 <6\\> r2 <6>8 <6\\> %20
+	r1.
+	r4 <6> r r2 <6>4
+	r2 q4 r2 q4
+	r2. <6 5>4 <4> <3>
+	r2. r2 <6>8 <6\\> %25
+	r2 <6>8 <6\\> r4. <6>8 <6\\>4
+	<6>2. <6\\>2 <6>4
+	<6\\>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff r4 <6 5> <4> <_+>
+	r2. r4 <6>8 r q <6\\ 5>
+	r2 <6>8 <6\\> r2. %30
+	r1.
+	r2. r8 <6 5> <4>4 <3>
+	r1.
+	r4 <4> <3> r2. %34 FINIS
+}

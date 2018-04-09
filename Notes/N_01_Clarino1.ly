@@ -289,3 +289,26 @@ AgnusDeiClarinoI = {
 		g1\fermata \bar "||" %18 finis
 	}
 }
+
+DonaNobisClarinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 6/4 \tempoDonaNobis
+			\set Staff.timeSignatureFraction = 3/4
+			\override Staff.TimeSignature.style = #'single-digit
+			\set Score.currentBarNumber = #19
+		r4 r8 g''\fE a f e4 r8 g g fis
+		g4 r8 a a gis a4 \pa r8 e d c \pd %20
+		d g, d'4 f! c e g
+		d r r r1*3/4
+		R1.*2
+		\pa c'8. g16 g8 g a h \pd c4 r r %25
+		R1.*3
+		r4 r8 e,, e e e4 r r
+		r1*3/4 g4 d' f! %30
+		c e g d r r
+		R1.
+		\pa c'8. g16 g8 g a h \pd c4 r r
+		r8 g g2 g2.\fermata \bar "|." %34 FINIS
+	}
+}

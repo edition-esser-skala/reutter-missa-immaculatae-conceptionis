@@ -238,3 +238,25 @@ AgnusDeiTimpani = {
 		R\fermataMarkup \bar "||" %18 finis
 	}
 }
+
+DonaNobisTimpani = {
+	\relative c {
+		\clef bass
+		\key c \major \time 6/4 \tempoDonaNobis
+			\set Staff.timeSignatureFraction = 3/4
+			\override Staff.TimeSignature.style = #'single-digit
+			\set Score.currentBarNumber = #19
+		c8\fE c16 c c8 r r4 c r r
+		R1. %20
+		g8 g16 g g8 g g g g g16 g g8 g g g
+		g4 r r r1*3/4
+		R1.*2
+		c8 c16 c c8 c c c c4 r r %25
+		R1.*4
+		r1*3/4 g8 g16 g g8 g g g %30
+		g8 g16 g g8 g g g g4 r r
+		R1.
+		c8 c16 c c8 c c c c4 r r
+		r8 c g g16 g g8 g c2.\fermata \bar "|." %34 FINIS
+	}
+}
