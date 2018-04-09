@@ -1336,6 +1336,23 @@ AgnusDeiOrgano = {
 		\clef bass
 		\key c \major \time 4/4 \tempoAgnusDei
 		\mvTr c8\pE-\soloE d e c g'4. c,8
+		c2 r4 c8 h
+		a4 r8 c' d c h g
+		c a d c h g r4
+		r8 g16 f! e8 c f e d e16 f %5
+		g8 c, g' g, c d e f
+		g f16 e d8 g c,4 d8 g
+		c,4 r8 e f16 e f e d8 e16 fis
+		g8 h c c, d g d d,
+		g a h g d'4 r8 fis %10
+		g4 g, r r8 g
+		g4 g'8 f! e4 r8 c
+		d g d d, g4 r
+		r8 g' e c f! e d4
+		g8 c, g' g, c4-\critnote c8 g' %15
+		c4 c,8 g' c4 c,~
+		c h a2
+		g1\fermata \bar "||" %18 finis
 	}
 }
 
