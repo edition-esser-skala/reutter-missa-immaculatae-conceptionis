@@ -213,7 +213,17 @@ BenedictusTimpani = {
 		\clef bass
 		\key c \major \time 4/4 \tempoBenedictus
 			\set Score.currentBarNumber = #45
-		
+		c8\fE c16 c c8 g c4 r8 g %45
+		c4 r8 g c4 r8 c
+		g r r4 r8 c g g
+		g4 r8 g c c16 c g8 g
+		c4 r r2
+		R1*7 %56
+		c8 c16 c c8 g c4 r8 g
+		c4 r8 g c4 r8 c
+		g r r4 r8 c g g
+		g4 r8 g c c16 c g g g g %60
+		c4 r r2\fermata \markOsanna \bar "||" %61 FINIS
 	}
 }
 
