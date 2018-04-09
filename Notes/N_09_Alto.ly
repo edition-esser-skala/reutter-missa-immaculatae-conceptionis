@@ -710,12 +710,31 @@ BenedictusAltoNotes = {
 		\clef treble
 		\key c \major \time 4/4 \autoBeamOff \tempoBenedictus
 			\set Score.currentBarNumber = #45
-		
+		R1*4 %48
+		r2 r4 \mvTr g'8\fE^\soloE g
+		g4 g8 g g4 g8 g %50
+		g4. f16 e e8. d16 d8 r
+		r2 r8 d g([ f]
+		e8.) g16 c4 r8 e, a([ g]
+		fis) g16 g g8. fis16 g4 g8 f
+		e([ f)] g g g g r4
+		r r8 a g g16 g g8. g16
+		g4 r r2
+		R1*3 %60
+		R1\fermataMarkup \markOsanna \bar "||" %61 FINIS
 	}
 }
 
 BenedictusAltoLyrics = \lyricmode {
-	
+	[Be -- ne -- %49
+	di -- ctus, qui ve -- nit in %50
+	no -- mi -- ne Do -- mi -- ni,]
+	in no --
+	mi -- ne, in no --
+	mi -- ne [Do -- mi -- ni. Be -- ne --
+	di -- ctus, qui ve -- nit] %55
+	in no -- mi -- ne Do -- mi --
+	ni. %57 FINIS
 }
 
 % AltoNotes = {
