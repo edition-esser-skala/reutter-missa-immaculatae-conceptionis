@@ -540,7 +540,7 @@ AgnusDeiViolinoI = {
 		g4 r r2 %10
 		r r4 r8 d
 		e d16 c d8 r r4 r8 e'
-		g g g8. fis16 g4 r
+		fis^\critnote g g8. fis16 g4 r
 		r2 r8 c, f4~
 		f16 g e f d4 c16 d e f g8\fE g %15
 		g16 f e f g g g g g f e f g g g g

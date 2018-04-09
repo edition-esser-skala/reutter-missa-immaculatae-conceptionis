@@ -1357,5 +1357,22 @@ AgnusDeiOrgano = {
 }
 
 AgnusDeiBassFigures = \figuremode {
-	
+	r4 <6> <4>8 <3> r4
+	<6 4> <5 3> r4. <6>8
+	r4. <7 5>8 <_+> <\t> <6>4
+	<6 5>8 <\t \t> <_+> <\t> <6>2
+	r8 <6 _->4 \bassFigureExtendersOn q8 \bassFigureExtendersOff r4 <7> %5
+	<7 _!>4 <4>8 <3> r4 <6>
+	r1
+	r4. <6>8 r4 <_+>
+	r8 <6> <6 5>4 <7 _+> <4>8 <_+>
+	r4 <6> <4>8 <_+> r <6 5> %10
+	<4>8 <3> r2.
+	<6 4>4 <5 3>8 <\t \t> <6>4. <7 5>8
+	<_+>4 <4>8. <_+>16 r2
+	r8 <6 _->4 \bassFigureExtendersOn q8 \bassFigureExtendersOff r2
+	<7 _!>4 <4>8 <3> r2 %15
+	r1
+	<4\+>4 <6> <7> <6\\>
+	r1
 }
