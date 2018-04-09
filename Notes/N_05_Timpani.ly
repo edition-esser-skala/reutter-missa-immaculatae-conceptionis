@@ -231,6 +231,10 @@ AgnusDeiTimpani = {
 	\relative c {
 		\clef bass
 		\key c \major \time 4/4 \tempoAgnusDei
-		
+		R1*14 %14
+		r2 r4 c8\fE g %15
+		c c16 c c8 g c4 r
+		R1
+		R\fermataMarkup \bar "||" %18 finis
 	}
 }
