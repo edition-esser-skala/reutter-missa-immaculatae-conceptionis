@@ -779,8 +779,8 @@ DonaNobisAltoNotes = {
 		\mvTr g'8.\fE^\tuttiE g16 g8 g f4 e r8 g g([ fis)]
 		g4 r8 a a([ gis)] a4 r8 g? g([ a)] %20
 		d,4 r r r1*3/4
-		r4 g8([ f)] e([ g)] c,4 a'8([ g)] f([ a)]
-		d,4 h'8([ a)] g([ h)] e,4 r8 c c4
+		r4 g8([ f e g)] c,4 a'8([ g f a)]
+		d,4 h'8([ a g h)] e,4 r8 c c4
 		g' r r8 g a4( g2)
 		g4 r r r r8 g g([ fis)] %25
 		g4 r8 a a([ gis)] a4 r8 a gis([ a)]
@@ -796,5 +796,20 @@ DonaNobisAltoNotes = {
 }
 
 DonaNobisAltoLyrics = \lyricmode {
-	
+	Do -- na no -- bis pa -- cem, da pa -- %19
+	cem, da pa -- cem, da pa -- %20
+	cem,
+	pa -- cem, pa --
+	cem, pa -- cem, da pa --
+	cem, da pa --
+	cem, da pa -- %25
+	cem, da pa -- cem, da pa --
+	cem. Do -- na no -- bis
+	pa -- cem, da pa --
+	cem. Do -- na no -- bis pa --
+	cem, da pa -- cem, %30
+	da pa --
+	_ _ _ _ cem, pa --
+	cem. Do -- na no -- bis pa --
+	cem, da pa -- cem. %34 FINIS
 }

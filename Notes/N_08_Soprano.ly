@@ -844,7 +844,7 @@ DonaNobisSopranoNotes = {
 		h4 r r r1*3/4
 		r8 g c4~ c16[ c h c] a8[ c] d4~ d16[ d c d]
 		h8[ d] e4~ e16[ e d e] c8[ e] f4~ f16[ f e f]
-		d8 g, e'([ d c h)] c c c4( h)
+		d8 g, e'([ d c h] c) c c4( h)
 		c r r r r8 e d([ c)] %25
 		h4 r8 f' e([ d)] c4 r8 e d([ c)]
 		h4 h c d2 e4
@@ -859,5 +859,20 @@ DonaNobisSopranoNotes = {
 }
 
 DonaNobisSopranoLyrics = \lyricmode {
-	
+	Do -- na no -- bis pa -- cem, da pa -- %19
+	cem, da pa -- cem, da pa -- %20
+	cem,
+	da pa -- _ _
+	_ _ _ _
+	_ cem, pa -- cem, pa --
+	cem, da pa -- %25
+	cem, da pa -- cem, da pa --
+	cem. Do -- na no -- bis
+	pa -- cem, da pa --
+	cem. Do -- na no -- bis pa --
+	cem, da pa -- cem, %30
+	da pa -- _
+	_ _ _ _ cem, pa --
+	cem. Do -- na no -- bis pa --
+	cem, da pa -- cem. %34 FINIS
 }

@@ -774,7 +774,7 @@ DonaNobisBassoNotes = {
 		g h c([ h a g)] f d g([ f g g,)]
 		c4 r r r r8 c' h([ a)] %25
 		g4 r8 d' c([ h)] a4 r8 c h([ a)]
-		e4 gis a h e,( c')
+		e4 gis a h( e,) c'
 		h8([ gis e gis)] a4 d, e2
 		a,4 r r a'8. h16 c8 d c([ h)]
 		a4 r8 c h([ a)] g4 r r %30
@@ -786,5 +786,20 @@ DonaNobisBassoNotes = {
 }
 
 DonaNobisBassoLyrics = \lyricmode {
-	
+	Do -- na no -- bis pa -- cem, da pa -- %19
+	cem, da pa -- cem, da pa -- %20
+	cem,
+	da pa -- cem, da
+	pa -- cem, da pa --
+	cem, da pa -- cem, da pa --
+	cem, da pa -- %25
+	cem, da pa -- cem, da pa --
+	cem. Do -- na no -- bis
+	pa -- cem, da pa --
+	cem. Do -- na no -- bis pa --
+	cem, da pa -- cem, %30
+	da pa --
+	_ _ _ _ cem, pa --
+	cem,
+	da pa -- cem. %34 FINIS
 }

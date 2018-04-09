@@ -772,5 +772,20 @@ DonaNobisTenoreNotes = {
 }
 
 DonaNobisTenoreLyrics = \lyricmode {
-	
+	Do -- na no -- bis pa -- cem, da pa -- %19
+	cem, da pa -- cem, da pa -- %20
+	cem,
+	da pa -- cem, da pa --
+	cem, da pa -- cem, da pa --
+	cem, da pa -- cem, da pa --
+	cem, da pa -- %25
+	cem, da pa -- cem, da pa --
+	cem. Do -- na no -- bis
+	pa -- cem, da pa --
+	cem. Do -- na no -- bis pa --
+	cem, da pa -- cem, %30
+	da pa --
+	cem. Do -- na __ no -- bis pa --
+	cem,
+	da pa -- cem. %34 FINIS
 }
