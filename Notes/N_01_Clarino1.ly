@@ -283,9 +283,9 @@ AgnusDeiClarinoI = {
 		\clef treble
 		\key c \major \time 4/4 \tempoAgnusDei
 		R1*14 %14
-		r2 r4 c'8\fE d
-		e16 d e f g8 d e16 d e f g8 e
+		r2 r4 c'8\fE d %15
+		\pa e16 d e f g8 d e16 d e f g8 e \pd
 		fis4 g g fis
-		g1\fermata \bar "||"
+		g1\fermata \bar "||" %18 finis
 	}
 }
