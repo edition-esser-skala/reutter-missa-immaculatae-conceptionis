@@ -14,73 +14,73 @@
 #(set-global-staff-size 15.87)
 
 \book {
-% 	\bookpart {
-% 		\header {
-% 			movement = "5.1 AGNUS DEI"
-% 		}
-% 		\score {
-% 			<<
-% 				\new StaffGroup <<
-% 					\new Staff <<
-% 						\set Staff.instrumentName = "Clarino I, II"
-% 						\partcombine \AgnusDeiClarinoI \AgnusDeiClarinoII
-% 					>>
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Timpani"
-% 						\AgnusDeiTimpani
-% 					}
-% 				>>
-% 				\new StaffGroup <<
-% 					\new GrandStaff <<
-% 						\new Staff {
-% 							\set Staff.instrumentName = "Violino I"
-% 							\AgnusDeiViolinoI
-% 						}
-% 						\new Staff {
-% 							\set Staff.instrumentName = "Violino II"
-% 							\AgnusDeiViolinoII
-% 						}
-% 					>>
-% 				>>
-% 				\new ChoirStaff <<
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Soprano"
-% 						\new Voice = "Soprano" { \dynamicUp \AgnusDeiSopranoNotes }
-% 					}
-% 					\new Lyrics \lyricsto Soprano \AgnusDeiSopranoLyrics
-% 					
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Alto"
-% 						\new Voice = "Alto" { \dynamicUp \AgnusDeiAltoNotes }
-% 					}
-% 					\new Lyrics \lyricsto Alto \AgnusDeiAltoLyrics
-% 					
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Tenore"
-% 						\new Voice = "Tenore" { \dynamicUp \AgnusDeiTenoreNotes }
-% 					}
-% 					\new Lyrics \lyricsto Tenore \AgnusDeiTenoreLyrics
-% 					
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Basso"
-% 						\new Voice = "Basso" { \dynamicUp \AgnusDeiBassoNotes }
-% 					}
-% 					\new Lyrics \lyricsto Basso \AgnusDeiBassoLyrics
-% 				>>
-% 				\new StaffGroup <<
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Organo"
-% 						\AgnusDeiOrgano
-% 					}
-% 				>>
-% 				\new FiguredBass {
-% 					\AgnusDeiBassFigures
-% 				}
-% 			>>
-% 			\layout { }
-% 			\midi { \tempo 4 = 80 }
-% 		}
-% 	}
+	\bookpart {
+		\header {
+			movement = "5.1 AGNUS DEI"
+		}
+		\score {
+			<<
+				\new StaffGroup <<
+					\new Staff <<
+						\set Staff.instrumentName = "Clarino I, II"
+						\partcombine \AgnusDeiClarinoI \AgnusDeiClarinoII
+					>>
+					\new Staff {
+						\set Staff.instrumentName = "Timpani"
+						\AgnusDeiTimpani
+					}
+				>>
+				\new StaffGroup <<
+					\new GrandStaff <<
+						\new Staff {
+							\set Staff.instrumentName = "Violino I"
+							\AgnusDeiViolinoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Violino II"
+							\AgnusDeiViolinoII
+						}
+					>>
+				>>
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = "Soprano"
+						\new Voice = "Soprano" { \dynamicUp \AgnusDeiSopranoNotes }
+					}
+					\new Lyrics \lyricsto Soprano \AgnusDeiSopranoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \AgnusDeiAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \AgnusDeiAltoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Tenore"
+						\new Voice = "Tenore" { \dynamicUp \AgnusDeiTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \AgnusDeiTenoreLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Basso"
+						\new Voice = "Basso" { \dynamicUp \AgnusDeiBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \AgnusDeiBassoLyrics
+				>>
+				\new StaffGroup <<
+					\new Staff {
+						\set Staff.instrumentName = "Organo"
+						\AgnusDeiOrgano
+					}
+				>>
+				\new FiguredBass {
+					\AgnusDeiBassFigures
+				}
+			>>
+			\layout { }
+			\midi { \tempo 4 = 80 }
+		}
+	}
 	\bookpart {
 		\header {
 			movement = "5.2 DONA NOBIS"
@@ -145,7 +145,7 @@
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 80 }
+			\midi { \tempo 4 = 120 }
 		}
 	}
 }
