@@ -513,6 +513,21 @@ AgnusDeiViolinoII = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \tempoAgnusDei
-		
+		R1
+		r4 r8 e\pE f e16 d e8 r
+		R1*3 %5
+		r2 e4. d16 c
+		h8 c d c16 h c8 e d c16 h
+		c4 r8 g' c,4 fis8 g16 a
+		d,8-\critnote h' a e fis g g fis
+		g4 r r2 %10
+		r r4 r8 h,
+		c h16 a h8 r r4 r8 g'
+		d d d4 d r
+		r2 r4 r8 d'
+		e g, g4 g c8\fE d^\critnote %15
+		e8. d16 c8 d e8. d16 c8 e
+		a,4 h c2
+		h1\fermata \bar "||"
 	}
 }
