@@ -333,6 +333,27 @@ CredoViolinoII = {
 	}
 }
 
+EtIncarnatusViolinoII = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 6/2 \tempoEtIncarnatus
+			\set Staff.timeSignatureFraction = 3/2
+			\set Score.currentBarNumber = #33
+		\override MultiMeasureRest.minimum-length = #40
+			R\breve.*33 \bar "||" %65 finis
+	}
+}
+
+CrucifixusViolinoII = {
+	\relative c' {
+		\clef treble
+		\key f \dorian \time 4/4 \tempoCrucifixus
+			\set Score.currentBarNumber = #66
+		\override MultiMeasureRest.minimum-length = #40
+			R1*12 \bar "||" %77 finis
+	}
+}
+
 EtResurrexitViolinoII = {
 	\relative c' {
 		\clef treble
