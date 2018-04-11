@@ -2,7 +2,7 @@
 
 Engraving files for LilyPond 2.18.0
 
-First version, in progress
+First version, April 2018
 
 
 ## Build instructions
@@ -30,9 +30,9 @@ The file *Master.ly* allows you to work with an editor like Kile: Change the inc
 * Individual voices in folder *Notes*:
     * N_01_Clarino1.ly
     * N_02_Clarino2.ly
-    * N_03_Timpani.ly
-    * N_04_Trombone1.ly
-    * N_05_Trombone2.ly
+    * N_03_Trombone1.ly
+    * N_04_Trombone2.ly
+    * N_05_Timpani.ly
     * N_06_Violino1.ly
     * N_07_Violino2.ly
     * N_08_Soprano.ly
