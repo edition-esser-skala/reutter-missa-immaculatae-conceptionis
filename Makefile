@@ -7,7 +7,7 @@
 project = Reutter_Missa_Immaculatae_Conceptionis
 zipname = Reutter_Missa_Immaculatae_Conceptionis_Engraving_Files
 notes = Clarino1 Clarino2 Trombone1 Trombone2 Timpani Violino1 Violino2 Soprano Alto Tenore Basso Organo
-parts = ClariniTimpani Bassi Coro Organo Tromboni Violino1 Violino2
+parts = ClariniTimpani Bassi Coro Organo Tromboni Violino1 Violino2 Viola
 movements = Kyrie Gloria Credo Sanctus AgnusDei
 
 
