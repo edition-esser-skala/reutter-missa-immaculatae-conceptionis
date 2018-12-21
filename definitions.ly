@@ -284,7 +284,7 @@ tempoDonaNobis = \tempoMarkup "[Tempo deest]"
 		\Score
 		\override MetronomeMark.font-series = #'medium
 		\compressFullBarRests
-% 		\override BarNumber.break-visibility = #'#(#f #t #t) % uncomment to show each bar number
+		\override BarNumber.break-visibility = #'#(#f #t #t) % uncomment to show each bar number
 	}
 	\context {
 		\StaffGroup
@@ -332,6 +332,14 @@ tempoDonaNobis = \tempoMarkup "[Tempo deest]"
          (stretchability . 0))
 	}
 	\context {
+		\PianoStaff
+		\override StaffGrouper.staff-staff-spacing =
+		  #'((basic-distance . 12)
+         (minimum-distance . 12)
+         (padding . -100)
+         (stretchability . 0))
+	}
+	\context {
 		\Staff
 		\override InstrumentName.font-shape = #'italic
 		\accidentalStyle neo-modern-voice
@@ -371,3 +379,4 @@ tempoDonaNobis = \tempoMarkup "[Tempo deest]"
 \include "Notes/N_11_Basso.ly"
 \include "Notes/N_12_Organo.ly"
 \include "Notes/N_13_Viola.ly"
+\include "Notes/N_14_Chords.ly"

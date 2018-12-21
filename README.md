@@ -2,7 +2,7 @@
 
 Engraving files for LilyPond 2.18.0
 
-First version, April 2018
+v1.1, December 2018
 
 
 ## Build instructions
@@ -40,6 +40,8 @@ The file *Master.ly* allows you to work with an editor like Kile: Change the inc
     * N_10_Tenore.ly
     * N_11_Basso.ly
     * N_12_Organo.ly
+    * N_13_Viola.ly
+    * N_14_Chords.ly
 * Movement definitions in folder *Scores*:
     * S_Kyrie.ly
     * S_Gloria.ly
@@ -51,6 +53,7 @@ The file *Master.ly* allows you to work with an editor like Kile: Change the inc
     * P_ClariniTimpani.ly
     * P_Coro.ly
     * P_Organo.ly
+    * P_OrganoRealized.ly
     * P_Tromboni.ly
     * P_Violino1.ly
     * P_Violino2.ly
