@@ -2,7 +2,7 @@
 
 Engraving files for LilyPond 2.18.0
 
-v1.1, December 2018
+v1.2, March 2019
 
 
 ## Build instructions
@@ -61,7 +61,7 @@ The file *Master.ly* allows you to work with an editor like Kile: Change the inc
 
 ## Copyright
 
-(c) 2018 by Wolfgang Skala.
+(c) 2019 by Wolfgang Esser-Skala.
 
 This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
 To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/.

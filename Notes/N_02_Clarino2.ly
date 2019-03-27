@@ -90,7 +90,7 @@ QuiTollisClarinoII = {
 		g e2 c'
 		d g, c f
 		f e e d
-		R\breve %100
+		g f f e %100
 		d2. c4 g2 r
 		r1 r2 e'~
 		e4 c d2~ d4 g, c2

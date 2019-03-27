@@ -89,12 +89,12 @@ QuiTollisClarinoI = {
 		r1 c'\fE
 		d c2 f
 		f e a1
-		g f
-		\pa g g2 f %100
-		f e a2. a4
-		d,2 r r1
-		r2 g2~ g4 f8 e f2~
-		f4 e8 d e2 d \pd r
+		g g2 f
+		\pa a1 g %100
+		\pd a2. a4 d,2 r
+		r1 r2 g~
+		g4 f8 e f2~ f4 e8 d e2
+		d r r1
 		R\breve*23 %127
 		r1 c
 		d c2 f
