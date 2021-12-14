@@ -1,17 +1,21 @@
-composer: Reutter der Jüngere, Georg
-title: Missa Immaculatae Conceptionis Beatae Mariae Virginis
-id: (D-Dl Mus.2979-D-3)
+composer:
+  last: Reutter
+  suffix: der Jüngere
+  first: Georg
+title: Missa Immaculatæ Conceptionis Beatæ Mariæ Virginis
 genre: mass
-scoring: S, A, T, B (solo), S, A, T, B (Coro), 2 clno (C), 2 trb, timp (C–G), 2 vl, b, org
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 clno (C), 2 trb, timp (C–G), 2 vl, b, org
+license: cc-by-sa-4.0
 sources:
-  1:
+  B1:
     siglum: D-Dl
     shelfmark: Mus.2979-D-3
-    type: manuscript copy
     date: ca. 1739
     rism: 212006929
-    url: http://digital.slub-dresden.de/id42660317
-github: reutter-missa-immaculatae-conceptionis
+    url: https://digital.slub-dresden.de/id426603176
+    license: public domain
+    principal: true
 imslp: Missa_Immaculatae_Conceptionis_Beata_Mariae_Virginis_(Reutter,_Georg)
-notes:
-
+parts:
+  ottoni: Clarino I, II in C\\Timpani in C–G
+  trb12: Trombone I, II
